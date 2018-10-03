@@ -41,7 +41,6 @@ module TrailerVote
             #   attribute :width, Numeric
             #   attribute :height, Numeric
             # end
-
           end
 
           attribute :product_video do

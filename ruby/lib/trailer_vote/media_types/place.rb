@@ -22,7 +22,7 @@ module TrailerVote
         version 2 do
           version_2_base = ::MediaTypes::Scheme.new do
             attribute :name, String
-            attribute :parent_place, AllowNil(/^[A-z0-9]{7}-[A-z0-9]{4}-4[A-z0-9]{3}-[A-z0-9]{4}-[A-z0-9]{12}$/)
+            attribute :parent_place, AllowNil(UuidV4)
             attribute :deleted_at, AllowNil(String)
             attribute :updated_at, String
 

@@ -5,7 +5,7 @@ require_relative './base_text'
 module TrailerVote
   module MediaTypes
     class InteractivePlayer < BaseText
-      media_type 'products_listing'
+      media_type 'interactive_player'
 
       defaults do
         suffix :json
@@ -14,12 +14,14 @@ module TrailerVote
 
       validations do
         version 1 do
-          attribute :title, AllowNil(String)
+          attribute :interactive_player do
+            attribute :title, AllowNil(String)
 
-          link :self
-          link :advert
-          link :direct
-          link :product
+            link :self
+            link :advert
+            link :direct
+            link :product
+          end
         end
       end
 

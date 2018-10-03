@@ -48,7 +48,7 @@ module TrailerVote
               collection :_embedded, allow_empty: true do
                 attribute :identifier, String
                 attribute :updated_at, String
-                attribute :asset_type, AnyOf('backdrop', 'poster')
+                attribute :asset_type, AnyOf('backdrop', 'poster', 'Poster', 'HeroMobileDynamic', 'PosterDynamic', 'HeroDesktopDynamic')
 
                 link :self
                 link :original do
@@ -86,22 +86,13 @@ module TrailerVote
                   attribute :width, Numeric
                   attribute :height, Numeric
                 end
-                link :product
 
                 not_strict
               end
             end
 
-            link :self do
-              attribute :content_digest, String
-            end
-            link :feedback do
-              attribute :content_digest, String
-            end
-            link :audio_fragment do
-              attribute :content_digest, String
-            end
-            link :product
+            link :self
+            link :feedback
           end
         end
       end

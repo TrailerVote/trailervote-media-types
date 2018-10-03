@@ -45,7 +45,7 @@ module TrailerVote
               end
             end
 
-            attribute :raw_data do
+            attribute :raw_data, optional: true do
               # noinspection RubyBlockToMethodReference
               not_strict
             end
@@ -108,7 +108,7 @@ module TrailerVote
               end
             end
 
-            attribute :raw_data do
+            attribute :raw_data, optional: true do
               # noinspection RubyBlockToMethodReference
               not_strict
             end

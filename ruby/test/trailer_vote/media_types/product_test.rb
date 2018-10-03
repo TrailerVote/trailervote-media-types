@@ -36,7 +36,7 @@ module TrailerVote
       end
 
       def test_fixtures
-        assert_fixture_passes_validation Place
+        assert_fixture_passes_validation Product
       end
     end
   end

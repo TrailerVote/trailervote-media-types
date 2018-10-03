@@ -14,28 +14,30 @@ module TrailerVote
 
       validations do
         version 1 do
-          collection :items do
-            attribute :title, AllowNil(String)
-            attribute :_embedded do
-              attribute :image, allow_empty: true, optional: true do
-                link :self
-                link :original
-                link :thumbnail, optional: true
-                link :xlarge, optional: true
-                link :large, optional: true
-                link :medium, optional: true
-                link :small, optional: true
-                link :xsmall, optional: true
+          attribute :carousel do
+            collection :items do
+              attribute :title, AllowNil(String)
+              attribute :_embedded do
+                attribute :image, allow_empty: true, optional: true do
+                  link :self
+                  link :original
+                  link :thumbnail, optional: true
+                  link :xlarge, optional: true
+                  link :large, optional: true
+                  link :medium, optional: true
+                  link :small, optional: true
+                  link :xsmall, optional: true
+                end
               end
+
+              link :product
+              link :video
+              link :direct
+              link :interactive_player
             end
 
-            link :product
-            link :video
-            link :direct
-            link :interactive_player
+            link :self
           end
-
-          link :self
         end
       end
 

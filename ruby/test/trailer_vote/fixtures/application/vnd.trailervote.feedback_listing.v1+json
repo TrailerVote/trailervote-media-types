@@ -1,0 +1,63 @@
+{
+  "feedback_listing": {
+    "items": [
+      {
+        "value": "positive",
+        "updated_at": "2018-10-03T20:34:43.092Z",
+        "_links": {
+          "audio_fragment": {
+            "href": "https://fake.trailervote.com:/api/audio-fragments/12207087101629f7058caf83da9008147de89d1cc82df9d8d8512c34726c1c32528b"
+          },
+          "product": {
+            "href": "https://fake.trailervote.com:/api/products/d83ae70a-6dcd-49bc-bbe5-066fd0db2fd3"
+          },
+          "persona": {
+            "href": "https://fake.trailervote.com:/api/personas/aad2a2f-84e9-4b33-a718-8095262def9a"
+          },
+          "feedback": {
+            "href": "https://fake.trailervote.com:/api/audio-fragments/12207087101629f7058caf83da9008147de89d1cc82df9d8d8512c34726c1c32528b/feedback"
+          },
+          "interactive_player": {
+            "href": "https://fake.trailervote.com/interactive-player/aHR0cHM6Ly9zdGFnaW5nLnRyYWlsZXJ2b3RlLmNvbTovYXBpL2F1ZGlvLWZyYWdtZW50cy8xMjIwNzA4NzEwMTYyOWY3MDU4Y2FmODNkYTkwMDgxNDdkZTg5ZDFjYzgyZGY5ZDhkODUxMmMzNDcyNmMxYzMyNTI4Yg=="
+          }
+        },
+        "title": "Mission: Impossible - Fallout",
+        "_embedded": {
+          "image": {
+            "_links": {
+              "self": {
+                "href": "https://fake.trailervote.com:/api/products/d83ae70a-6dcd-49bc-bbe5-066fd0db2fd3/images/b32f9c57-8e2d-40cb-b473-57b5d5567401"
+              },
+              "original": {
+                "href": "https://s3.amazonaws.com/fake.trailervote.com/1220f7f4e0be919563055a78fd2529d3fa75ef84bf6bed101d6a64bfc581a1f9456f"
+              },
+              "thumbnail": {
+                "href": "https://s3.amazonaws.com/fake.trailervote.com/1220cf143c660229af911a35d84aa6174becc280e19433cc73764623c0f4a18a4511"
+              },
+              "xlarge": {
+                "href": "https://s3.amazonaws.com/fake.trailervote.com/12201ddf54d47e781f9b000979499d4f677b474e530d395789daa858fae7e887df70"
+              },
+              "large": {
+                "href": "https://s3.amazonaws.com/fake.trailervote.com/122014839ced962899b2b11d6625ab9b0d78498f04e6627f6157cf5ac552fd74e0e6"
+              },
+              "medium": {
+                "href": "https://s3.amazonaws.com/fake.trailervote.com/12200232fc0ddbdff2a8f0aa9e9612532dec37e79f71d3f70eaf4b4a955f5ee6660c"
+              },
+              "small": {
+                "href": "https://s3.amazonaws.com/fake.trailervote.com/122001f012110c644ee76581ee3a86be06ceae9bd39fd3cc49bad9836fa0012dd2d9"
+              },
+              "xsmall": {
+                "href": "https://s3.amazonaws.com/fake.trailervote.com/1220064545248222d2cd1810e35556c5a50e4d0b5cfbef772a77045d5a1e8e1e45f5"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "_links": {
+      "self": {
+        "href": "https://fake.trailervote.com/feedback-listing?persona=https%3A%2F%2Ffake.trailervote.com%2Fapi%2Fpersonas%2Faad2a2f-84e9-4b33-a718-8095262def9a"
+      }
+    }
+  }
+}

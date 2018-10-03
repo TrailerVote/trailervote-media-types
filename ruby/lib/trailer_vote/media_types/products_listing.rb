@@ -14,27 +14,29 @@ module TrailerVote
 
       validations do
         version 1 do
-          collection :items do
-            attribute :title, AllowNil(String)
-            attribute :publish_date, AllowNil(String)
+          attribute :products_listing do
+            collection :items do
+              attribute :title, AllowNil(String)
+              attribute :publish_date, AllowNil(String)
 
-            link :product
+              link :product
 
-            attribute :image, allow_empty: true do
               attribute :_embedded do
-                link :self
-                link :original
-                link :thumbnail, optional: true
-                link :xlarge, optional: true
-                link :large, optional: true
-                link :medium, optional: true
-                link :small, optional: true
-                link :xsmall, optional: true
+                attribute :image, allow_empty: true, expected_type: AllowNil(Hash) do
+                  link :self
+                  link :original
+                  link :thumbnail, optional: true
+                  link :xlarge, optional: true
+                  link :large, optional: true
+                  link :medium, optional: true
+                  link :small, optional: true
+                  link :xsmall, optional: true
+                end
               end
             end
-          end
 
-          link :self
+            link :self
+          end
         end
       end
 

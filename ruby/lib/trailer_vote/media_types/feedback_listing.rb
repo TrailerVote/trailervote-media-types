@@ -4,7 +4,7 @@ require_relative './base_text'
 
 module TrailerVote
   module MediaTypes
-    class Carousel < BaseText
+    class FeedbackListing < BaseText
       media_type 'feedback_listing'
 
       defaults do
@@ -14,32 +14,34 @@ module TrailerVote
 
       validations do
         version 1 do
-          collection :items do
-            attribute :title, AllowNil(String)
-            attribute :value, AnyOf('positive', 'negative', 'neutral', 'skip')
-            attribute :updated_at, String
+          attribute :feedback_listing do
+            collection :items do
+              attribute :title, AllowNil(String)
+              attribute :value, AnyOf('positive', 'negative', 'neutral', 'skip')
+              attribute :updated_at, String
 
-            link :audio_fragment
-            link :product
-            link :persona
-            link :feedback
-            link :interactive_player
+              link :audio_fragment
+              link :product
+              link :persona
+              link :feedback
+              link :interactive_player
 
-            attribute :image, allow_empty: true do
               attribute :_embedded do
-                link :self
-                link :original
-                link :thumbnail, optional: true
-                link :xlarge, optional: true
-                link :large, optional: true
-                link :medium, optional: true
-                link :small, optional: true
-                link :xsmall, optional: true
+                attribute :image, allow_empty: true do
+                  link :self
+                  link :original
+                  link :thumbnail, optional: true
+                  link :xlarge, optional: true
+                  link :large, optional: true
+                  link :medium, optional: true
+                  link :small, optional: true
+                  link :xsmall, optional: true
+                end
               end
             end
-          end
 
-          link :self
+            link :self
+          end
         end
       end
 
