@@ -1,0 +1,6 @@
+{
+  "configuration": {
+    "persona": "https://fake.trailervote.com/api/personas/aad2a2f-84e9-4b33-a718-8095262def9a",
+    "place": "https://fake.trailervote.com/api/places/2cecb0e5-d3cb-4171-abd0-78c80d2bd650"
+  }
+}

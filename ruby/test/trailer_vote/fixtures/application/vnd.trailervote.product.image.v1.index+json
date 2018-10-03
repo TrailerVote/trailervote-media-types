@@ -1,0 +1,13 @@
+{
+  "product_images": {
+    "_index": [
+      {
+        "href": "https://fake.trailervote.com:/api/products/1102d212-28f1-4900-8eb7-026ff40e4f4a/images/d226c3d8-4ad7-43ec-9f87-8e7da7b0b67f"
+      },
+      {
+        "href": "https://fake.trailervote.com:/api/products/1102d212-28f1-4900-8eb7-026ff40e4f4a/images/a4d166ab-aed1-44f8-9ab6-6c61bbed0a6f"
+      }
+    ],
+    "_links": {}
+  }
+}

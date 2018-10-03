@@ -1,0 +1,1150 @@
+{
+  "products": {
+    "_index": [
+      {
+        "href": "https://fake.trailervote.com/api/products/848d8673-27c6-4d94-ba6f-f3495dfbdf21"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d1aaf75c-32ea-44aa-95f6-d4b2e163a9a2"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/de7c66ae-05a7-478a-9e8d-3ef10fe7e453"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/07dec9ad-dca3-4c24-af97-f680a8440035"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/76c2ea08-d530-4618-8ed2-0385507166e4"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/dac37d85-6650-4d11-9b6d-2e81dfeaaa1e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5a20b873-8562-46a3-93ef-fbc156cf3b31"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7aeebdeb-ed00-4a7f-beb7-6882ff36e98d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/6f69230f-3b32-4f0d-a75b-c957c3bbe260"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9095d0f3-57a3-4494-a769-62530691c09f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/44c7167d-42dd-487a-b21d-06d9a44ad934"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/438da235-d4ca-4da5-90b6-9bc5977c931c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/076e7776-9395-49c3-aa0e-eb1f033f83f7"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/dd92642f-72f7-4065-adc3-2113a4bac6d5"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0bd87eac-2e49-4a64-8a1f-f4924ef0acdc"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/dce27739-e243-45b2-9beb-762ee0cf7b22"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/dca576cb-5f20-4f3e-a1fe-1063521c8b26"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9b4c6841-b7fc-4b95-abf3-16a855d556b2"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/01cfca03-a1c7-4184-a718-d2f399ff8d3a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9716f030-cc04-4448-b6bb-f693bbeac7fe"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e1a7eb53-9f0f-4334-8eac-b9bcbed67209"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7c393a15-3e20-419e-9718-27a71ca60888"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/fb18cce0-9dca-4699-9356-a78e7009bb2b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c44429a9-8d16-4402-8552-762ae0ff380a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e492fd47-8517-4e46-9225-cbcc88046607"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/1fe0963d-138c-4728-82e7-d465d50c2cc8"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/4734e245-1dfd-4e00-86e0-5b1b80dbca0c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/ac03b801-0f24-43ec-a6c2-110dacede296"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d3e3d72b-e000-4623-bf1b-0ff2dfe2e43f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/4072bdc1-a67b-4cc6-a366-da9cba0ec7aa"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9f92e85b-8b22-4554-8e31-75bf872c554c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/453a721b-5054-4680-9952-c0705e0eeaf5"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f12763d5-f734-41dd-bbac-a17bbc382303"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/17209d9d-2340-4401-be63-014b861774a2"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/b5da18a4-c4a2-4428-b9d0-6fac914bd891"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0625eae2-5357-4db5-8121-81c295abe126"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7b8d4ed9-2d60-415c-8fe4-209ec81c4b7b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e0c4ea9c-e682-4abe-8152-a89d25cf2766"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/60a5d97b-92f8-46fc-9608-c1a778eb411e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/51e4d53c-fa42-4dda-ae6a-13e9077ce0d6"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/598384b9-e7ff-4a0a-9006-a243a9571da7"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c8b3e1dc-0785-4db0-8f53-de0055876d24"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f345cda6-5a21-47ec-b92a-75791c40e05b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/48874d03-e5fd-40b9-b2ea-c9b252589b81"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/884b6cb8-cc8b-4daa-a143-cf6930223ba3"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f350c5c4-0c4f-40e1-b1cb-1b1b805cf7b5"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/11fdecd9-35e7-49cc-b2da-6b29c07f00a1"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/4882de5c-8329-4b73-9adf-91fe28690c76"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/753b8c0d-9153-4bae-bb12-4742017bc643"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/4ae4c52b-5b3c-486c-9de9-140c9d949ab6"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0686e6ee-5f8e-482c-93a7-9aef5084fb8d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/1c05c9e8-58ee-4bde-814a-130da12684fe"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/dca381d0-f065-4221-8c64-8ca807e3200b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/456dea7f-a066-4db7-8ffe-8146032a7821"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/82c76962-b249-4769-854e-ad9508a6f14c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/97b6c7c1-0ec4-4316-a7b8-cc70e8d3358c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a8783795-1dda-427c-90bd-472695e86276"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3b3aa774-cb7a-4482-9e5e-117b16c77e24"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/1ae963be-3822-4907-bfb4-855a368935db"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7460bf3f-1290-4981-b789-d978617f49f9"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/1ddaa871-47d3-4278-a4e1-1500029e7600"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/694f3742-26fe-4b43-8df0-dea83f65b9a5"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/de8a53cb-ab75-43d5-a275-4eb69b5c3086"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/72ec4f17-2ccd-4e43-b218-35feee7f7476"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/6416d6da-2b46-4708-ac46-4ade98b6cb85"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a13ba35c-79e8-4616-a810-5fb2247ef154"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/609d2c32-9d66-4872-bc81-c9daa897da4e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/35e6b96e-6481-40da-8881-11ec43dd009b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/500bbb37-6295-46a5-b719-60d3d3ae4d39"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5d9cf64d-9643-49ec-b00d-d295bd284111"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d48a37c5-4275-42d2-8bdf-5bee21d14062"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/75948427-8294-44d1-bda4-2e2ffffdd067"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/48a2fa48-f4be-4451-b7dc-0611b4bba93f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/8c51af17-0f75-47f6-8c68-836c593e5f76"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/2da8b0a2-c25c-47ec-b163-9ee7d8ba7586"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/2e9bb707-690b-419f-a138-cd6a46c8fb49"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/94aa736b-baeb-4498-817b-f848db38346f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/749001b4-0026-4c8b-a620-49e18416595e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d38b9e70-cf34-4a36-80fe-7d9518d71b47"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/de802500-97c7-4bb4-81b1-d83b0dffa441"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3c681dca-5919-488d-88d1-159551ee08fe"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/430d2850-d37e-4ded-ba02-b7d6c4ce58f4"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3e2417f5-0cf3-467a-87ed-5ac38fc13d5f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/860dfe40-6240-4839-a4a2-fbfec790a7b7"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/daf88b9b-1e30-4674-8f2d-d1bc906cb4c4"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c72e6903-9e3d-4cc8-a965-3866cbf4ec12"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5ebe0288-d1d3-43f8-a841-d6b2a2973c67"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3b62820b-c49d-41a9-a592-b9b3a8e50ad8"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0ca9b9d5-ebc2-40d8-874d-00890d8d085d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0a6fe028-197a-4097-821a-334ad2cb7b63"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/935fae93-39e5-4125-8717-c3061310ed8a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9826f746-7364-4540-a528-8be19cf8ef72"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/588b6d7e-e9f6-4948-9bd6-424697692fc3"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/81384376-8ffc-4540-a66f-7bf8ce45a759"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/756d82fa-93d9-43e4-8089-d011a70e2449"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f4983fbc-57eb-4732-920a-a22aea8ea501"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/65a92255-ba84-44d5-a30a-43461632c56c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/aa4e587a-b21a-494f-9e74-f4a562215179"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/4961df24-a580-4de1-b024-2850243e46b2"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/dc1b90d5-7712-4883-9c02-16904d73b723"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f2f5d1b7-3e69-4559-bfff-ddab8bf4d121"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/b52a2155-8488-4ab8-8e25-fd4b44f660f6"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/1d7c446c-8e52-4a12-8a27-c4ffcb0b009d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9d64c823-e948-4ab2-8c2f-e51213d9bf04"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/6537c061-d922-4706-b961-5ac37f9594e0"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/804a0b60-6139-4d49-b185-266a16f8e95b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0083b354-5be5-4b2f-a7be-a6ae2c427f2d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/87b57dc2-cbdd-4576-8112-129eb56d851f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/ee378449-ec2b-4cde-b3dc-91e69e0dac52"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/cda3ff25-9364-46bb-8534-9f7b1ae73e90"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5c538ed9-8c71-416b-bfdd-780917b77507"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/653baae0-65d7-4190-aa6a-048758d9385e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/1ccb5dee-120f-40a3-b273-e19c4c1c0505"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e32a90b5-2dc8-4d0a-9f5f-100848572c50"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/42b6266d-49b2-4f53-9088-d96ba49e487f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/90f57301-54f6-495f-8d5d-e7771ae48d15"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c4684a39-8351-4f1d-8df0-93aeabfd3d21"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/85d0ddf1-71dd-4baa-a993-cda8d2ebea58"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/573c036c-b88b-409e-ba4a-842ccbf476e5"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0b3d5936-ab3f-4cce-8e64-fe697eccc0ed"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/db2d8ce5-65ad-4a42-ba55-3a4787f76b48"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d750ed2d-2ae6-458d-852c-3a23d4616423"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/05fd6dfe-34cf-4efe-8915-b4c89f92791c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/63e75f90-75d9-4ba5-b132-3ac942c5fa37"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/27553eac-f173-4bf4-a9a3-afa8e351b7ad"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/436cecfa-878c-4c7d-be46-c782846cfbf6"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f0cc24d4-04df-4d74-92f6-bf93e0dc9ee7"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/40cb37c8-c61d-4013-a2a5-5a862d828ec5"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3ffd868a-3b10-4af0-8175-9bb9a5c792d7"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/ad3ce0ec-960e-41c0-9643-6563137430f3"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/b05f7833-a3be-4107-b267-557a62e72b31"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/66ac3f88-5ae6-4ff4-a09d-52320865d718"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/44546009-452e-46c7-a896-d1103ef6d02b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/93799e33-e121-45c8-a77b-08cfb9babd5f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/8644bee5-f97c-456f-9351-7bd9303c8378"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/21a3ab6f-08c9-4747-ad67-00e69fe85e6f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/848c2082-b00d-4a47-8e40-849c905ace16"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/fe4dad98-f870-493e-b50f-4bd781a861aa"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/836b118c-390b-47d3-9625-a6da0b6e853f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0ad9811d-d12a-46b5-8c06-2a24751873ef"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/16f1dca8-d8e8-429c-9d2c-af1a22316a8b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/be1663bc-1de8-4994-90d1-1f36e2fa117f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/99e72fd3-4ff2-4508-8710-a95de17772ea"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/ecd23185-8299-446d-9c25-7df307c2df26"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/8dd57372-0b00-43d2-a7d6-96689c954078"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/bd543e4b-120e-4a1e-bfde-b3849fc31645"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/06b7cdc4-973c-403d-8f61-38a5b9cb3304"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/ba1eb9b0-2c64-42d4-a99f-0f3441c11b57"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d368914e-d6fa-4429-a583-c03e8b29989e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7b2daacc-ad46-492a-bc12-5aa0e9538c9a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/252503ae-ad8c-40d5-b521-5fb12a5df142"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9a75d2cc-d71c-4d66-96fc-44adceedc72a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d128cf06-9c04-474f-81c7-8c9c2f6d1504"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/6d63b292-bc52-4c31-99e3-df4de29c600a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a928f2e3-52b3-40b6-8465-2a4ed9c6cce1"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3731caad-ea9e-4276-aa6f-168bac10881c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/599cd73c-db23-49ff-8c0e-d0e72e36abde"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9f91bc5f-70ab-44e9-b3c0-479ce4f9b5bc"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/756869e4-a058-49c4-8723-37173c959481"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/207cb0bf-2292-40da-9e16-c77ac59dbe78"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/06f59d9f-65e4-403d-933f-46fe2df56365"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0d42ced7-ccf7-4615-9326-8e359c346ebb"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/93664d4f-2695-45fc-8059-32f8d148e593"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0d3deff4-5d8b-4257-9316-d59af0db4428"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/21369b4b-00af-40fd-9cfd-1fbe64e135be"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0197b613-16b7-4100-9bf8-46f12d8b56d0"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0dff98e7-7f9d-4c27-b636-552077ad0ec8"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/aacfef6e-fe1e-429f-ad53-f2b02142b6b3"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/6f969fea-a37a-4025-b09e-ecad3ec2b6f9"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/4e4ee645-5bd5-492d-ab90-2d843085db61"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c71e64ae-1e13-4cf8-965d-144e18335545"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/61eed5c3-e8cf-47e6-bf45-774ee17a2c7e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/72be1de6-54e0-48de-bc4d-3d04265d3d4e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7a116e02-7370-4d66-8bdc-69a2d07d64f1"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/666a5daf-e897-491e-95bc-473b69646c84"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5a97b06f-bc9f-4cb9-811d-4debb84ad6b6"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/ec386a08-d9aa-4ac0-b35a-215e3a35af02"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/8b420bee-8aba-4caf-8ac2-c5463b6f0195"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/59a552da-adeb-4017-b298-5f031ee1992e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/fc91ccee-784a-4fed-8ecc-3ee1b007b5be"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f619effd-d125-42af-a016-861e72f9f970"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f1948548-4216-4c34-a842-551b3c22241a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/fbc4a252-beab-42ee-8769-46edd4e7b5d8"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a33ff55f-f3fe-4873-b6b8-c52a94460dc2"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3aa2dbe3-0d0d-44c7-9530-d2a25dc42a7e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c14b4e5f-5ec7-47ae-856c-e317f7dd8d1d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/60ac3f25-c891-4aa5-96c0-0cf9bd28ee14"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/af41a53c-d44f-433b-b7b0-fdf3da4df688"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/32714c95-2ab3-457a-9414-a798dce2af04"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/1840b5db-fcc3-485a-b475-ef6555f2cebe"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/db426554-92e7-49dc-9fd8-f0ad1e46d273"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/ab8afc1f-6eb0-4bd3-8b3b-fc84d62f6966"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5763be9b-64d8-41e8-bbf0-c605ede4f1a6"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5e017f5a-c3e3-43ec-b150-828739c69741"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/284d9fca-3830-4bcf-8de8-d4edff340158"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/4c49ec88-a857-43bb-9576-ccd42e1608cc"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c2298118-1524-48d9-8490-e20d2667ed97"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f5740719-65e4-4ec4-b563-a3d9c85b650c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/df427d8e-757c-4b84-a956-869f7f0d5463"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3d50382c-4526-471f-9394-ab2aba7be1c0"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d85e8b02-3fc4-46e1-beac-05d772a0186a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e5f90d92-e3bc-482b-beb0-c685836bb370"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/36a03baa-ba5b-4fa9-addf-585bf5d903c1"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d199ed38-24cd-4f6e-baf5-5fa514a659db"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f8a6c91a-30b6-4b8c-b9d8-1d4987035f4f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e7900c45-4510-424d-a044-8fc3b71a2e07"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7ab2d57c-43d0-4c98-996b-256d4c0624ae"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/43cfdde8-695a-443a-879c-499d039f2d8c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/8ffc79ee-587b-43ab-8df6-e435b7bbc193"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/936ee459-7cb8-4027-afd3-b0ab323c03f5"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/8bbb213d-642f-44d0-8d65-80b0e8c3be65"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f7513214-bebc-4303-b3ab-334f82e3aa69"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5633abfd-370e-4839-9fda-0dbd0b0606d6"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/b8a439c6-3630-49e3-a527-77c99ce0f587"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/486d4883-b282-48f4-90d5-6cd63c3902a9"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f1d14cf7-85ee-439a-abca-8344c8d6a27d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a28605cc-d8c0-49e3-9190-11946a0c7f24"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/2983710c-eafb-4eab-8bfa-04f97988694c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/4b5132af-1317-48a1-92dc-4b251201c105"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/65a1cb8e-4300-4bd2-b841-e390ec06909d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c0135011-5794-452f-bc2b-1d66ae405b90"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/6312c60b-bd65-4018-9ffe-ba3a39af3b10"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/44d69ab9-ba4a-4c2b-be5d-0e5febb70edf"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3ddcd2e9-3bcb-4c24-b893-24c87896acee"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/00fd1270-ff4c-446f-9096-e62e11df9fc0"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/74495166-307f-44d5-b6ad-dfcda6ff27c3"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c3dac7af-c28f-4434-bf6c-a1d39fed2cba"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/29453589-0837-48e9-8583-ab9274a63643"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/db004f95-cc41-4a1a-9615-a5fa2fd5cb2f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f9e77e20-b848-4c00-b793-f800c873baec"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/bbff2113-48d3-4dcb-8317-107522899adf"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d87c0517-9505-4b76-82b2-d66176870cfe"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c59e8152-58c2-4ff8-abe4-998d87797ab5"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e196d91b-a3d7-49c9-bf3d-81f23f5bf1d7"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/34f86629-4b03-46b5-adf1-a934043c1f47"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7025bc3c-185a-474b-98a9-b6ec84f0eb41"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/30777cac-aeed-4d83-b479-b1ed45125557"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3ae5c003-4840-41d1-b701-a0607d0ac1a6"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/2a7e63ed-523a-4802-874f-8b279d34a4ed"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/59585a7b-fec5-4211-a9d1-7aa83d0f6434"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e4bbd00b-ec9d-4399-8a14-e41a893b6558"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f90227df-40ab-4b61-afe2-a88b1e450fd8"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9204ba8f-3400-4665-af4e-d14ff95fb169"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/48ea11d2-cf87-44dc-bd09-e9b9a1539c54"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a503df06-3e5a-425d-8404-9a9e98cf0c8e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/284a0d1c-68e7-4046-87b0-5f6df228ad98"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e63269c6-50e6-4f96-9917-452b5e739b97"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/84df5f6c-7250-4e5f-aa98-8f5b4c724e06"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7ed4e5bd-2e82-433e-bb59-b3fbd1d61664"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a2d5cb3a-bac0-46fb-b26f-8e1772b01ac9"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e9213fe8-e9c1-40e9-8787-45db44c0ea74"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9062ef3d-442e-4d71-a4e9-0efe3dc4ba18"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/71ebbafa-0c57-40ef-8e94-de5123a04c1a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c9e38b7f-8dec-4301-8525-8443d5c299e8"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a9e9aed8-c861-4b87-b95b-99474c1471dd"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f4c569bb-3fb5-4934-97c5-58d3072d1561"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/8d75d054-17c7-4508-b38d-a1ff0d3a8c17"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a42f2e23-fcf5-44bf-995f-5684adb8aa11"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3d77da39-1c82-4667-b742-e00c917dd302"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7a1d1fb2-2642-457b-af5b-2635247f438a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7ec47c78-4207-4740-9667-fab58414a843"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c6d05fc0-bd11-4f9d-bcc0-2499e871af6a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/62411f35-15e5-4d56-a4c9-b77da72a11b2"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/89d2d9dc-1ff9-4e7b-90da-bcbc35abf8c1"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/425e1bf5-d5e0-4445-a461-d6a5ea989199"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/4a5e2841-8737-4472-baed-1e2e2f461a95"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f4c375bf-1c40-4d84-baa8-d3365a94fdb2"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3b504530-9925-497a-868f-91097df8c5c3"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/69575246-e9eb-4a8d-91fa-df8a09fffebe"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d1ce6891-37b8-4066-8d64-5733780801f2"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0013bd59-f042-41e8-b5fc-64e4bc02b3f4"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/8b309af8-c1ef-42e2-b2b3-a17d65332d78"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/aa6890d2-9c5d-437f-a72b-3b31665ced0e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d9ad4b36-0f1d-4a3b-a768-70e4f4513c18"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/2ef0c1cb-aa0e-4fdb-a41e-48b9f34ca034"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/13dbfb29-16f0-4186-b4d4-99bb4ba67c1a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5ca83409-c46e-4109-9c50-0b6ffd4c9b2a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/4935ff3f-03ba-48bf-ae9b-daa3e8c5c5e3"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/69b081d5-d945-4e3b-bf3c-15badb6e7f7d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c153757e-52f3-43ea-ba92-bb15458d3c6d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/8a1c2ac6-e429-4cf6-a2a1-1ed1466241df"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/06529844-c9a1-4086-bcd9-4f7216cee646"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/dcf80027-92a0-411e-b45e-b6ae7433421e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/118a8b3d-f4fa-40f8-b30f-069bbfc9d077"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/848474db-f165-471e-b2d3-c9cc32fba887"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/76a01685-849c-4a63-adb1-05c94199c64c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3d24d9af-62e8-48e2-997f-4727ce5a9f12"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f1463008-c2b5-4a11-b8c7-516bd3b88fc5"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/66988141-70c9-408c-84a1-f2b546de871a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/ffe8dc4f-82d9-4e0f-94a1-297945fed226"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/ba06c015-837a-4ece-a152-9161993eb18d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9ddc2db8-52f2-4426-b663-f93f2d4b007f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5b3b290a-211e-4bc4-82d9-66e3fad993ca"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/28d0a01b-f0b8-4553-b706-221974da3acc"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/084255f7-42dd-4a45-9baa-3c41533c9da0"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/66a78398-7c48-4ef3-968f-1c88e83a5a9a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a129f9c7-4f0d-4cc6-b8ee-d116d4e3f0a7"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/90a89e99-34e2-4811-bb7d-158995c8f8ad"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f5c17496-9d67-46f1-a4dd-373a8bd49d7b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/edd8fca2-03ac-4986-9247-87a18654cece"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/23b8666f-d835-4430-8556-5a6308e8d19d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/dd383b5c-2bdf-4a14-8c8c-080ada7bac3a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/99ed07af-43cc-4e44-bbd5-5db1dc07ea8a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/91aeeb39-dc96-49ad-8c98-b21ad19da53d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d159f546-5f7a-4d77-bac1-9ceb9abe310d"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d5c318de-9a09-438c-b0f1-dd34dc4c5716"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5721a263-851b-49b4-86c6-617676399362"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d1e90e46-3fb0-4d39-a66f-672ea25dbedd"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/fafbcb6c-ee32-44d0-ac48-72c5623b2f5e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/064660bd-659b-4e9b-a39d-d3b3889619b7"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a6c2b43a-c0d8-4b1d-aa5b-4ed3e07732ad"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/403836a0-7a29-4af3-afc2-da640f02733b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9e318820-71fe-4c66-97ba-6c163f58809c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e7352bef-715e-4be6-b082-9061b6247c3e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/26eec13b-983f-49e4-a469-8db8fba99ecf"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/cdb51f1f-fcc8-4614-a20b-ef51bd587a8b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d13b9e0d-6b6f-4909-a8bc-50f3566a8aaf"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/699ddb13-9670-4928-98e2-744441bf6bbe"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/ff60e204-dfec-413a-86e6-18d9416e85af"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/264d7879-aec4-4f78-b981-4b8e81813b99"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f5f3af0e-1d84-49cd-ac11-ea488f3ce9b0"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e8917264-b1ac-4aae-bbe5-04669caa5133"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/db3daa14-1ade-4e2a-af56-9be6aca5e291"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a1f1385f-eaa0-4fac-a3f7-a822828fb776"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/215e51aa-5a33-49f3-8d72-172e219b44dc"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/089e7caf-fb34-484f-9f15-cdbd6c221af5"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/6a96ab00-4767-4b41-ba83-4a54fa59ea4b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/cd11363c-2033-441e-a93d-52268aec3ba6"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/9438f869-01a1-4f96-82bd-12e96804a905"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/05793dc2-5f5d-40a6-8af2-271e6591ced1"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3a95a331-beb6-4e6e-a10c-eb78b2582079"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3ab0d88d-c3ff-49a6-97db-2d06999d106a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e0a3536e-3438-4e1e-b36b-3f4830f1f441"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/384b0484-31de-4888-a596-53fa56031d82"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d46b8d41-a507-4bae-9ea0-27ffaba4c361"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/ed96061f-b10c-4dc3-87f4-e4584675158b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c09604cc-5f57-4989-9fda-42bf23f01b14"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/df008700-bf60-42bb-82cc-c74f98b12201"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/6d22c9b5-973d-491a-a78a-20f2f2641312"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a7cae5aa-0c86-46f3-9a13-c5298989aaf1"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/54227199-4211-4f4d-a9ed-d2c9c4e51975"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/e0843b79-3fd8-456d-97a7-bc4b4bdf5f3c"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/0669129e-9995-4b19-a91b-2f07574b854f"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a8ac0ab6-9272-4bcb-87a8-fa856fea69e7"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/5d8ac735-0236-4611-88a0-7bec6f592528"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/95f13580-5128-44d4-ba2b-f8d3647b2d9a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/6c296ad2-6167-4bd6-8738-2e0aa69240e7"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/4be922d5-54dc-4b8f-8a78-186bf2241e60"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/2ce9726c-da4a-4bd3-a68e-b88877952622"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/6899e2a1-2052-4f19-8218-8105fa97f34a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/cb2ebbea-06b6-4c83-8073-59543394eb76"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/449f76e5-9d4f-4bd4-a4cd-89d3945ada3e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/78b9dcd3-b928-408d-8860-978cb8b5204e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3fd1e3e6-92aa-404e-85b7-4b9d2f779bed"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/838f0dae-e0bd-4505-92b2-0a1ac8717c19"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c3283356-ca70-4a0a-802f-69a813000987"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/44f8fa45-d37a-403d-bfd2-6dd7652b2cd4"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c1968eec-9d09-43c4-90ee-49f86f7cdb18"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/eebb33b7-262f-4e48-9937-c9caccd825b0"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/904da051-ecee-4c87-8814-9f868071a0f8"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d9fc08d6-3f9f-46c7-8c62-95ec86d684c0"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/b228df9c-7178-458f-add1-6bc4a48433ea"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/30652f41-451b-4cac-b30f-7b5a7d42306a"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/21bbf9e7-963f-4d8c-b567-c9143ba38373"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c76e9053-73b2-4e2f-ad11-992fc6aa5430"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/04be28dd-d39c-4fcb-ad05-148d53e648ae"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/b4f4a310-7ddf-43f7-bb9f-c8fa8f713e48"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/b1d948b2-9d68-479a-be63-a1082e343406"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/c9fe0c29-a6aa-4dfa-99ae-486bd8b051f2"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/45c26164-1ddf-4f3c-8809-1848372295b9"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/d388ae25-46e1-4a8e-93c3-02f734ad0a1b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7d0b257a-f69a-4de5-bd8a-db1bd15600d8"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/60777e87-c1d4-432d-a654-0aaded584726"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/63f8c10c-54dd-4c07-9357-c67c865e3b94"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/a7bb2515-96c7-49d2-a70f-1e464ef3d231"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/712c3e81-ef5a-423b-a85b-a8a3000bd25b"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/7a43f819-53da-46e0-8e67-977b82944b30"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/acb080b5-dfef-4c22-8a01-54a30cb50b5e"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/efb42f6d-fcfb-4bf9-8b0f-77bb16a10275"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/3ffff409-069c-4bc4-bb94-69688fc497dd"
+      },
+      {
+        "href": "https://fake.trailervote.com/api/products/f3884164-9ad1-47aa-a346-af5456613300"
+      }
+    ],
+    "_links": {}
+  }
+}

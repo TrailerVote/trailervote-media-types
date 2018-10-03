@@ -1,0 +1,77 @@
+{
+  "product": {
+    "name": "Mission: Impossible - Fallout",
+    "description": "The sixth installment in the \"Mission: Impossible\". When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfil his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe.",
+    "updated_at": "2018-06-30T18:29:18.886Z",
+    "lock_version": 15,
+    "data": {
+      "tmdb": {
+        "type": "movie",
+        "type_version": 1,
+        "name": "Mission: Impossible - Fallout",
+        "description": "The sixth installment in the \"Mission: Impossible\". When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfil his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe.",
+        "default_image_url": "https://image.tmdb.org/t/p/original/80PWnSTkygi3QWWmJ3hrAwqvLnO.jpg",
+        "release_date": "2018-07-26",
+        "genres": [
+          "adventure",
+          "action",
+          "thriller"
+        ],
+        "mpaa_rating": null,
+        "run_time": 147
+      },
+      "amc": {
+        "type": "movie",
+        "type_version": 1,
+        "name": "Mission: Impossible - Fallout",
+        "description": "The best intentions often come back to haunt you.  MISSION: IMPOSSIBLE - FALLOUT finds Ethan Hunt (Tom Cruise) and his IMF team (Alec Baldwin, Simon Pegg, Ving Rhames) along with some familiar allies (Rebecca Ferguson, Michelle Monaghan) in a race against time after a mission gone wrong.  Henry Cavill, Angela Bassett, and Vanessa Kirby also join the dynamic cast with filmmaker Christopher McQuarrie returning to the helm.",
+        "default_image_url": "https://cdn.amctheatres.com/production/2/movies/52500/52452/Poster/241678R1.JPG",
+        "release_date": "2018-07-27T00:00:00Z",
+        "genres": [
+          "ACTION"
+        ],
+        "mpaa_rating": "PG13",
+        "run_time": 147
+      }
+    },
+    "product_identifiers": [
+      {
+        "authority": "imdb",
+        "identifier": "tt4912910"
+      },
+      {
+        "authority": "tmdb",
+        "identifier": "353081"
+      },
+      {
+        "authority": "movie:year:title",
+        "identifier": "movie:2018:mission impossible fallout"
+      },
+      {
+        "authority": "wwm",
+        "identifier": "241678"
+      },
+      {
+        "authority": "amc",
+        "identifier": "52452"
+      }
+    ],
+    "_links": {
+      "self": {
+        "href": "https://fake.trailervote.com/api/products/848d8673-27c6-4d94-ba6f-f3495dfbdf21"
+      },
+      "images": {
+        "href": "https://fake.trailervote.com/api/products/848d8673-27c6-4d94-ba6f-f3495dfbdf21/images"
+      },
+      "videos": {
+        "href": "https://fake.trailervote.com/api/products/848d8673-27c6-4d94-ba6f-f3495dfbdf21/videos"
+      },
+      "places": {
+        "href": "https://fake.trailervote.com/api/products/848d8673-27c6-4d94-ba6f-f3495dfbdf21/places"
+      },
+      "audio_fragments": {
+        "href": "https://fake.trailervote.com/api/products/848d8673-27c6-4d94-ba6f-f3495dfbdf21/audio-fragments"
+      }
+    }
+  }
+}

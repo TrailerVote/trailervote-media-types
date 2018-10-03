@@ -1,0 +1,20 @@
+{
+  "configuration": {
+    "_links": {
+      "place": {
+        "href": "https://fake.trailervote.com:/api/places/2cecb0e5-d3cb-4171-abd0-78c80d2bd650"
+      },
+      "persona": {
+        "href": "https://fake.trailervote.com:/api/personas/{uuid}",
+        "templated": true
+      },
+      "analytics": {
+        "href": "https://fake.trailervote.influxcloud.net:8086/analytics"
+      },
+      "feedback": {
+        "href": "https://fake.trailervote.com:/api/personas/{uuid}/feedback",
+        "templated": true
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "place": {
+    "name": "The World",
+    "parent_place": null,
+    "deleted_at": null,
+    "updated_at": "2018-06-06T00:48:18.195Z",
+    "_links": {
+      "self": {
+        "href": "https://fake.trailervote.com/api/places/23403a0a-24f7-457d-945e-c6d27e04c73f"
+      },
+      "products": {
+        "href": "https://fake.trailervote.com/api/places/23403a0a-24f7-457d-945e-c6d27e04c73f/products"
+      },
+      "parent": {
+        "href": null
+      }
+    }
+  }
+}
