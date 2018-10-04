@@ -1,7 +1,10 @@
 # frozen_string_literal: true
 
+require 'media_types'
+
 require_relative './base_text'
-require 'media_types/scheme/any_of'
+require_relative './types/product_image_type'
+require_relative './types/boolean'
 
 module TrailerVote
   module MediaTypes
@@ -22,8 +25,8 @@ module TrailerVote
             merge version_1_creation
 
             attribute :data do
-              attribute :processed, AnyOf(TrueClass, FalseClass)
-              attribute :type, AnyOf('backdrop', 'poster')
+              attribute :processed, Types::Boolean
+              attribute :type, Types::ProductImageType
 
               not_strict
             end

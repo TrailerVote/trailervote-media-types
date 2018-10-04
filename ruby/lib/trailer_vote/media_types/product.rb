@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative './base_text'
+require_relative './types/product_data_type'
 
 module TrailerVote
   module MediaTypes
@@ -41,7 +42,7 @@ module TrailerVote
 
             attribute :data do
               any do
-                attribute :type, String
+                attribute :type, Types::ProductDataType
                 attribute :type_version, Numeric
 
                 attribute :translations do
@@ -109,7 +110,7 @@ module TrailerVote
 
             attribute :data do
               any do
-                attribute :type, String
+                attribute :type, Types::ProductDataType
                 attribute :type_version, Numeric
                 attribute :name, AllowNil(String)
                 attribute :description, AllowNil(String)

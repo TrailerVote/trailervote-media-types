@@ -4,8 +4,8 @@
       {
         "title": "Peter Pan: The Quest for the Neverbook",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -16,8 +16,8 @@
       {
         "title": "Dog Days",
         "publish_date": "2018-08-08T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/d2bfa0cf-734b-45d3-9f08-02a823a2eff6/images/b38335fd-7c09-49aa-b069-de9c4f6b274a"
@@ -55,8 +55,8 @@
       {
         "title": "Nelly",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -67,8 +67,8 @@
       {
         "title": "Cold Skin",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -79,8 +79,8 @@
       {
         "title": "Dia de la Union, El",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -91,8 +91,8 @@
       {
         "title": "Just A Breath Away",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -103,8 +103,8 @@
       {
         "title": "Down A Dark Hall",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/7a591644-d936-42cc-a3fd-f6ec20c51436/images/2dcf3296-f298-4925-92ed-853521b321a6"
@@ -142,8 +142,8 @@
       {
         "title": "Shut Up and Play the Piano",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/e918301e-11f2-4c56-9fb6-d0d1ec0daf0a/images/bcfb42a9-e8d0-479f-8d90-aea0a14405fd"
@@ -181,8 +181,8 @@
       {
         "title": "LGF CY18 UNKNOWN5",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -193,8 +193,8 @@
       {
         "title": "A24 CY18 UNKNOWN3",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -205,8 +205,8 @@
       {
         "title": "The Night Is Short, Walk On Girl",
         "publish_date": "2018-08-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5aec89ad-d613-44b1-87b8-eb5ab3b5b417/images/fda3fb2a-ead6-4476-ba5a-b13bb5b1d5ef"
@@ -244,8 +244,8 @@
       {
         "title": "Fighting with My Family",
         "publish_date": "2019-03-01T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/7d649463-313d-4cef-9e40-c8b400598913/images/e404d842-0e7d-4a16-9153-cb0fe853f2e9"
@@ -283,8 +283,8 @@
       {
         "title": "Watergate",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -295,8 +295,8 @@
       {
         "title": "Hard Powder",
         "publish_date": "2019-02-08T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -307,8 +307,8 @@
       {
         "title": "The Big Lebowski 20th Anniversary (1998) presented by TCM",
         "publish_date": "2018-08-05T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0372cd04-7aa4-43a0-bd26-7a6b8613a9d8/images/6b824911-f9ad-4fe7-8df0-65be9f2a1ecc"
@@ -346,8 +346,8 @@
       {
         "title": "TCM: The Big Lebowski 20th Anniversary",
         "publish_date": "2018-08-05T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -358,8 +358,8 @@
       {
         "title": "Guru Da Banda",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/4702923d-40c7-41dc-94d7-db108611c032/images/908bb05c-feeb-43a0-8fdb-9886c309abb9"
@@ -397,8 +397,8 @@
       {
         "title": "MetEn: Marnie Encore",
         "publish_date": "2018-11-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/d7f5bd4f-29fb-432b-a613-710b3e1adecc/images/2cb4e657-ec63-4bec-9c7b-52bc59eca2b9"
@@ -436,8 +436,8 @@
       {
         "title": "Sirius XM Presents / Jason Mraz: Have It All The Movie",
         "publish_date": "2018-08-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/1add7c01-9586-405e-8c6f-d574dfab5b81/images/8ea126a6-dde3-4671-8cfb-4b55a41e7549"
@@ -475,8 +475,8 @@
       {
         "title": "RSC: Romeo And Juliet (2018)",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -487,8 +487,8 @@
       {
         "title": "Church & State",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -499,8 +499,8 @@
       {
         "title": "Buy Bust",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -511,8 +511,8 @@
       {
         "title": "An Actor Prepares",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/4b347dc4-0324-4ed6-9af0-67cf1ac4237b/images/ac41dc50-92f2-47ea-8000-d563aa6869b3"
@@ -550,8 +550,8 @@
       {
         "title": "The Island",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/73cb44cd-5cca-4b31-bd3d-d86af28be3e2/images/84e7b693-b132-464d-a1b0-4fbd9d0e7ebd"
@@ -589,8 +589,8 @@
       {
         "title": "Grave of the Fireflies – Studio Ghibli Fest 2018",
         "publish_date": "2018-08-12T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/05ab0f33-a2ff-4a72-8bc1-69b1ba97390b/images/14e6a6de-c442-42ae-8965-43179483aea0"
@@ -628,8 +628,8 @@
       {
         "title": "Grave Of The Fireflies - Studio Ghibli",
         "publish_date": "2018-08-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -640,8 +640,8 @@
       {
         "title": "Mr. And Mrs. 420",
         "publish_date": "2018-08-15T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -652,8 +652,8 @@
       {
         "title": "Everybody's Talking About Jamie",
         "publish_date": "2018-11-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/7e6a4de8-78a4-42ad-8cc8-dc6c8c49f9b7/images/424357c0-8788-4c9a-843b-1f7b36cfb50f"
@@ -691,8 +691,8 @@
       {
         "title": "Along Came The Devil",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/609748cd-1af5-48fb-b473-f1e0d4550d70/images/3903ade9-a09b-4355-bcc3-91f0fe6f3026"
@@ -730,8 +730,8 @@
       {
         "title": "We The Animals",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/80f0d66d-cb4c-4de3-9b69-be821acf63a7/images/c8784fa4-5221-422b-a870-6776f3062f22"
@@ -769,8 +769,8 @@
       {
         "title": "Cowboy Bebop-The Movie: Knockin’ on Heaven’s Door",
         "publish_date": "2018-08-15T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/07d4663d-b8f2-450f-bc0e-dc608797406a/images/df269760-e6d3-49f2-a3d0-eea153d795e8"
@@ -808,8 +808,8 @@
       {
         "title": "Elvis: ’68 Comeback Special",
         "publish_date": "2018-08-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/24e1569e-d6c2-4dfb-acab-b0d38c8e00ff/images/f2bf3705-5f98-4ee3-81a5-5a470bfe607b"
@@ -847,8 +847,8 @@
       {
         "title": "Three Seconds",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -859,8 +859,8 @@
       {
         "title": "Breaking & Exiting",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/8da71e1d-47db-44f9-9882-5a528ae37109/images/baeb3cdb-7fcc-4de9-b07e-ea698168471f"
@@ -898,8 +898,8 @@
       {
         "title": "The Little Mermaid",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/2e399edc-066f-4b29-b2bb-54a4fcf8f26c/images/6175710e-335d-484c-b3d8-1573e509d107"
@@ -937,8 +937,8 @@
       {
         "title": "Memoir Of War",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -949,8 +949,8 @@
       {
         "title": "Luis And The Aliens",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -961,8 +961,8 @@
       {
         "title": "FCS CY18 UNKNOWN2",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -973,8 +973,8 @@
       {
         "title": "Untitled Entertainment Studios Animated",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -985,8 +985,8 @@
       {
         "title": "Nid, Le",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -997,8 +997,8 @@
       {
         "title": "TWC CY18 UNKNOWN3",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1009,8 +1009,8 @@
       {
         "title": "Makala",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1021,8 +1021,8 @@
       {
         "title": "LGF CY18 UNKNOWN3",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1033,8 +1033,8 @@
       {
         "title": "BST CY18 UNKNOWN4",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1045,8 +1045,8 @@
       {
         "title": "South Pacific 60th Anniversary (1958) presented by TCM",
         "publish_date": "2018-08-26T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/be3f40cf-bbe0-4470-bd6b-4dc26be31c07/images/04d368e8-a0dd-4a05-b84e-c6da75ee2fe4"
@@ -1084,8 +1084,8 @@
       {
         "title": "What Keeps You Alive",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/3d8ce8b7-cd7d-48d2-89b9-19cc30bfbfc1/images/c3229030-6cf7-40c3-8124-85d2065debd0"
@@ -1123,8 +1123,8 @@
       {
         "title": "Hope Springs Eternal",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/83469c74-fda4-456c-a63e-b52d356b8cc1/images/5a1d0c80-8056-4aa9-a661-6f0a44a4d9a7"
@@ -1162,8 +1162,8 @@
       {
         "title": "Rire de ma mere, La",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1174,8 +1174,8 @@
       {
         "title": "RiffTrax Live: Krull",
         "publish_date": "2018-08-23T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/73dc518e-b739-4183-b6ca-81a4541a824a/images/d6aa63c9-6c16-4655-a4b1-57a409ceac1b"
@@ -1213,8 +1213,8 @@
       {
         "title": "TCM: South Pacific 60th Anniversary",
         "publish_date": "2018-08-26T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1225,8 +1225,8 @@
       {
         "title": "Andre Rieu's 2018 Maastricht Concert",
         "publish_date": "2018-08-28T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1237,8 +1237,8 @@
       {
         "title": "Let The Corpses Tan",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1249,8 +1249,8 @@
       {
         "title": "John McEnroe: In The Realm Of Perfection",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/aaf74563-7381-4c28-9cc0-19c95001dc03/images/f5a53133-4596-4cb9-ad7e-01a3b5da6d09"
@@ -1288,8 +1288,8 @@
       {
         "title": "Stuck",
         "publish_date": "2018-11-16T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1300,8 +1300,8 @@
       {
         "title": "OPR CY18 UNKNOWN3",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1312,8 +1312,8 @@
       {
         "title": "A Paris Education",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1324,8 +1324,8 @@
       {
         "title": "OPR CY18 UNKNOWN4",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1336,8 +1336,8 @@
       {
         "title": "Kusama-Infinity",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1348,8 +1348,8 @@
       {
         "title": "LGF CY18 UNKNOWN4",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1360,8 +1360,8 @@
       {
         "title": "The Children Act",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/61c5b483-2191-4ac7-96e2-4114d17783a7/images/e400e937-89c9-471e-ac6e-84b1d92e6680"
@@ -1399,8 +1399,8 @@
       {
         "title": "Canal Street",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1411,8 +1411,8 @@
       {
         "title": "Dragon Ball Z: Broly Legendary Super Sai",
         "publish_date": "2018-09-15T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1423,8 +1423,8 @@
       {
         "title": "Dragon Ball Z: Broly – The Legendary Super Saiyan",
         "publish_date": "2018-09-15T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/cefb5dc6-0227-40af-b44e-677a04abe885/images/53550b2b-0269-4989-bcc7-333825f635cb"
@@ -1462,8 +1462,8 @@
       {
         "title": "My Son (2018)",
         "publish_date": "2019-03-01T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1474,8 +1474,8 @@
       {
         "title": "Hal (2018)",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1486,8 +1486,8 @@
       {
         "title": "Digimon Adventure tri. 6: Future",
         "publish_date": "2018-09-20T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1498,8 +1498,8 @@
       {
         "title": "STX CY18 UNKNOWN3",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1510,8 +1510,8 @@
       {
         "title": "Rebel Without a Cause (1955) presented by TCM",
         "publish_date": "2018-09-23T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/b11daad0-86d5-4969-8890-6351498a14f0/images/f230c5a3-9f08-4dac-98bb-70adfe635281"
@@ -1549,8 +1549,8 @@
       {
         "title": "Better Angels",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/71bb142d-5fe3-472f-9f99-aab30d41e4cc/images/876598f4-c788-411c-8e83-c6f3108bae6a"
@@ -1588,8 +1588,8 @@
       {
         "title": "TCM: Rebel Without A Cause",
         "publish_date": "2018-09-23T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1600,8 +1600,8 @@
       {
         "title": "DIGIMON ADVENTURE tri.: Future",
         "publish_date": "2018-09-20T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ddd58afa-41c9-4e75-90d9-31eca699b443/images/3a371c28-96b6-4392-820a-aa8d29b2c7a4"
@@ -1639,8 +1639,8 @@
       {
         "title": "AN American In Paris - The Musical",
         "publish_date": "2018-09-20T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ae8cde40-da38-45de-8b74-86e13e88fe3b/images/150d870d-46d8-47df-96c0-1bd7d138096e"
@@ -1678,8 +1678,8 @@
       {
         "title": "RSC: The Merry Wives Of Windsor (2018)",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1690,8 +1690,8 @@
       {
         "title": "The Trump Prophecy",
         "publish_date": "2018-10-02T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f6ab6722-d7ff-4c70-ba62-16d77aadd05d/images/13b94f68-6568-4e9f-9c8b-c55b66bd4cdd"
@@ -1729,8 +1729,8 @@
       {
         "title": "My Neighbor Totoro – Studio Ghibli Fest 2018",
         "publish_date": "2018-09-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/32373ffe-1705-4698-8457-40a8eec6ac8d/images/713423b5-16be-45da-9a01-2f985a32b856"
@@ -1768,8 +1768,8 @@
       {
         "title": "A24 CY18 UNKNOWN4",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1780,8 +1780,8 @@
       {
         "title": "OPR CY18 UNKNOWN5",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1792,8 +1792,8 @@
       {
         "title": "More Than Funny: Everybody Has A Punchline",
         "publish_date": "2018-10-18T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f0aad1ed-0165-447a-9ba9-400a61ec5c06/images/f5e1f371-cf76-4aa9-aa72-4a59d1d974be"
@@ -1831,8 +1831,8 @@
       {
         "title": "More Than Funny: Everybody Has A Punchli",
         "publish_date": "2018-10-18T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1843,8 +1843,8 @@
       {
         "title": "The Guilty",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1855,8 +1855,8 @@
       {
         "title": "FCS CY18 UNKNOWN4",
         "publish_date": "2018-12-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1867,8 +1867,8 @@
       {
         "title": "APR CY18 UNKNOWN4",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -1879,8 +1879,8 @@
       {
         "title": "Mr. Smith Goes to Washington (1939) presented by TCM",
         "publish_date": "2018-10-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/179be9fa-38eb-42c3-8780-76d4203a370e/images/682475d1-e732-47ce-8fe4-a516f2805b40"
@@ -1918,8 +1918,8 @@
       {
         "title": "Slice",
         "publish_date": "2018-09-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/55404c68-58cc-49ae-a3ee-3a571195455e/images/f1b751ab-ccb1-421a-aa57-fffbc2c2c3d1"
@@ -1957,8 +1957,8 @@
       {
         "title": "Beautifully Broken",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/a6578af5-c1ec-4437-8f97-15ba8678fdb8/images/927e9680-ebf8-4abc-a749-73dca7417294"
@@ -1996,8 +1996,8 @@
       {
         "title": "Untitled Tyler Perry Movie",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2008,8 +2008,8 @@
       {
         "title": "Border",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2020,8 +2020,8 @@
       {
         "title": "AVI CY18 UNKNOWN4",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2032,8 +2032,8 @@
       {
         "title": "Spirited Away – Studio Ghibli Fest 2018",
         "publish_date": "2018-10-28T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2044,8 +2044,8 @@
       {
         "title": "A24 CY18 UNKNOWN5",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2056,8 +2056,8 @@
       {
         "title": "NT LIVE: FRANKENSTEIN Cumberbatch as Creature (2018 Encore)",
         "publish_date": "2018-10-22T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c58b38e3-16c6-49bf-9ac2-3777382eeb88/images/1a2a9c37-47b8-43aa-b9af-1f078d949f4a"
@@ -2095,8 +2095,8 @@
       {
         "title": "8675309JNY",
         "publish_date": "2018-10-31T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2107,8 +2107,8 @@
       {
         "title": "FCS CY18 UNKNOWN3",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2119,8 +2119,8 @@
       {
         "title": "BST CY18 UNKNOWN5",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2131,8 +2131,8 @@
       {
         "title": "TCM: Die Hard 30th Anniversary Event",
         "publish_date": "2018-11-11T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2143,8 +2143,8 @@
       {
         "title": "Die Hard 30th Anniversary (1988) presented by TCM",
         "publish_date": "2018-11-11T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/bb127edf-eb9e-46d6-b44f-4881d1a8a13d/images/ac9871af-9a7b-42f8-9e81-84f391ecdf96"
@@ -2182,8 +2182,8 @@
       {
         "title": "Mowgli",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/e1fa82a7-226d-41b6-865d-49c1679d6fd8/images/14fccbbc-0ddb-48a4-aa5e-48a498a1dcb8"
@@ -2221,8 +2221,8 @@
       {
         "title": "FSL CY18 UNKNOWN4",
         "publish_date": "2018-11-16T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2233,8 +2233,8 @@
       {
         "title": "Castle in the Sky – Studio Ghibli Fest 2018",
         "publish_date": "2018-11-18T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2245,8 +2245,8 @@
       {
         "title": "Castle In The Sky - Studio Ghibli (2018)",
         "publish_date": "2018-11-18T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2257,8 +2257,8 @@
       {
         "title": "Kedarnath",
         "publish_date": "2018-11-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/b5dd3893-1fcd-49fb-8151-92b3297ec63e/images/63645ef7-27a4-4711-8e11-bd18386256c3"
@@ -2296,8 +2296,8 @@
       {
         "title": "TWC CY18 UNKNOWN4",
         "publish_date": "2018-11-23T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2308,8 +2308,8 @@
       {
         "title": "STX CY18 UNKNOWN4",
         "publish_date": "2018-11-23T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2320,8 +2320,8 @@
       {
         "title": "Ralph Breaks The Internet: Wreck-It Ralp",
         "publish_date": "2018-11-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5f2f18a3-11b8-40ff-a350-8a5603084c3a/images/c3ef1cc3-7c95-4aec-8b50-3abaf249da14"
@@ -2359,8 +2359,8 @@
       {
         "title": "Untitled James Gunn Horror Movie",
         "publish_date": "2018-11-30T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2371,8 +2371,8 @@
       {
         "title": "Green Book",
         "publish_date": "2018-11-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ec4b3cde-bbad-429e-8475-6e8dc5178589/images/9c369296-371c-4c4f-990c-64a1fb005a0b"
@@ -2410,8 +2410,8 @@
       {
         "title": "A24 CY18 UNKNOWN6",
         "publish_date": "2018-11-30T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2422,8 +2422,8 @@
       {
         "title": "Student Of The Year 2",
         "publish_date": "2018-11-22T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5e7c87fb-9b36-418c-b468-52a3c002fce4/images/f909a853-f14d-4ef9-afc6-8e0ffba19187"
@@ -2461,8 +2461,8 @@
       {
         "title": "Capernaum",
         "publish_date": "2018-12-14T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2473,8 +2473,8 @@
       {
         "title": "Anna And The Apocalypse",
         "publish_date": "2018-11-30T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2485,8 +2485,8 @@
       {
         "title": "The Silence",
         "publish_date": "2018-12-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2497,8 +2497,8 @@
       {
         "title": "Course des tuques, La",
         "publish_date": "2018-12-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2509,8 +2509,8 @@
       {
         "title": "TCM: White Christmas",
         "publish_date": "2018-12-09T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2521,8 +2521,8 @@
       {
         "title": "FSL CY18 UNKNOWN5",
         "publish_date": "2018-12-14T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2533,8 +2533,8 @@
       {
         "title": "This One's For The Ladies",
         "publish_date": "2018-12-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/1634b110-6954-4427-b939-e2f0973b8d2a/images/7ae54d33-8bc7-4c7c-aad2-54e65ee48339"
@@ -2572,8 +2572,8 @@
       {
         "title": "Aravinda Sametha ... Veera Raghava",
         "publish_date": "2018-10-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2584,8 +2584,8 @@
       {
         "title": "Total Dhamaal",
         "publish_date": "2018-12-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2596,8 +2596,8 @@
       {
         "title": "Untitled Adam McKay",
         "publish_date": "2018-12-25T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2608,8 +2608,8 @@
       {
         "title": "Blood Fest",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/897c0383-0216-4daa-960d-eec718702431/images/f0aef595-efe7-4f44-abf7-b9db4e16236f"
@@ -2647,8 +2647,8 @@
       {
         "title": "LGF CY18 UNKNOWN6",
         "publish_date": "2018-12-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2659,8 +2659,8 @@
       {
         "title": "White Christmas (1954) presented by TCM",
         "publish_date": "2018-12-09T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/2da4455f-b2ce-440d-a1a2-fb039545887f/images/7edad4c4-2212-4980-bb29-0ea8aff55223"
@@ -2698,8 +2698,8 @@
       {
         "title": "MetLive: La Travaiata",
         "publish_date": "2018-12-15T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0abf7dc7-7709-41a5-9c4a-1cc3c829b313/images/1f7bef5d-1ae5-4672-9167-949b374b8c8d"
@@ -2737,8 +2737,8 @@
       {
         "title": "MetEn: La Travaiata Encore",
         "publish_date": "2018-12-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/1c8e3640-9e5d-40bb-9ef0-b1394c09e65c/images/71393da6-fb29-4ae4-b643-ad502f41080b"
@@ -2776,8 +2776,8 @@
       {
         "title": "Simmba",
         "publish_date": "2018-12-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5348574f-38cd-407e-84ff-b12ff6d91714/images/d026de97-1586-43c0-949a-6edecaa18cb3"
@@ -2815,8 +2815,8 @@
       {
         "title": "Cold War",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/9f765b21-fe7c-4a6b-b6f8-9fe3b386c6d0/images/8a923181-efbe-42f4-8764-a6e7b7dcddb7"
@@ -2854,8 +2854,8 @@
       {
         "title": "Bolshoi Ballet: The Nutcracker (2018)",
         "publish_date": "2018-12-23T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/945e460d-dd11-4a9d-b7ea-c4df06803eeb/images/c896b478-3a44-4e69-941d-06cb02626080"
@@ -2893,8 +2893,8 @@
       {
         "title": "BST CY18 UNKNOWN6",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2905,8 +2905,8 @@
       {
         "title": "APR CY18 UNKNOWN5",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2917,8 +2917,8 @@
       {
         "title": "Holmes & Watson",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2929,8 +2929,8 @@
       {
         "title": "TWC CY18 UNKNOWN5",
         "publish_date": "2018-12-25T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2941,8 +2941,8 @@
       {
         "title": "Dakuaan Da Munda",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -2953,8 +2953,8 @@
       {
         "title": "Boarding School",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/104e18cd-8435-4599-be7d-562860c9388f/images/255799e2-ac6c-4386-8a5c-caedcf4db612"
@@ -2992,8 +2992,8 @@
       {
         "title": "Warning Shot",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ddd87a2c-3794-4076-8cd1-4cb4efe4fdf7/images/bdf5f7b0-b798-4873-8623-b819c60652bb"
@@ -3031,8 +3031,8 @@
       {
         "title": "Transformer (2018)",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -3043,8 +3043,8 @@
       {
         "title": "Zero",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/8c1e9cbf-0422-4708-a47e-ecc2dc459080/images/8e8b5500-52eb-409b-af67-656f276719e0"
@@ -3082,8 +3082,8 @@
       {
         "title": "Smallfoot",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c883c23b-2a34-4d1f-8afb-2b3cf80db5f8/images/4fbce8ed-f8e1-4ce0-aa12-c2c6004316ab"
@@ -3121,8 +3121,8 @@
       {
         "title": "American Chaos",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/8feef99c-ebf1-4875-8660-a0ca39b96448/images/72680022-55be-4b0a-b44a-23c2b97ea208"
@@ -3160,8 +3160,8 @@
       {
         "title": "BuyBust",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/9c1047c2-f857-4523-a497-f4d6026182fb/images/ce75476f-6ada-4f31-a96a-e36f6a068b0e"
@@ -3199,8 +3199,8 @@
       {
         "title": "Yamla Pagla Deewana: Phir Se",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/03165703-4711-49c8-8164-0baad5bc3c06/images/11f2febe-8276-4f9e-8ad9-11a4eb0a0db0"
@@ -3238,8 +3238,8 @@
       {
         "title": "Mary Poppins Returns",
         "publish_date": "2018-12-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c7b88d46-a4c8-451e-bdb6-c1ceec8665ff/images/0ef34587-2f8f-4297-b21e-ff520cc51784"
@@ -3277,8 +3277,8 @@
       {
         "title": "Aquaman",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5cf3993e-0a3c-4122-a6db-4e5db038269b/images/0e32e467-5118-4a98-bf81-5e58e538e5c2"
@@ -3316,8 +3316,8 @@
       {
         "title": "BanG Dream! 5th Live Roselia Ewigkeit",
         "publish_date": "2018-09-16T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -3328,8 +3328,8 @@
       {
         "title": "5 Weddings",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ef4a8d41-653e-4080-a44d-98bc97afc264/images/f8fd13a5-c9de-42dc-8462-3c12036ff619"
@@ -3367,8 +3367,8 @@
       {
         "title": "A Prayer Before Dawn",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0b8e73e1-d71d-4f96-bd80-6661c1e48046/images/3656c2cb-e265-4450-b5f0-56e925e3519b"
@@ -3406,8 +3406,8 @@
       {
         "title": "Manmarziyan",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/09c70559-5964-4f41-a03f-aa0c68b70f3a/images/27642549-3f21-4db2-9476-add6eed5d85d"
@@ -3445,8 +3445,8 @@
       {
         "title": "Spider-Man: Into The Spider-Verse",
         "publish_date": "2018-12-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/350f0feb-96bf-44fa-8fa7-1a8e4bf34695/images/2e01d066-851d-42c5-b17d-91fe93a9236b"
@@ -3484,8 +3484,8 @@
       {
         "title": "Beyond The Sky",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f441be58-7d03-4285-9cee-be9babde0f47/images/e76698dd-ff87-4f84-9af8-e2418bf84afc"
@@ -3523,8 +3523,8 @@
       {
         "title": "Girls' Night Out: Crazy Rich Asians",
         "publish_date": "2018-08-08T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -3535,8 +3535,8 @@
       {
         "title": "AN L.A. Minute",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/b4a5b75c-b188-4873-81c4-304cb77e8539/images/3e85a47f-4dc4-411c-b081-e5d7828f9009"
@@ -3574,8 +3574,8 @@
       {
         "title": "The King And I: From London Palladium",
         "publish_date": "2018-11-29T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -3586,8 +3586,8 @@
       {
         "title": "City Of Lies",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0eec5757-3ceb-4b51-ba30-b7111899520c/images/01b671b8-d51b-4059-8616-c2a9a8997a7e"
@@ -3625,8 +3625,8 @@
       {
         "title": "Untitled STX Action/Thriller",
         "publish_date": "2019-01-25T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -3637,8 +3637,8 @@
       {
         "title": "The Spy Gone North",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/40ea8eef-4344-43de-a342-8ec66a9eb573/images/ff46edec-5030-427f-a88f-3f655e1f6f36"
@@ -3676,8 +3676,8 @@
       {
         "title": "Skate Kitchen",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c06a59d6-e8e5-4f73-a541-f659c39ef5cd/images/14368232-45af-46d3-86e7-ef7c266c1856"
@@ -3715,8 +3715,8 @@
       {
         "title": "BanG Dream! 5th Live HAPPY PARTY 2018!",
         "publish_date": "2018-09-08T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -3727,8 +3727,8 @@
       {
         "title": "The Legend Of Hallowaiian",
         "publish_date": "2018-10-18T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -3739,8 +3739,8 @@
       {
         "title": "Liyana",
         "publish_date": "2018-10-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -3751,8 +3751,8 @@
       {
         "title": "Big Brother",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5310939d-27a0-4411-b2c8-790223037fe7/images/e60a90f9-61f1-4617-9a1b-bf869bd25a61"
@@ -3790,8 +3790,8 @@
       {
         "title": "Marvel Studios 10th: Captain America: The Winter Soldier",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/22660191-f3c2-4ebe-8be9-dfb168415ed4/images/674fc062-3d05-440f-89de-060a4e0b2794"
@@ -3829,8 +3829,8 @@
       {
         "title": "Marvel Studios 10th: Black Panther",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/4e6a0cd9-2029-41bd-a11b-abefd82783ec/images/93ff483a-5e33-4ebb-928d-a324a25b4726"
@@ -3868,8 +3868,8 @@
       {
         "title": "Marvel Studios 10th: Iron Man",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/70534512-1599-4b0e-bf90-21d1059e6578/images/106a0687-8c72-4f60-a8cf-bbfa0e811a3f"
@@ -3907,8 +3907,8 @@
       {
         "title": "Translated",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -3919,8 +3919,8 @@
       {
         "title": "Laughing Under The Clouds: Gaiden 1 & 2",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -3931,8 +3931,8 @@
       {
         "title": "Marvel Studios 10th: Iron Man 2",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/50b865be-6835-4ecc-bec8-e7c1618be605/images/6207862e-a89c-455f-a491-7f8fdc39fcb0"
@@ -3970,8 +3970,8 @@
       {
         "title": "Marvel Studios 10th: Incredible Hulk, The",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0e4bce53-9b42-4bad-bfc5-dc25665dd798/images/9841ef30-7c56-40ba-9178-075b6afc2015"
@@ -4009,8 +4009,8 @@
       {
         "title": "Europe Raiders",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -4021,8 +4021,8 @@
       {
         "title": "Rampant",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -4033,8 +4033,8 @@
       {
         "title": "L Storm",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -4045,8 +4045,8 @@
       {
         "title": "Snow Queen 3: Fire and Ice",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f609e942-4d01-467e-977e-a5a325c70921/images/99368a13-a14d-4996-887d-e551e3732221"
@@ -4084,8 +4084,8 @@
       {
         "title": "Canelo vs. GGG 2",
         "publish_date": "2018-09-15T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/fc34b9a5-6f8c-4a85-a26a-179dcd84c864/images/5ee0d748-abdb-4cc5-851f-b37bbdcf2dcd"
@@ -4123,8 +4123,8 @@
       {
         "title": "Don’t Leave Home",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/13232c48-4ca4-43af-a26d-7db612ddfde3/images/9c5f4386-bb0a-45a6-a77e-b5937b3ffd38"
@@ -4162,8 +4162,8 @@
       {
         "title": "He's Out There",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/d70c14c5-d565-4d8d-bf2a-c0860c04c75d/images/86d080cc-e542-4fd5-a5f8-d685eb0f4b18"
@@ -4201,8 +4201,8 @@
       {
         "title": "Andrei Rublev (re: 2018)",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -4213,8 +4213,8 @@
       {
         "title": "Sailaja Reddy Alludu",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -4225,8 +4225,8 @@
       {
         "title": "Marvel Studios 10th: Thor: Ragnarok",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/86292aca-3cd1-499e-ba7e-5be819f7c721/images/da2f3649-89a9-43a5-94e7-55aed2e7d0ea"
@@ -4264,8 +4264,8 @@
       {
         "title": "Thugs of Hindostan",
         "publish_date": "2018-11-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ba436ae4-33ab-4882-986b-13f65f81673c/images/2c7e8c28-bc9d-492a-8dda-c62a3521c5b5"
@@ -4303,8 +4303,8 @@
       {
         "title": "Batman: Mask of the Phantasm 25th Anniversary",
         "publish_date": "2018-11-12T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/94d82a09-79b3-41c7-97fa-594bc3eae331/images/d8596d37-e3be-448e-8fac-82b778754d1f"
@@ -4342,8 +4342,8 @@
       {
         "title": "Alright Now",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -4354,8 +4354,8 @@
       {
         "title": "Another Time",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/7b5917e9-3535-4268-9fd2-a8cdbf282c51/images/041667a6-bf3f-4fe1-be8e-ce2666cd7188"
@@ -4393,8 +4393,8 @@
       {
         "title": "Cirque du Soleil in Cinema: KURIOS – Cabinet of Curiosities",
         "publish_date": "2018-11-13T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/05f5a3f2-c887-460e-b467-2d01a439599f/images/6ff22d5c-c00a-47a3-930f-514b743d9335"
@@ -4432,8 +4432,8 @@
       {
         "title": "Marvel Studios 10th: Thor",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f71b031f-eab5-4a67-994c-6072d3e82628/images/0e5d21c1-dd41-4512-8098-7ee84f93b59c"
@@ -4471,8 +4471,8 @@
       {
         "title": "Marvel Studios 10th: The Avengers",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/369894d6-b0ce-4920-b3ed-a847f0af93d3/images/98fdf35c-5ceb-408b-a1f0-85ad877df773"
@@ -4510,8 +4510,8 @@
       {
         "title": "Marvel Studios 10th: Spider-Man: Homecoming",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c4efcd2d-fa45-4764-91ad-c68c54224d5e/images/50a6c059-b8d5-409c-b822-afb18108e617"
@@ -4549,8 +4549,8 @@
       {
         "title": "Marvel Studios 10th: Iron Man 3",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/699f7c03-f402-45f5-b59b-5f47139070cf/images/325ffb0b-bc9f-4b5d-ad45-972cfc8005c4"
@@ -4588,8 +4588,8 @@
       {
         "title": "Marvel Studios 10th: Doctor Strange",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/11307c98-12d6-4cbc-bdfd-285e4ad8ec4d/images/1b6f1104-aba2-4fbb-8e19-520bc5d3e0c4"
@@ -4627,8 +4627,8 @@
       {
         "title": "Marvel Studios 10th: Captain America: The First Avenger",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/91420d31-f8b2-469a-b978-a4ce543e3689/images/0e8965f3-c14c-4dba-83d0-2801a09ae1ac"
@@ -4666,8 +4666,8 @@
       {
         "title": "Marvel Studios 10th: Avengers: Infinity War",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ccf44202-e1d2-404e-bc5a-7c4b40c199db/images/128cd910-dc2d-4e8f-9bf9-02b4bbdda4ea"
@@ -4705,8 +4705,8 @@
       {
         "title": "Buttons",
         "publish_date": "2018-12-08T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/657ff94a-fe85-480c-9c96-e83288d4b567/images/5fbce21e-c894-4ca3-a811-458f2bce988d"
@@ -4744,8 +4744,8 @@
       {
         "title": "Marvel Studios 10th: Guardians Of The Galaxy Vol. 2",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/25b05912-655e-448c-8184-67aa75dd639b/images/8a07f6e1-4a6d-4a52-8c25-d0c6db53a685"
@@ -4783,8 +4783,8 @@
       {
         "title": "Marvel Studios 10th: Guardians of the Galaxy",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/01110189-50ae-4f22-9cc9-2aee3ac6a913/images/d734ea7d-7ab3-47d6-846f-9021bc70e726"
@@ -4822,8 +4822,8 @@
       {
         "title": "Marvel Studios 10th: Captain America: Civil War",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c9814b14-28b2-4dc6-9389-e347b6c6ec36/images/c1711ba4-f401-4318-86aa-8d3313a9768b"
@@ -4861,8 +4861,8 @@
       {
         "title": "The Great Buster",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -4873,8 +4873,8 @@
       {
         "title": "Marvel Studios 10th: Avengers: Age of Ultron",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/3f5dc59d-49d2-41f3-a056-6571f250673d/images/a8503739-629f-4d17-9fb7-ac4fd6397daa"
@@ -4912,8 +4912,8 @@
       {
         "title": "Marvel Studios 10th: Ant-Man And The Wasp",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/7b9d6af2-d44e-4a5f-bfa1-40b34f83f305/images/7c3dbcf0-f440-4308-9a4a-6a4a3030d38b"
@@ -4951,8 +4951,8 @@
       {
         "title": "Marvel Studios 10th: Ant-Man",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/2830e0a8-4e3e-4a3e-abfc-c326ce07ce12/images/b459db27-7cca-4f64-88a1-73b2d5641848"
@@ -4990,8 +4990,8 @@
       {
         "title": "The Snow Queen 3: Fire And Ice",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5002,8 +5002,8 @@
       {
         "title": "Return Of The Hero",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5014,8 +5014,8 @@
       {
         "title": "Feliz Ano Tijuana",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/52f9ce2a-4653-4bb8-90ab-22ac2d475f5a/images/c3f57055-274c-4bf5-a495-21adab8ecc82"
@@ -5053,8 +5053,8 @@
       {
         "title": "Jurassic Park 25th Anniversary",
         "publish_date": "2018-09-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c0b92d88-9f25-48c7-893e-3b68a6ff7560/images/9360d749-9ef4-49a8-8e67-7318ec2a27e2"
@@ -5092,8 +5092,8 @@
       {
         "title": "Stage Russia: King Lear",
         "publish_date": "2018-09-20T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5104,8 +5104,8 @@
       {
         "title": "Perfect Blue (re: 2018)",
         "publish_date": "2018-09-06T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5116,8 +5116,8 @@
       {
         "title": "The Apparition",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5128,8 +5128,8 @@
       {
         "title": "Funny Girl - The Musical",
         "publish_date": "2018-10-24T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5140,8 +5140,8 @@
       {
         "title": "Tiger (2018)",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5152,8 +5152,8 @@
       {
         "title": "Burning",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5164,8 +5164,8 @@
       {
         "title": "The School Of Life",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5176,8 +5176,8 @@
       {
         "title": "Helicopter Eela",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/a414a127-0683-49a5-ae9f-5e626f769ba3/images/916598d2-3ccd-45ff-83bd-61bf65492ee7"
@@ -5215,8 +5215,8 @@
       {
         "title": "Disparition des lucioles, La",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5227,8 +5227,8 @@
       {
         "title": "Museo",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/cee32434-fe8f-4ecc-9019-cae08a1c8934/images/9973fec7-8f5b-4851-9468-38ef410b46fa"
@@ -5266,8 +5266,8 @@
       {
         "title": "BD: Amityville Double Feature",
         "publish_date": "2018-10-04T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5278,8 +5278,8 @@
       {
         "title": "BD: Sweet Sixteen + The Convent",
         "publish_date": "2018-10-11T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5290,8 +5290,8 @@
       {
         "title": "EOS: Degas Passion For Perfection",
         "publish_date": "2018-11-06T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5302,8 +5302,8 @@
       {
         "title": "MGC Presents: Red",
         "publish_date": "2018-11-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5314,8 +5314,8 @@
       {
         "title": "Stage Russia: Onegin",
         "publish_date": "2018-11-08T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5326,8 +5326,8 @@
       {
         "title": "Gosnell: Trail Of America's Biggest Seri",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5338,8 +5338,8 @@
       {
         "title": "Angel, El",
         "publish_date": "2018-11-09T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5350,8 +5350,8 @@
       {
         "title": "Backseat",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5362,8 +5362,8 @@
       {
         "title": "AN Interview With God",
         "publish_date": "2018-08-20T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/aac86c17-8f66-49bd-9b70-5c7080c4c73f/images/4ad00103-a925-494c-83b4-ad3b0513b160"
@@ -5401,8 +5401,8 @@
       {
         "title": "Untitled Warner Animated Film (5/25)",
         "publish_date": "2019-02-08T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5413,8 +5413,8 @@
       {
         "title": "Sonchiriya",
         "publish_date": "2019-02-08T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5425,8 +5425,8 @@
       {
         "title": "2019 Oscar Shorts",
         "publish_date": "2019-02-08T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5437,8 +5437,8 @@
       {
         "title": "Untitled Blumhouse Horror Project (2/14)",
         "publish_date": "2019-02-14T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5449,8 +5449,8 @@
       {
         "title": "Dark Phoenix",
         "publish_date": "2019-02-14T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5461,8 +5461,8 @@
       {
         "title": "Heart, Baby!",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5473,8 +5473,8 @@
       {
         "title": "Instant Family",
         "publish_date": "2018-11-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/51040942-a1fb-4192-87cc-53e96c9c2130/images/68b5f8f5-b132-47d0-9233-808ae2279c0f"
@@ -5512,8 +5512,8 @@
       {
         "title": "I Am Vengeance",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5524,8 +5524,8 @@
       {
         "title": "Shoplifters",
         "publish_date": "2018-11-23T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5536,8 +5536,8 @@
       {
         "title": "Untitled Project (12/4/18)",
         "publish_date": "2018-11-08T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5548,8 +5548,8 @@
       {
         "title": "Untitled Project (11/29/18)",
         "publish_date": "2018-11-29T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5560,8 +5560,8 @@
       {
         "title": "The Four Sisters",
         "publish_date": "2018-11-14T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5572,8 +5572,8 @@
       {
         "title": "Becoming Astrid",
         "publish_date": "2018-11-23T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5584,8 +5584,8 @@
       {
         "title": "Vox Lux",
         "publish_date": "2018-12-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/bf486edf-3345-42c1-8e7d-bb84cbeef0f9/images/2c1941b5-5cb5-4a47-9742-02e8a7fe2eac"
@@ -5623,8 +5623,8 @@
       {
         "title": "Bloodfest",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5635,8 +5635,8 @@
       {
         "title": "MET Opera: Carmen (2019)",
         "publish_date": "2019-02-02T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c4de53a3-061d-4ab3-a7de-d098c33d1fd1/images/59a5978a-dd77-4767-a445-e6e40682ed4c"
@@ -5674,8 +5674,8 @@
       {
         "title": "EOS: Young Picasso",
         "publish_date": "2019-02-05T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5686,8 +5686,8 @@
       {
         "title": "Heavy Trip",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5698,8 +5698,8 @@
       {
         "title": "The Image Book",
         "publish_date": "2019-01-25T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5710,8 +5710,8 @@
       {
         "title": "Jacob's Ladder",
         "publish_date": "2019-02-01T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5722,8 +5722,8 @@
       {
         "title": "Escape Room (dir. Robitel)",
         "publish_date": "2019-02-01T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5734,8 +5734,8 @@
       {
         "title": "Blaze",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/1dda5d3d-6b85-4276-8bf1-0fd1187e4258/images/5c0ffdb5-4aab-451e-a036-8fa5704c0475"
@@ -5773,8 +5773,8 @@
       {
         "title": "Stage Russia: Smile Upon Us, Lord",
         "publish_date": "2019-02-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -5785,8 +5785,8 @@
       {
         "title": "Little Women",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/618d0439-aca8-4e74-b0c9-b8210c1adea9/images/521f5dfe-913b-411e-986d-f2db1722e0c4"
@@ -5824,8 +5824,8 @@
       {
         "title": "The Sound of Music (1965) presented by TCM",
         "publish_date": "2018-09-09T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/887c6a2b-aade-4504-9d3d-a5a1331f91e8/images/6b6fb13f-33cd-4120-902c-6decf060788d"
@@ -5863,8 +5863,8 @@
       {
         "title": "MetLive: Die Walküre",
         "publish_date": "2019-03-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0655754e-1f0d-4931-9920-ad825d3ddfb0/images/52bf2a44-0d80-42b6-a794-d62407a7a55a"
@@ -5902,8 +5902,8 @@
       {
         "title": "The Oath",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/3ac2c017-7409-448b-ad44-12bb38794d3c/images/d8cfc536-4d67-4d5a-a7b7-fa29ca4eedea"
@@ -5941,8 +5941,8 @@
       {
         "title": "Wildlife",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/a56addd4-0ecd-4a47-b910-c896563a84ac/images/45842d4b-949f-4c1a-af2e-68fe83c61a8f"
@@ -5980,8 +5980,8 @@
       {
         "title": "Can You Ever Forgive Me?",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/122bf369-e40b-47c8-8387-ccea86673675/images/c7dbb394-8480-4d41-8db1-1cbfbebb7b88"
@@ -6019,8 +6019,8 @@
       {
         "title": "Boy Erased",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/686882ce-e5a5-41af-a933-2b479e974a2d/images/88d93200-045c-4b36-a131-469e9ce7e502"
@@ -6058,8 +6058,8 @@
       {
         "title": "Peterloo",
         "publish_date": "2018-11-09T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f16109d8-f939-424e-9a0f-6ab3ad9de689/images/38c411d9-9938-4af2-b23c-04860cf6eaa7"
@@ -6097,8 +6097,8 @@
       {
         "title": "Moynihan",
         "publish_date": "2018-10-03T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/23296992-eb97-401c-b976-de678f77a94a/images/342714bd-1c6b-496c-8db6-b32267b594cb"
@@ -6136,8 +6136,8 @@
       {
         "title": "NT Live: King Lear",
         "publish_date": "2018-09-27T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/9f3ec3a3-c466-403f-9d33-70fd745d63bb/images/71a9e950-2d26-4300-9209-1d1aefe7106b"
@@ -6175,8 +6175,8 @@
       {
         "title": "The Island (dir. Bo)",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6187,8 +6187,8 @@
       {
         "title": "Jonas Kaufmann: Under The Stars",
         "publish_date": "2018-09-01T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6199,8 +6199,8 @@
       {
         "title": "Merry Widow - Australian Ballet (2018)",
         "publish_date": "2018-09-19T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6211,8 +6211,8 @@
       {
         "title": "The Dawn Wall",
         "publish_date": "2018-09-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/23f27dab-10e7-4065-b749-049693f9a6f3/images/003b16e0-6199-4069-be66-505a05704c18"
@@ -6250,8 +6250,8 @@
       {
         "title": "Captive State",
         "publish_date": "2019-03-29T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/820df306-537a-40e6-b681-5d014c0be0f5/images/eec37312-e6ea-4586-8c9c-2cdbb0f61e7f"
@@ -6289,8 +6289,8 @@
       {
         "title": "An American In Paris",
         "publish_date": "2018-09-20T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6301,8 +6301,8 @@
       {
         "title": "Bigger",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c349ba3a-dec5-4a33-891c-88664e550b44/images/84e25c6a-a08c-43d6-984c-6bcae70999e0"
@@ -6340,8 +6340,8 @@
       {
         "title": "Small Group",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6352,8 +6352,8 @@
       {
         "title": "The Long Dumb Road",
         "publish_date": "2018-11-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/816b832a-2f75-43c3-8730-a90a49f8e42b/images/de49a790-c306-455a-8a27-6fb2f09acde8"
@@ -6391,8 +6391,8 @@
       {
         "title": "Mister I-Know-Everything",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6403,8 +6403,8 @@
       {
         "title": "Colette",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c315df41-a320-4cb6-89ca-ed6699efcf4b/images/02b24e55-00bb-4b1d-9e93-fd54a5dbf8c5"
@@ -6442,8 +6442,8 @@
       {
         "title": "Cruise",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/efc27569-7740-405a-a4a7-eb5096a5cb83/images/701c0e5f-afb0-44d3-93e9-991c59e69458"
@@ -6481,8 +6481,8 @@
       {
         "title": "Elizabeth Harvest",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/3490fc69-d332-4e13-b25e-476feacfb9dd/images/36f4f0d8-c2c3-4275-9c76-95eee3cc9299"
@@ -6520,8 +6520,8 @@
       {
         "title": "The White Orchid",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6532,8 +6532,8 @@
       {
         "title": "Twilight 10th Anniversary",
         "publish_date": "2018-10-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/72988e50-7d18-49e1-835b-f3fd41f928e8/images/7f74fc7b-8f50-4d8f-b47b-f27cc6d749f6"
@@ -6571,8 +6571,8 @@
       {
         "title": "Destroyer",
         "publish_date": "2018-12-25T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6583,8 +6583,8 @@
       {
         "title": "Louisiana Caviar",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/e63e4723-279b-4042-ac59-bb013c261519/images/569dfff2-db11-4409-ac5d-1c8f6c75d755"
@@ -6622,8 +6622,8 @@
       {
         "title": "Unloveable",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6634,8 +6634,8 @@
       {
         "title": "The Mule",
         "publish_date": "2018-12-14T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6646,8 +6646,8 @@
       {
         "title": "RWBY Volume 6 Premiere",
         "publish_date": "2018-10-25T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/05b8ce75-4d16-4992-a9db-b9c32575e92f/images/73207c22-9e49-4dbb-b77d-dc45a6b5e4c8"
@@ -6685,8 +6685,8 @@
       {
         "title": "Night of the Living Dead 50th Anniversary",
         "publish_date": "2018-10-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c2f6f594-46af-49ff-b094-93a2d9995c68/images/b0bb31aa-7676-43c1-92c1-5bcb041033a2"
@@ -6724,8 +6724,8 @@
       {
         "title": "Senso (re: 2018)",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6736,8 +6736,8 @@
       {
         "title": "Amazing Grace",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6748,8 +6748,8 @@
       {
         "title": "Jonathan",
         "publish_date": "2018-11-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/4fd69b8b-3167-4e99-a31e-a7368e3d9aea/images/48450873-1b24-413a-99ce-b3c9b0481176"
@@ -6787,8 +6787,8 @@
       {
         "title": "Girls' Night Out: Girl In The Spider's Web",
         "publish_date": "2018-11-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6799,8 +6799,8 @@
       {
         "title": "Hellboy",
         "publish_date": "2019-01-11T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/baf4f656-8de4-4f5f-8a32-624ca9658ded/images/7a2ba019-b8ad-498f-bf42-2957f4ecb6d4"
@@ -6838,8 +6838,8 @@
       {
         "title": "A Dog's Way Home",
         "publish_date": "2019-01-11T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6850,8 +6850,8 @@
       {
         "title": "Batman Mask Of The Phantasm",
         "publish_date": "2018-11-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6862,8 +6862,8 @@
       {
         "title": "Eli",
         "publish_date": "2019-01-04T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6874,8 +6874,8 @@
       {
         "title": "The Road Not Taken",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/aace63fa-372f-40a6-bc6b-f35b71c68399/images/1a85a142-11ad-480b-84d3-cdac22474edf"
@@ -6913,8 +6913,8 @@
       {
         "title": "Blood Brothers",
         "publish_date": "2018-11-30T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6925,8 +6925,8 @@
       {
         "title": "When You Read This Letter",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6937,8 +6937,8 @@
       {
         "title": "Turbo (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6949,8 +6949,8 @@
       {
         "title": "Trolls (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6961,8 +6961,8 @@
       {
         "title": "The Croods (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6973,8 +6973,8 @@
       {
         "title": "Shrek 2 (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6985,8 +6985,8 @@
       {
         "title": "Shrek (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -6997,8 +6997,8 @@
       {
         "title": "The Boss Baby (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7009,8 +7009,8 @@
       {
         "title": "Puss In Boots (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7021,8 +7021,8 @@
       {
         "title": "Penguins Of Madagascar (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7033,8 +7033,8 @@
       {
         "title": "Mr. Peabody And Sherman (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7045,8 +7045,8 @@
       {
         "title": "Madagascar 3: Europe's Most Wanted (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7057,8 +7057,8 @@
       {
         "title": "How To Train Your Dragon 2 (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7069,8 +7069,8 @@
       {
         "title": "How To Train Your Dragon (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7081,8 +7081,8 @@
       {
         "title": "Ek Ladki Ko Dekha Toh Aisa Laga",
         "publish_date": "2019-02-01T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/8004900d-3ebf-4be6-a203-596ed722141d/images/e18bfd09-f99f-4c81-a6a2-dcbf1a642871"
@@ -7120,8 +7120,8 @@
       {
         "title": "Madagascar Escape 2 Africa (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7132,8 +7132,8 @@
       {
         "title": "Madagascar (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7144,8 +7144,8 @@
       {
         "title": "Isn't It Romantic",
         "publish_date": "2019-02-14T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7156,8 +7156,8 @@
       {
         "title": "Home (2015) (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7168,8 +7168,8 @@
       {
         "title": "Goosebumps 2: Haunted Halloween",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0be8bc8e-b5d8-4f6e-bef6-d7616b008fde/images/bd12c151-9a6d-4d54-8763-b813782ae537"
@@ -7207,8 +7207,8 @@
       {
         "title": "El Dia de la Union",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7219,8 +7219,8 @@
       {
         "title": "Little Italy",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/88625b53-d6e8-4253-89d7-f6ffaef1824e/images/0f81996a-cc93-4c34-a550-0575fe317a51"
@@ -7258,8 +7258,8 @@
       {
         "title": "A Star Is Born",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/4661c4c9-74d9-42b3-b4aa-01f889f371dc/images/56d44957-3b56-4163-a0c2-06916b2cb589"
@@ -7297,8 +7297,8 @@
       {
         "title": "Golden Job",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/aff84cc9-aeb9-426e-a4d7-674c3405e6b0/images/867ef032-a19b-4e64-8720-112c2b456097"
@@ -7336,8 +7336,8 @@
       {
         "title": "Free Solo",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/2a0bb53d-29a9-4eb7-a4fd-c3f91e1e3b1f/images/cff5f945-6820-4590-ab1c-13b5401b6ebd"
@@ -7375,8 +7375,8 @@
       {
         "title": "Gold",
         "publish_date": "2018-08-15T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/d9d34db3-cb4f-4ca6-8954-9762151ca61f/images/1d520256-6c2c-4a5d-9b1d-13f56fbc4b4a"
@@ -7414,8 +7414,8 @@
       {
         "title": "Don't Go",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7426,8 +7426,8 @@
       {
         "title": "Realms",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7438,8 +7438,8 @@
       {
         "title": "Vanjagar Ulagam",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7450,8 +7450,8 @@
       {
         "title": "Nai Nabhannu La 5",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c843a25d-8709-4528-a4cf-8bd733b1fae8/images/49085c00-fbca-4081-8529-8b2b9f49026f"
@@ -7489,8 +7489,8 @@
       {
         "title": "The Church",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/2bf883aa-55e4-4ec6-9ee1-b75627f628e6/images/5e871ab3-6c29-48e2-aa88-9e5ed5572a1d"
@@ -7528,8 +7528,8 @@
       {
         "title": "C/o Kancharapalem",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7540,8 +7540,8 @@
       {
         "title": "3 Years In Pakistan: The Erik Aude Story",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7552,8 +7552,8 @@
       {
         "title": "Three Days Of Glory",
         "publish_date": "2018-10-02T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f5ed54cd-b082-43f4-8bdf-14d8f481e14d/images/dbe4ad12-2c02-42f4-beda-915dfaf146f7"
@@ -7591,8 +7591,8 @@
       {
         "title": "Flarsky",
         "publish_date": "2019-02-08T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7603,8 +7603,8 @@
       {
         "title": "Batti Gul Meter Chalu",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/797e26f0-8ed5-4246-a8f0-a79a84892e53/images/362d00eb-fbf7-4b2b-ac0e-6d5a13bbbda6"
@@ -7642,8 +7642,8 @@
       {
         "title": "Private Life (2018)",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7654,8 +7654,8 @@
       {
         "title": "The Kid Who Would Be King",
         "publish_date": "2019-03-01T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7666,8 +7666,8 @@
       {
         "title": "Miss Bala",
         "publish_date": "2019-01-25T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7678,8 +7678,8 @@
       {
         "title": "The Turning",
         "publish_date": "2019-02-22T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7690,8 +7690,8 @@
       {
         "title": "Five Feet Apart",
         "publish_date": "2019-03-22T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7702,8 +7702,8 @@
       {
         "title": "My Neighbor Totoro 30th An Studio Ghibli",
         "publish_date": "2018-09-30T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7714,8 +7714,8 @@
       {
         "title": "The Prodigy",
         "publish_date": "2019-02-08T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7726,8 +7726,8 @@
       {
         "title": "Sandeep aur Pinky Faraar",
         "publish_date": "2019-03-01T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7738,8 +7738,8 @@
       {
         "title": "Chasing The Win",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7750,8 +7750,8 @@
       {
         "title": "Asher",
         "publish_date": "2018-12-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7762,8 +7762,8 @@
       {
         "title": "An Evening with Beverly Luff Linn",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0127de07-4ed2-4917-a7ed-42ba5e3c1a40/images/196c5fa7-a514-488f-b261-1cf8ccab36c5"
@@ -7801,8 +7801,8 @@
       {
         "title": "The Super",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7813,8 +7813,8 @@
       {
         "title": "Yatra",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/daa59ee5-bdf5-4bb7-959b-acc6cdb12599/images/de79c5ff-592e-47fc-8be9-2fba68a9d3e1"
@@ -7852,8 +7852,8 @@
       {
         "title": "Special Showing: Rocky Horror Picture Show",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7864,8 +7864,8 @@
       {
         "title": "Au poste",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7876,8 +7876,8 @@
       {
         "title": "Hello Mrs. Money",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7888,8 +7888,8 @@
       {
         "title": "Ride",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/a145169c-b073-4771-bb05-1608ba057685/images/3fa7beb0-98fc-4796-b6ba-e409f0e8aa8e"
@@ -7927,8 +7927,8 @@
       {
         "title": "Midnight Oil 1984",
         "publish_date": "2018-08-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/11bbdfec-6e9f-4fae-b38d-a5cd7ab8f6e8/images/515b5aba-d31c-477b-af13-fc7b8b031974"
@@ -7966,8 +7966,8 @@
       {
         "title": "Andhadhun",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -7978,8 +7978,8 @@
       {
         "title": "Jawani Phir Nahi Ani 2",
         "publish_date": "2018-08-23T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0e0267d9-6255-42b0-a866-8e4a81653f2a/images/df88c2d3-55d2-4ce7-b405-bce6471e8c36"
@@ -8017,8 +8017,8 @@
       {
         "title": "The Bookshop",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/40bb8c75-5703-4b29-8c2f-aa23a7a85a3d/images/f8c8d00c-765a-4e43-bb46-8d1267e77257"
@@ -8056,8 +8056,8 @@
       {
         "title": "Parwaaz Hai Junoon",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ae46d1d6-b9bd-4a07-a4d0-19cd251f28c1/images/1ed3f92b-693b-458d-a902-674f58d0e5e9"
@@ -8095,8 +8095,8 @@
       {
         "title": "Load Wedding",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/b7fd1d4d-700d-4163-8ef6-c80600fa4b5f/images/acca62d7-b9c4-45b9-ab79-32642db65d9e"
@@ -8134,8 +8134,8 @@
       {
         "title": "Monumental",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/bd8ef88b-5063-4436-b829-71871074e6a6/images/5337c0a7-e481-4b8d-a770-c5b8af2b6234"
@@ -8173,8 +8173,8 @@
       {
         "title": "The Beach Bum",
         "publish_date": "2019-03-22T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/b0600e63-f653-4cd8-81ff-2621c0474e90/images/0c303b68-89dc-48f5-b3a3-67d0ac5022b3"
@@ -8212,8 +8212,8 @@
       {
         "title": "BD: The House On Sorority Row (1983)",
         "publish_date": "2018-09-27T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -8224,8 +8224,8 @@
       {
         "title": "Making the Five Heartbeats",
         "publish_date": "2018-08-27T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c72930ad-ee07-4b67-a10a-32e56f809c89/images/aecf1cf6-dcfe-4016-b5eb-15ed4eea64e0"
@@ -8263,8 +8263,8 @@
       {
         "title": "Nigerian Prince",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/e0934bb4-9f60-4c04-91e7-a9779dcdae0a/images/080a0edd-38ad-477e-b829-12528008bde1"
@@ -8302,8 +8302,8 @@
       {
         "title": "Stree",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/4fb7feaf-5b1b-4b90-b1d9-c5258dbe071e/images/f114fe5c-8d81-4720-8cd1-bfc25f636bd2"
@@ -8341,8 +8341,8 @@
       {
         "title": "Lila's Book",
         "publish_date": "2018-09-29T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -8353,8 +8353,8 @@
       {
         "title": "Above And Beyond: NASA's Journey To Tomo",
         "publish_date": "2018-09-29T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -8365,8 +8365,8 @@
       {
         "title": "Active Measures",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0a60e908-4c4f-4c47-a7af-9c3e59a540ab/images/ee987a3a-67a6-487e-a3ce-9b6a93c695c7"
@@ -8404,8 +8404,8 @@
       {
         "title": "Scaffolding",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/1f706f69-ffa9-4e63-ace0-8523a7e9cedc/images/b6078509-310f-4f2c-8843-16d26ddcfccf"
@@ -8443,8 +8443,8 @@
       {
         "title": "Final Score",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/063a98b0-bc8a-4ce9-b4f2-678706a2beaf/images/55c61c34-3aa9-452c-93a4-6c1add6bf376"
@@ -8482,8 +8482,8 @@
       {
         "title": "Soundtrack",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -8494,8 +8494,8 @@
       {
         "title": "The Metropolitan Opera: The Magic Flute Special Encore",
         "publish_date": "2018-12-01T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/751270ad-18b2-4037-8562-33dea7dd28dd/images/d52680b4-d8f1-4aac-b0a3-bbeba1717f12"
@@ -8533,8 +8533,8 @@
       {
         "title": "The Happy Prince",
         "publish_date": "2018-10-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/9a8fbeaa-5684-48f6-83ea-08795d35f591/images/8dafeb7b-bdaf-40f3-b17d-a533efb34975"
@@ -8572,8 +8572,8 @@
       {
         "title": "Dark Was The Night",
         "publish_date": "2018-11-30T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -8584,8 +8584,8 @@
       {
         "title": "Above and Beyond: NASA’s Journey to Tomorrow",
         "publish_date": "2018-09-29T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/35dc5243-a299-4249-b93e-056e805e4daa/images/c8b8a674-4faa-4b72-828c-65466ea62816"
@@ -8623,8 +8623,8 @@
       {
         "title": "Star Is Born Fan Event in Dolby",
         "publish_date": "2018-10-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -8635,8 +8635,8 @@
       {
         "title": "Stavisky (re: 2018)",
         "publish_date": "2018-10-03T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -8647,8 +8647,8 @@
       {
         "title": "Salvador Dali: In Search Of Immortality",
         "publish_date": "2018-10-03T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -8659,8 +8659,8 @@
       {
         "title": "At Eternity's Gate",
         "publish_date": "2018-11-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/4950531f-6e31-4444-80af-90f6793a6471/images/d97e593d-4a04-4747-bcb7-a0a62191aae2"
@@ -8698,8 +8698,8 @@
       {
         "title": "Pipeline (Play)",
         "publish_date": "2018-10-03T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -8710,8 +8710,8 @@
       {
         "title": "MET Opera: La Traviata (2018)",
         "publish_date": "2018-12-15T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/6ad91737-68c1-495c-ae62-056d50841db4/images/9c91efc4-a4bf-4554-b828-7e2dae9d9c4b"
@@ -8749,8 +8749,8 @@
       {
         "title": "Laila Majnu",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ca20c33e-f670-441b-896e-e189cf2954fd/images/e332ccbe-9b36-493d-8c34-84b4bcd9fc52"
@@ -8788,8 +8788,8 @@
       {
         "title": "The Witness",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/4a8608eb-dc96-4cc5-a9b0-b3c7b6bdb5f9/images/9185b440-a9ec-4591-9d75-08048e4c2e6e"
@@ -8827,8 +8827,8 @@
       {
         "title": "S.M.A.R.T. Chase",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/cdf189f7-140c-43e9-9af4-6818e9ffdef5/images/423e78bd-e4ca-458b-8797-1078aaf51f74"
@@ -8866,8 +8866,8 @@
       {
         "title": "A Crooked Somebody",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -8878,8 +8878,8 @@
       {
         "title": "Venom",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/b44afd41-6072-457d-be44-4b11f53979f1/images/a2731e3b-3a0a-42b9-90fa-92f940f9df0e"
@@ -8917,8 +8917,8 @@
       {
         "title": "Support The Girls",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c8466a61-7311-4c24-b660-9467356a050d/images/22ceb28d-3b26-439e-8641-ea00af74bb50"
@@ -8956,8 +8956,8 @@
       {
         "title": "Arizona",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/8888072e-d4ee-4371-9a8e-fba15f960d96/images/2e74f904-a13e-4772-aa1d-7fd524b6177b"
@@ -8995,8 +8995,8 @@
       {
         "title": "Intelligent Lives",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/529ec2a3-a641-4096-b7df-1bad71e53ad5/images/165e5b71-5654-4c83-8f04-768da28a5076"
@@ -9034,8 +9034,8 @@
       {
         "title": "The Advocates",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5ce981c5-49b4-43b5-bff8-a7bbcfdd68fa/images/113323b5-3946-407f-927f-007c40356e29"
@@ -9073,8 +9073,8 @@
       {
         "title": "Glass",
         "publish_date": "2019-01-18T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/8a2ce201-bddb-4865-94df-531cc5b41062/images/2aa1fd93-b0dc-4fbd-a26a-2ec9a74be2ad"
@@ -9112,8 +9112,8 @@
       {
         "title": "BEARS at PACKERS - NFL Sunday Nights",
         "publish_date": "2018-09-09T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9124,8 +9124,8 @@
       {
         "title": "Qismat",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9136,8 +9136,8 @@
       {
         "title": "PATRIOTS at JAGUARS - NFL Sunday Nights",
         "publish_date": "2018-09-16T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9148,8 +9148,8 @@
       {
         "title": "Yuri!!! on ICE Binge",
         "publish_date": "2018-10-13T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9160,8 +9160,8 @@
       {
         "title": "Harry Potter Marathon",
         "publish_date": "2018-09-30T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0d521d78-a77d-440f-8549-041eedfbc376/images/f559d47e-59eb-427b-be7b-11c78bf78bb2"
@@ -9199,8 +9199,8 @@
       {
         "title": "Maria By Callas",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9211,8 +9211,8 @@
       {
         "title": "1985",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/56ef8b7a-e888-4ebe-a391-7ba2bb0e57ac/images/76026a9d-456b-4259-87dc-19b16bda53b7"
@@ -9250,8 +9250,8 @@
       {
         "title": "Benched",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/925cf72a-e8c7-4024-b70e-6e87c4d5f681/images/fe794780-043d-423e-8178-e3a5ba336c81"
@@ -9289,8 +9289,8 @@
       {
         "title": "Distant Voices, Still Lives (re: 2018)",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9301,8 +9301,8 @@
       {
         "title": "Doctor Who: New Season Premiere",
         "publish_date": "2018-10-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/760bc88c-77e5-4d68-a6eb-fdceaab919f8/images/a1fec88f-0652-4566-8428-8d107391cad1"
@@ -9340,8 +9340,8 @@
       {
         "title": "Marvel Untitled (7/18)",
         "publish_date": "2019-03-08T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f28543c8-4335-484b-b824-c9892f9ff982/images/67552b18-a750-4fc6-90af-92a189b80282"
@@ -9379,8 +9379,8 @@
       {
         "title": "Tyrel",
         "publish_date": "2018-12-05T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/99542bcb-331b-43a9-b62f-e3dc793adcbf/images/a87a4da8-a998-4e9e-a1db-b7eb714d680a"
@@ -9418,8 +9418,8 @@
       {
         "title": "Feng Shui",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9430,8 +9430,8 @@
       {
         "title": "Becoming Burlesque",
         "publish_date": "2018-10-03T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9442,8 +9442,8 @@
       {
         "title": "Batti Gul Meter Chalu",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9454,8 +9454,8 @@
       {
         "title": "Devadas (2018)",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9466,8 +9466,8 @@
       {
         "title": "Baazaar",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/da750455-0aa1-4a77-a02c-767894c49dda/images/d8c023c9-0a04-4139-a5f9-b6fe6f247e03"
@@ -9505,8 +9505,8 @@
       {
         "title": "High Voltage",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9517,8 +9517,8 @@
       {
         "title": "I Think We're Alone Now",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/fa0357f9-60fc-4615-ac54-bc356abc7845/images/60990f39-90cb-43d7-9feb-34228d53f06f"
@@ -9556,8 +9556,8 @@
       {
         "title": "Big Kill",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/e9f64c23-04c9-4b53-805e-9c492f22aeef/images/b893ed69-e0ff-47df-a6c2-78f07d606855"
@@ -9595,8 +9595,8 @@
       {
         "title": "Dummycrats featuring Diamond and Silk",
         "publish_date": "2018-10-15T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9607,8 +9607,8 @@
       {
         "title": "Miss Granny",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0bc23a17-582f-4a1f-a15f-d64e42cf2733/images/2b3cf8ea-a65a-433e-912a-b1522eaab8a8"
@@ -9646,8 +9646,8 @@
       {
         "title": "Aravindha Sametha... Veera Raghava",
         "publish_date": "2018-10-11T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9658,8 +9658,8 @@
       {
         "title": "Mamma Mia! 10th Anniversary",
         "publish_date": "2018-11-04T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9670,8 +9670,8 @@
       {
         "title": "Pokémon the Movie: The Power of Us",
         "publish_date": "2018-11-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/4881c19b-d050-4353-a79c-43924d283ee9/images/434d77ce-5db5-4236-8a07-d98515aa6237"
@@ -9709,8 +9709,8 @@
       {
         "title": "Loving Pablo",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/384ed867-ecc9-4421-9422-d94d22e8f797/images/935eca92-f7c0-4cd4-bed0-e73c0a46a459"
@@ -9748,8 +9748,8 @@
       {
         "title": "Transformers",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9760,8 +9760,8 @@
       {
         "title": "Lez Bomb",
         "publish_date": "2018-11-09T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9772,8 +9772,8 @@
       {
         "title": "Rhythm Section",
         "publish_date": "2019-02-22T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9784,8 +9784,8 @@
       {
         "title": "Nartanashala",
         "publish_date": "2018-08-30T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9796,8 +9796,8 @@
       {
         "title": "Go Brother",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/e9deabac-accf-42ce-8ee8-1c11f65a9625/images/c4edf1d0-a231-4609-b661-b8f564c7c649"
@@ -9835,8 +9835,8 @@
       {
         "title": "Bad Times At The El Royale",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/beb86957-62a9-4a1e-baff-629692c872f1/images/17743945-3e21-4d89-a3ee-48fbc7db702b"
@@ -9874,8 +9874,8 @@
       {
         "title": "NT Live: King Lear (2018)",
         "publish_date": "2018-09-27T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9886,8 +9886,8 @@
       {
         "title": "TCM: The Sound Of Music",
         "publish_date": "2018-09-09T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9898,8 +9898,8 @@
       {
         "title": "Kolamavu Kokila",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9910,8 +9910,8 @@
       {
         "title": "BlacKkKlansman Advance Showing in Dolby",
         "publish_date": "2018-08-06T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9922,8 +9922,8 @@
       {
         "title": "Vishwaroop 2",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -9934,8 +9934,8 @@
       {
         "title": "The Basement",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/11d53890-9f27-463f-84db-0f293c8d12d6/images/25bd7be4-dce3-4340-b396-e817e8b44981"
@@ -9973,8 +9973,8 @@
       {
         "title": "Over the Limit",
         "publish_date": "2018-10-03T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/92bf1102-f570-46e9-9060-365e2c307920/images/ce97d561-241f-4fc3-b035-5da7d8515d82"
@@ -10012,8 +10012,8 @@
       {
         "title": "Jason Mraz: Have It All The Movie",
         "publish_date": "2018-08-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -10024,8 +10024,8 @@
       {
         "title": "iPartment",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5a7cb4db-cbef-4929-a26a-03a93a2db4a0/images/c21d90c1-0ab0-42c6-b923-7e7ad1a42291"
@@ -10063,8 +10063,8 @@
       {
         "title": "Satyameva Jayate",
         "publish_date": "2018-08-15T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -10075,8 +10075,8 @@
       {
         "title": "MET Opera: Aida (2018)",
         "publish_date": "2018-10-06T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/1ad90768-4af1-4c3d-a600-1c94b849419f/images/110dd3f4-45b1-457b-86ca-5e9b727136f6"
@@ -10114,8 +10114,8 @@
       {
         "title": "Perfect Blue",
         "publish_date": "2018-09-06T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ca9a7e23-6a67-42a4-90c2-c3ce21e5509f/images/467a4e39-269e-4146-b37b-7bc8549e81fe"
@@ -10153,8 +10153,8 @@
       {
         "title": "Narcissister Organ Player",
         "publish_date": "2018-11-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -10165,8 +10165,8 @@
       {
         "title": "MetEn: Adriana Lecouvreur Encore",
         "publish_date": "2019-01-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/3cba023c-925c-4028-8cb1-a7f9c00d0848/images/65a679ee-ad14-455c-83b7-466ef182af43"
@@ -10204,8 +10204,8 @@
       {
         "title": "Madeline's Madeline",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/cf64a48e-6eb6-484c-931b-3e0d7e5b9470/images/9048b0b8-dd8a-402b-b4de-8d0efe80528c"
@@ -10243,8 +10243,8 @@
       {
         "title": "Hunter Killer",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/10d42ffb-ce76-483e-8ae7-9118825af08e/images/2a5c07b0-e883-45fd-93cd-54958af97a7e"
@@ -10282,8 +10282,8 @@
       {
         "title": "MET Opera: Marnie (2018)",
         "publish_date": "2018-11-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -10294,8 +10294,8 @@
       {
         "title": "Mar Gaye Oye Loko",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/3ac0358f-5f88-4fdc-8e7e-b46e56785ec7/images/dc536845-c291-4d36-88ae-a7019531d652"
@@ -10333,8 +10333,8 @@
       {
         "title": "DCI 2018: Big, Loud & Live 15",
         "publish_date": "2018-08-09T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/8631c47f-d670-41fa-afa1-f52881ab7f15/images/3ea033b9-c281-4c6f-b672-f1a39e1829e5"
@@ -10372,8 +10372,8 @@
       {
         "title": "Mara",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/b7d34d92-ffcf-4125-9e56-7b9d5173e8fa/images/bb4fa825-96a1-4d9e-a777-2c488bdc547e"
@@ -10411,8 +10411,8 @@
       {
         "title": "Ya Veremos",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/8e24b8af-5439-48f0-8e88-e7cd471e7f3e/images/2dae49ba-b121-4246-8f24-0d7f38290f02"
@@ -10450,8 +10450,8 @@
       {
         "title": "A Private War",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/455dd914-ffd8-49bc-8828-b0380046178b/images/ef5dced9-286f-4c44-91ef-a125069982c5"
@@ -10489,8 +10489,8 @@
       {
         "title": "Destination Wedding",
         "publish_date": "2018-08-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/6d1fb8c6-2379-4979-bfaf-00211b1282f6/images/91c830ff-343f-4c8a-8389-2f97b883a1b7"
@@ -10528,8 +10528,8 @@
       {
         "title": "The Song Of Sway Lake",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/027f6693-dd5b-4b47-a474-9a1cc8e886fa/images/cfc337d9-939c-42ba-9a43-1e595ae4c3b7"
@@ -10567,8 +10567,8 @@
       {
         "title": "Garry Winogrand: All Things Are Photogra",
         "publish_date": "2018-09-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/02b2be6f-f56f-4776-ac94-4b2096860861/images/52baed6c-950d-4037-a577-41fd313b4eb7"
@@ -10606,8 +10606,8 @@
       {
         "title": "Love, Gilda",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5ba3b088-3479-4394-9bf4-fd87bf3aea9b/images/84dd3286-7e12-4f5f-ada5-1aa6ed035097"
@@ -10645,8 +10645,8 @@
       {
         "title": "Saamy 2",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/21319a8a-aa2f-46f3-9c67-e54d60c57af5/images/648344c6-ace2-4db7-b312-24703fca7c72"
@@ -10684,8 +10684,8 @@
       {
         "title": "Widows",
         "publish_date": "2018-11-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/3ed2fde2-4a59-4f23-a8c3-4debde1228ea/images/a2973de2-dcd8-4a9e-a17a-3025b776ba44"
@@ -10723,8 +10723,8 @@
       {
         "title": "Bumblebee",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/2439d563-a7a4-41df-82fb-d9d4eeb59c7a/images/a4809181-ebb3-49ab-9c98-fb032f423b7a"
@@ -10762,8 +10762,8 @@
       {
         "title": "MetEn: Aida Encore",
         "publish_date": "2018-10-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/724e7173-1b85-4b30-9df4-51780f867c92/images/6f4ad7d9-2c5e-4274-a48f-1a12bddd49b1"
@@ -10801,8 +10801,8 @@
       {
         "title": "Sharkwater: Extinction",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/7827bb4d-fb6f-4f9c-93d4-2914a39cd14b/images/1bef9521-93e0-4b02-8f7e-ce6e3f204c9f"
@@ -10840,8 +10840,8 @@
       {
         "title": "Solis",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/d89fd65a-ade8-46d5-a1f1-a59dbfb0ec6d/images/60bc2d97-7a3d-4be2-8c5a-44c98caf1c68"
@@ -10879,8 +10879,8 @@
       {
         "title": "Searching for Ingmar Bergman",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/bedb3e7e-4b52-422c-80a5-03d50157c0c0/images/44587be4-ca3b-4f13-8515-76269d76290e"
@@ -10918,8 +10918,8 @@
       {
         "title": "Welcome To Mercy",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -10930,8 +10930,8 @@
       {
         "title": "A Simple Favor",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/663d6a51-4db4-4657-bdd2-dbfd4ac591d6/images/dbaaebab-c25c-475f-a53e-b7cc36904b46"
@@ -10969,8 +10969,8 @@
       {
         "title": "A Cool Fish",
         "publish_date": "2018-11-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/19a36a7b-9d70-439c-9c42-7bb4a15ab19e/images/4955236a-c73c-48d1-9930-2c11276377af"
@@ -11008,8 +11008,8 @@
       {
         "title": "In Harm's Way",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11020,8 +11020,8 @@
       {
         "title": "MFKZ",
         "publish_date": "2018-10-11T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11032,8 +11032,8 @@
       {
         "title": "Sadie (2018)",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11044,8 +11044,8 @@
       {
         "title": "Yuri!!! On ICE Series Marathon",
         "publish_date": "2018-10-13T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11056,8 +11056,8 @@
       {
         "title": "The Wife",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/8898947a-1bd6-4977-9b40-c4dac7323954/images/91b8102e-0787-491f-bf6b-6a7d130e0c2d"
@@ -11095,8 +11095,8 @@
       {
         "title": "Assassination Nation",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/af72e9bf-27ac-481c-af37-5ec4b2132c2d/images/a30aaf70-e001-4148-af25-4f0e9e1001a4"
@@ -11134,8 +11134,8 @@
       {
         "title": "Son of Manjeet Singh",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11146,8 +11146,8 @@
       {
         "title": "TCM: Mr. Smith Goes To Washington",
         "publish_date": "2018-10-14T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11158,8 +11158,8 @@
       {
         "title": "A Tous ceux qui ne me lisent pas",
         "publish_date": "2018-11-23T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11170,8 +11170,8 @@
       {
         "title": "Stella's Last Weekend",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/985bcd18-004e-4b28-bc2d-ec1fde1732d4/images/ce70fb72-3980-4b93-bca1-1715fd61a3b9"
@@ -11209,8 +11209,8 @@
       {
         "title": "Ruben Brandt, Collector",
         "publish_date": "2018-12-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11221,8 +11221,8 @@
       {
         "title": "On Her Shoulders",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/a93e5f0f-0d5c-4805-991e-e019b5bbba29/images/ecc8723f-e234-4d69-aaf5-28bd5157a46b"
@@ -11260,8 +11260,8 @@
       {
         "title": "Alita: Battle Angel",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0bd0708d-892d-4ba4-9bdb-b2774ba6843e/images/a8780e91-57a1-47eb-a75c-cbe4d5156ad0"
@@ -11299,8 +11299,8 @@
       {
         "title": "The New Romantic",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/25bb7571-e96d-4346-8542-3e95f93a6f1e/images/82501473-f604-4d63-bdc8-9c82a08561f6"
@@ -11338,8 +11338,8 @@
       {
         "title": "The Clovehitch Killer",
         "publish_date": "2018-11-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/cc07e3d0-b255-4d96-bbca-2dfac3140dca/images/81e3cd72-002e-4871-8f0c-c5a69addd9d1"
@@ -11377,8 +11377,8 @@
       {
         "title": "MET Opera: Samson Et Dalila (2018)",
         "publish_date": "2018-10-20T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11389,8 +11389,8 @@
       {
         "title": "Bullitt 50th Anniversary",
         "publish_date": "2018-10-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/707f9dd6-28be-41f8-ae88-d0d69ac6c4bd/images/7015f0a8-b441-4885-b0f8-6dbbd14d4efd"
@@ -11428,8 +11428,8 @@
       {
         "title": "Touch Me Not",
         "publish_date": "2019-01-11T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11440,8 +11440,8 @@
       {
         "title": "Malek",
         "publish_date": "2019-01-18T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11452,8 +11452,8 @@
       {
         "title": "Bolshoi Ballet: The Sleeping Beauty (2019)",
         "publish_date": "2019-03-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11464,8 +11464,8 @@
       {
         "title": "Bolshoi Ballet: Sleeping Beauty (2019)",
         "publish_date": "2019-03-10T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11476,8 +11476,8 @@
       {
         "title": "What They Had",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c48837a2-2aff-4ee0-b965-ceae81c0ce7a/images/d0536c73-69a8-44a6-8553-733d16964af4"
@@ -11515,8 +11515,8 @@
       {
         "title": "MFKZ",
         "publish_date": "2018-10-11T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/8a8d1ee9-63cf-4c4f-9e6f-c3739e2272bb/images/7ef3887e-3aef-4a4a-b0a1-5f12ea97b24a"
@@ -11554,8 +11554,8 @@
       {
         "title": "Paltan",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f97527ec-bf71-4e8b-b9ca-602e0829c395/images/f4e12561-a01a-4153-9431-92e4c7e2fbff"
@@ -11593,8 +11593,8 @@
       {
         "title": "Here and Now",
         "publish_date": "2018-11-09T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11605,8 +11605,8 @@
       {
         "title": "Revenge Is A Promise",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/99bcdbe3-8689-4fe6-8059-b9def4843d4b/images/807284dd-fe9b-4d61-826a-ad65128e5f54"
@@ -11644,8 +11644,8 @@
       {
         "title": "Badhaai Ho",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/13ef7762-3393-41fe-8cae-d6a791cc95db/images/f06af483-dc25-4f35-be2c-46484b21f3ca"
@@ -11683,8 +11683,8 @@
       {
         "title": "NT Live Encore: Frankenstein (2018)",
         "publish_date": "2018-10-22T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11695,8 +11695,8 @@
       {
         "title": "MET Opera: La Fanciulla Del West (2018)",
         "publish_date": "2018-10-27T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11707,8 +11707,8 @@
       {
         "title": "MetEn: Samson et Dalila Encore",
         "publish_date": "2018-10-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/31bde52a-049c-4e2c-a664-f03b7f0aa58d/images/3d820a1f-0db8-4337-98a2-066fdf3611c2"
@@ -11746,8 +11746,8 @@
       {
         "title": "Bullitt County",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11758,8 +11758,8 @@
       {
         "title": "Spirited Away - Studio Ghibli (2018)",
         "publish_date": "2018-10-28T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11770,8 +11770,8 @@
       {
         "title": "MetEn: La Fanciulla del West Encore",
         "publish_date": "2018-10-31T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0d9bc418-fe0a-4a50-a0ed-834eb1ef9309/images/55ca663d-485f-4cc3-b9fe-0a064f5ecf46"
@@ -11809,8 +11809,8 @@
       {
         "title": "Namaste England",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f1165d39-8b84-406c-9990-5078493ca194/images/39eff797-062a-4d39-b791-c54998f47da1"
@@ -11848,8 +11848,8 @@
       {
         "title": "The Predator",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/d84186e3-b770-4eea-9523-a765414b56c3/images/337e0719-f4ef-419a-94da-a9861d5897ef"
@@ -11887,8 +11887,8 @@
       {
         "title": "Life Itself",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/69b85bab-fc96-41a5-ad7d-c799181790f3/images/3aa98c0e-e70e-4e67-9f3f-dfbc4306a4ae"
@@ -11926,8 +11926,8 @@
       {
         "title": "Searching",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/a54399db-0744-49ea-b413-edb9c56e83c3/images/74934272-a2b8-49bd-be11-2e3c7fc3379d"
@@ -11965,8 +11965,8 @@
       {
         "title": "Monsters vs. Aliens (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11977,8 +11977,8 @@
       {
         "title": "Bee Movie (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -11989,8 +11989,8 @@
       {
         "title": "The Happytime Murders",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/d23c1db7-5b11-4313-b222-87e81bfcbf38/images/d7b3e2dd-3f63-41eb-b6bc-354c9b4be8a0"
@@ -12028,8 +12028,8 @@
       {
         "title": "The House With A Clock In Its Walls",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/097b23e2-55f5-4921-adfb-7f715588ab34/images/6690c29c-a347-4bc1-998b-4c4ee1a59b3d"
@@ -12067,8 +12067,8 @@
       {
         "title": "Peppermint",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/e3363f3a-baea-400a-a604-4f37583109b6/images/2466b2be-e7fa-48d2-8bfa-3bbf8c6d7a4c"
@@ -12106,8 +12106,8 @@
       {
         "title": "Night School",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f94d5883-b7ca-4941-a7ec-fc54c6556de0/images/fddc258f-ae60-417a-ac1f-6476afd7c637"
@@ -12145,8 +12145,8 @@
       {
         "title": "Indivisible",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/13ad9c54-8edf-4437-892d-6d81947ecc17/images/617645c0-8a8a-451b-b2b8-0622f4217886"
@@ -12184,8 +12184,8 @@
       {
         "title": "Creed II",
         "publish_date": "2018-11-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/e058c745-0742-491c-bf89-7cbfecd082c8/images/de5707de-141b-4e4e-942f-60b9fbe29d41"
@@ -12223,8 +12223,8 @@
       {
         "title": "The Favourite",
         "publish_date": "2018-11-23T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/cab30b8d-14a1-48f4-928f-8871767a1de8/images/fda61791-ab30-42ff-8cb6-bf2e4028f956"
@@ -12262,8 +12262,8 @@
       {
         "title": "Mary Queen Of Scots",
         "publish_date": "2018-12-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/48bdd078-b8e6-47df-ba7b-5a6ffc92a2a9/images/04f1308c-1424-464e-a3d2-d27a126d3213"
@@ -12301,8 +12301,8 @@
       {
         "title": "The Healer",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12313,8 +12313,8 @@
       {
         "title": "Patient Zero",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/9f53a364-3e8f-41f0-a51e-f00f9ee3adf1/images/4a336095-26ff-4fc6-aa24-a62dee6d176b"
@@ -12352,8 +12352,8 @@
       {
         "title": "Time Freak",
         "publish_date": "2018-11-09T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12364,8 +12364,8 @@
       {
         "title": "Speed Kills",
         "publish_date": "2018-11-09T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f5dbb556-2cf4-4005-b861-3ec3be473dc2/images/7a5b10e3-f64a-4d36-a380-5dff3004a024"
@@ -12403,8 +12403,8 @@
       {
         "title": "The Samuel Project",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5bc49b1d-8dac-4f87-baf7-39228e5a08ea/images/bbe42731-5a64-46a3-bdf3-654591451eaf"
@@ -12442,8 +12442,8 @@
       {
         "title": "Shrek The Third (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12454,8 +12454,8 @@
       {
         "title": "Shark Tale (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12466,8 +12466,8 @@
       {
         "title": "Flushed Away (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12478,8 +12478,8 @@
       {
         "title": "Overlord",
         "publish_date": "2018-11-09T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/573316da-3bb5-4293-85ff-64eeaa905055/images/dd6c1bb4-c2aa-4bff-9191-e362e46a895b"
@@ -12517,8 +12517,8 @@
       {
         "title": "The Wallace & Gromit Movie (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12529,8 +12529,8 @@
       {
         "title": "Bolshoi Ballet: La Sylphide (2018)",
         "publish_date": "2018-11-11T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/3ad7b4c1-29ed-4b35-88f7-45b3e2b61951/images/8b299d26-d07d-49b4-a3c4-46a8777b916c"
@@ -12568,8 +12568,8 @@
       {
         "title": "UTurn (2018)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12580,8 +12580,8 @@
       {
         "title": "Rise Of The Guardians (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12592,8 +12592,8 @@
       {
         "title": "Kung Fu Panda 2 (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12604,8 +12604,8 @@
       {
         "title": "Dead in a Week",
         "publish_date": "2018-11-30T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12616,8 +12616,8 @@
       {
         "title": "Bad Reputation",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/181f4329-318d-43f5-9874-ccb7f485de47/images/4896dc22-f9e6-4e4e-8634-59d956d55031"
@@ -12655,8 +12655,8 @@
       {
         "title": "Fantastic Beasts: Crimes Of Grindelwald",
         "publish_date": "2018-11-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/032205e7-3463-412e-9de7-58e94427a3c1/images/1ef7152f-e05e-48dc-938e-f1df1e4e4587"
@@ -12694,8 +12694,8 @@
       {
         "title": "What Men Want",
         "publish_date": "2019-02-08T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/3f136ff1-2b4d-41e0-955d-faaeb1e436e2/images/45e6fee4-1e14-4378-bb12-c630a545379e"
@@ -12733,8 +12733,8 @@
       {
         "title": "Shine",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/65f739e3-38c3-4cdd-a19d-3fca7d439c4a/images/7e498332-da42-42aa-8ede-f6aea7148517"
@@ -12772,8 +12772,8 @@
       {
         "title": "Viper Club",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f9e1f1e4-ac5b-4aa6-86e4-eeed63cabd60/images/e5b1937e-d7c8-466c-8147-20e9484faa1e"
@@ -12811,8 +12811,8 @@
       {
         "title": "Monster Party",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12823,8 +12823,8 @@
       {
         "title": "Restoring Tomorrow (Event)",
         "publish_date": "2018-11-13T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12835,8 +12835,8 @@
       {
         "title": "Manu",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/2075a124-a994-4bae-bc13-2c0d359df3b0/images/91d253de-3963-449b-975b-cb6b7dc65196"
@@ -12874,8 +12874,8 @@
       {
         "title": "Asbury Park: Riot Redemption Rock 'n Rol",
         "publish_date": "2018-11-28T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12886,8 +12886,8 @@
       {
         "title": "To Dust",
         "publish_date": "2019-02-01T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12898,8 +12898,8 @@
       {
         "title": "Over The Hedge (UNI)",
         "publish_date": "2018-09-12T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12910,8 +12910,8 @@
       {
         "title": "MDMA",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/a13f7c37-bb72-4077-a442-971fc4457632/images/c220d8ef-5855-4777-985d-f869b6d3425c"
@@ -12949,8 +12949,8 @@
       {
         "title": "The Favorite",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -12961,8 +12961,8 @@
       {
         "title": "On the Basis of Sex",
         "publish_date": "2018-12-25T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/83ec9aac-6535-44d3-9535-a1bae3e13a54/images/983ecd19-bca7-41a4-b654-eef2ce23cc06"
@@ -13000,8 +13000,8 @@
       {
         "title": "The Nun",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/00429bd7-13f8-4891-8775-22cae1ac4016/images/3b5e4b22-14d1-4733-b61a-78129c85dec3"
@@ -13039,8 +13039,8 @@
       {
         "title": "Alpha",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/dfc86e3c-1594-4bb5-afff-591300d073c2/images/682c0de5-b130-4622-ae12-2bc575d0e569"
@@ -13078,8 +13078,8 @@
       {
         "title": "96 (2018)",
         "publish_date": "2018-09-07T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -13090,8 +13090,8 @@
       {
         "title": "The Padre",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ea9648c4-c9ec-479b-9d44-251fd8fb058b/images/d214623a-035c-4256-9e80-c3cc621297fb"
@@ -13129,8 +13129,8 @@
       {
         "title": "Mile 22",
         "publish_date": "2018-08-17T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5175fcd7-f74e-4c1a-9f60-bfca99a93259/images/785cffe5-ed55-419f-b00e-277fa074c0ad"
@@ -13168,8 +13168,8 @@
       {
         "title": "Slender Man",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/e550f297-e73c-488d-9229-c963a6dce2e3/images/a9b01865-bf6a-46e3-96a1-b7617714c412"
@@ -13207,8 +13207,8 @@
       {
         "title": "Summer '03",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/2b2c056f-21d3-4291-a3b9-b5069e24d898/images/20ee89c5-f5c4-41db-9c79-b1e3f0c8bd6f"
@@ -13246,8 +13246,8 @@
       {
         "title": "Belle And Sebastian, Friends For Life",
         "publish_date": "2019-01-25T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -13258,8 +13258,8 @@
       {
         "title": "The Negotiation",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -13270,8 +13270,8 @@
       {
         "title": "The Sisters Brothers",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/2a9f7280-d88d-49eb-9db1-95dd00363a9c/images/9ea156d2-d33a-47ef-80d5-4d5618b4ad78"
@@ -13309,8 +13309,8 @@
       {
         "title": "MetLive: Aida",
         "publish_date": "2018-10-06T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/babf7b68-5c76-487a-b916-0a70ae12f809/images/287ad096-8182-48d0-8a08-e53a8ceacaff"
@@ -13348,8 +13348,8 @@
       {
         "title": "Galveston",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/9ec7e657-e317-49ef-9b84-8c9021ac2788/images/02c7072b-0696-4800-a917-721d27eaedcf"
@@ -13387,8 +13387,8 @@
       {
         "title": "The Heiresses (Las Herederas)",
         "publish_date": "2019-01-16T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -13399,8 +13399,8 @@
       {
         "title": "MET Opera: La Fille Du Regiment (2019)",
         "publish_date": "2019-03-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -13411,8 +13411,8 @@
       {
         "title": "Uri",
         "publish_date": "2019-01-11T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -13423,8 +13423,8 @@
       {
         "title": "Serenity",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/cf0adb50-0c3b-4f86-b871-cffaa334cfbd/images/0966e368-867a-4644-a31b-ae03314f31ee"
@@ -13462,8 +13462,8 @@
       {
         "title": "Dragon Ball Z Super: Broly",
         "publish_date": "2019-01-16T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -13474,8 +13474,8 @@
       {
         "title": "Bohemian Rhapsody",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/922996b7-2495-4e9b-a803-6a6e65834e6d/images/43c0a588-667c-4162-8d35-fb7a6c646201"
@@ -13513,8 +13513,8 @@
       {
         "title": "BlacKkKlansman",
         "publish_date": "2018-08-10T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/8b028745-b086-4c1a-bade-6f08cbc87c13/images/d3ff4ddd-b6ab-4ea7-838a-41216d8ccb0f"
@@ -13552,8 +13552,8 @@
       {
         "title": "Where Hands Touch",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/557ee6c3-4780-4157-b583-36cb458e9edd/images/70cbbfff-8e7a-4d80-aca2-d223728f45a6"
@@ -13591,8 +13591,8 @@
       {
         "title": "The Last Race",
         "publish_date": "2018-11-16T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/c6b884e2-edec-4503-bcfc-b818336915ce/images/b9eeae34-6396-41b0-b8da-80dfabe8dcdb"
@@ -13630,8 +13630,8 @@
       {
         "title": "Superman 40th Anniversary",
         "publish_date": "2018-11-25T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/73055f2b-5444-4cac-8219-9de05b48a757/images/7538f808-df09-445d-9dc5-89c336e4e062"
@@ -13669,8 +13669,8 @@
       {
         "title": "MetEn: La Fille du Régiment Encore",
         "publish_date": "2019-03-06T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/7ee1472e-cd97-44ce-a515-1d00eb116b1d/images/5312d5ec-d297-47e9-96e2-2a2f45132843"
@@ -13708,8 +13708,8 @@
       {
         "title": "Under The Silver Lake",
         "publish_date": "2018-12-07T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/f7649bed-0216-4d08-bb04-dcec820d8223/images/f4b746ab-0964-49c2-a37b-24b705499ae3"
@@ -13747,8 +13747,8 @@
       {
         "title": "MetLive: Carmen",
         "publish_date": "2019-02-02T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/93ae11aa-89e6-4edf-83ab-bed0931e85bf/images/faac626a-1cd8-464c-be43-55551e1210b9"
@@ -13786,8 +13786,8 @@
       {
         "title": "How To Train Your Dragon: Hidden World",
         "publish_date": "2019-02-22T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -13798,8 +13798,8 @@
       {
         "title": "Pataakha",
         "publish_date": "2018-09-28T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/ea98df94-deb8-431e-93a1-003d6b7bdbca/images/ca4ff145-e72e-40b2-bade-4e5185e7ee38"
@@ -13837,8 +13837,8 @@
       {
         "title": "Kurmaiyan",
         "publish_date": "2018-09-14T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -13849,8 +13849,8 @@
       {
         "title": "A.X.L.",
         "publish_date": "2018-08-24T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/025d596a-49f8-48e3-bcba-93dd5ee26486/images/6722ca32-f2a8-4006-bb63-ff9dd3779894"
@@ -13888,8 +13888,8 @@
       {
         "title": "American Dresser",
         "publish_date": "2018-09-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/817a773a-bf21-4d1c-8e5f-0c6f7b6a71d7/images/2f846cdf-21be-439f-ba56-0681b76b34f6"
@@ -13927,8 +13927,8 @@
       {
         "title": "Untitled Deadpool Movie",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/2774d04d-b843-4909-a6c8-a75290abe603/images/ae2215ad-a5a9-496c-b4bd-54ba7b11c09d"
@@ -13966,8 +13966,8 @@
       {
         "title": "Ana y Bruno",
         "publish_date": "2018-10-26T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -13978,8 +13978,8 @@
       {
         "title": "Daughters Of The Sexual Revolution",
         "publish_date": "2018-11-02T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -13990,8 +13990,8 @@
       {
         "title": "Everybody Knows",
         "publish_date": "2019-02-08T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -14002,8 +14002,8 @@
       {
         "title": "Padi Padi Leche Manasu",
         "publish_date": "2018-12-21T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -14014,8 +14014,8 @@
       {
         "title": "Trabajo Sucio",
         "publish_date": "2018-10-19T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -14026,8 +14026,8 @@
       {
         "title": "Elliot The Littlest Reindeer",
         "publish_date": "2018-12-01T00:00:00.000Z",
-        "_embedded": {
-          "image": null
+        "image": {
+          "_embedded": null
         },
         "_links": {
           "product": {
@@ -14038,8 +14038,8 @@
       {
         "title": "Dragon Ball Z: Saiyan Double Feature",
         "publish_date": "2018-11-03T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/0fd9f071-6c80-41eb-a7bc-782b33b1b0f3/images/94dacbe8-906d-42c1-a0b6-0e1ce494860f"
@@ -14077,8 +14077,8 @@
       {
         "title": "Jane and Emma",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/3b0e8be4-1626-455b-ae51-de3f617a0bd1/images/a346aa5b-675e-464a-bb14-232a7643faa1"
@@ -14116,8 +14116,8 @@
       {
         "title": "Meow Wolf: Origin Story",
         "publish_date": "2018-11-29T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/eaad7011-8b6a-43cd-870e-532a2ad815dc/images/e5e6d472-6f26-4002-b22d-e0ab9accfd48"
@@ -14155,8 +14155,8 @@
       {
         "title": "Dumbo",
         "publish_date": "2019-03-29T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/82e02f39-b502-4dca-91cb-d8fd85eb01c7/images/a8e5574a-e92b-4529-aaf4-6682d22ff891"
@@ -14194,8 +14194,8 @@
       {
         "title": "Project Gutenberg",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/60a530dd-b44a-45d6-a242-0d707546e9ff/images/f411bb16-e729-4b3e-aa00-997a4be37e45"
@@ -14233,8 +14233,8 @@
       {
         "title": "Look Away",
         "publish_date": "2018-10-12T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/5173998a-ddce-4a72-9c31-3b40c4c09116/images/7294f9dc-2cc8-4ea5-944f-88d0bb792380"
@@ -14272,8 +14272,8 @@
       {
         "title": "Parahuna",
         "publish_date": "2018-10-05T00:00:00.000Z",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/85b53a13-8987-48db-a228-6225b4fbb755/images/d8411450-910d-4d37-abc0-68545cd1174f"

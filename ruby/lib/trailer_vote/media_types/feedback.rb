@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require_relative './base_text'
+require_relative './types/uuid_v4'
+require_relative './types/vote_value'
 
 module TrailerVote
   module MediaTypes
@@ -10,7 +12,7 @@ module TrailerVote
       validations do
         version 1 do
           version_1_base = ::MediaTypes::Scheme.new do
-            attribute :value, AnyOf('positive', 'negative', 'neutral', 'skip')
+            attribute :value, Types::VoteValue
             attribute :updated_at, String
 
             link :audio_fragment
@@ -31,8 +33,8 @@ module TrailerVote
 
           view 'create' do
             attribute :feedback do
-              attribute :persona, UuidV4
-              attribute :value, AnyOf('positive', 'negative', 'neutral', 'skip')
+              attribute :persona, Types::UuidV4
+              attribute :value, Types::VoteValue
             end
           end
         end

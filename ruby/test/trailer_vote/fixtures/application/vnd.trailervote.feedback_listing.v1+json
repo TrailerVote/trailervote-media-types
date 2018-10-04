@@ -22,8 +22,8 @@
           }
         },
         "title": "Mission: Impossible - Fallout",
-        "_embedded": {
-          "image": {
+        "image": {
+          "_embedded": {
             "_links": {
               "self": {
                 "href": "https://fake.trailervote.com:/api/products/d83ae70a-6dcd-49bc-bbe5-066fd0db2fd3/images/b32f9c57-8e2d-40cb-b473-57b5d5567401"

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative './base_text'
+require_relative './types/uuid_v4'
 
 module TrailerVote
   module MediaTypes
@@ -30,7 +31,7 @@ module TrailerVote
         version 2 do
           version_2_base = ::MediaTypes::Scheme.new do
             attribute :name, String
-            attribute :parent_place, AllowNil(UuidV4)
+            attribute :parent_place, AllowNil(Types::UuidV4)
             attribute :deleted_at, AllowNil(String)
             attribute :updated_at, String
 

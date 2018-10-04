@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
 require_relative './base_text'
+require_relative './types/product_image_type'
+require_relative './partials/image_links'
 
 module TrailerVote
   module MediaTypes
@@ -14,24 +16,14 @@ module TrailerVote
             attribute :title, String
             attribute :description, AllowNil(String)
 
-            attribute :image do
-              attribute :_embedded, optional: true do
+            attribute :image, expected_type: AllowNil(::Hash), allow_empty: true, optional: true do
+              attribute :_embedded do
                 attribute :identifier, String
                 attribute :updated_at, String
-                attribute :asset_type, AnyOf('backdrop', 'poster')
+                attribute :asset_type, Types::ProductImageType
 
-                link :self
-                link :original
-                link :thumbnail, optional: true
-                link :xlarge, optional: true
-                link :large, optional: true
-                link :medium, optional: true
-                link :small, optional: true
-                link :xsmall, optional: true
+                merge Partials::IMAGE_LINKS
               end
-
-              attribute :authority, String
-              attribute :identifier, String
             end
 
             link :self
@@ -48,7 +40,7 @@ module TrailerVote
               collection :_embedded, allow_empty: true do
                 attribute :identifier, String
                 attribute :updated_at, String
-                attribute :asset_type, AnyOf('backdrop', 'poster', 'Poster', 'HeroMobileDynamic', 'PosterDynamic', 'HeroDesktopDynamic')
+                attribute :asset_type, Types::ProductImageTypeV1
 
                 link :self
                 link :original do

@@ -1,7 +1,12 @@
 # frozen_string_literal: true
 
+require 'media_types'
+
 require_relative './base_text'
-require 'media_types/scheme/any_of'
+require_relative './types/boolean'
+require_relative './types/product_movie_type'
+require_relative './types/product_movie_handler'
+
 
 module TrailerVote
   module MediaTypes
@@ -22,10 +27,10 @@ module TrailerVote
             merge version_1_creation
 
             attribute :data do
-              attribute :processed, AnyOf(TrueClass, FalseClass)
-              attribute :transcoded, AnyOf(TrueClass, FalseClass)
-              attribute :type, AnyOf('Trailer', 'Teaser', 'Rewards', 'Advert')
-              attribute :as, AnyOf('youtube', 'url')
+              attribute :processed, Types::Boolean
+              attribute :transcoded, Types::Boolean
+              attribute :type, Types::ProductMovieType
+              attribute :as, Types::ProductMovieHandler
 
               not_strict
             end

@@ -2,7 +2,6 @@
 
 require 'media_types'
 require_relative './media_types/version'
-require_relative './media_types/uuid_v4'
 
 require_relative './media_types/base_text'
 require_relative './media_types/audio_fragment'

@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative './base_text'
+require_relative './types/uuid_v4'
 
 module TrailerVote
   module MediaTypes
@@ -18,7 +19,7 @@ module TrailerVote
       validations do
         version 1 do
           attribute :persona do
-            attribute :id, UuidV4
+            attribute :id, Types::UuidV4
             link :self
             link :feedback
           end
