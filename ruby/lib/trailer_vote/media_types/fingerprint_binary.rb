@@ -4,6 +4,13 @@ require 'media_types'
 
 module TrailerVote
   module MediaTypes
+
+    ##
+    # Media Types for Fingerprints
+    #
+    # Clients **MUST** match the version of their audio fingerprinter and this media type version. This is a binary
+    # media type and returns a file or {Errors}.
+    #
     class FingerprintBinary
       include ::MediaTypes::Dsl
 

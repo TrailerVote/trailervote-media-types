@@ -4,6 +4,10 @@ require_relative './base_text'
 
 module TrailerVote
   module MediaTypes
+
+    ##
+    # Media Types for Configuration
+    #
     class Configuration < BaseText
       media_type 'configuration', defaults: { suffix: :json, version: 2 }
 

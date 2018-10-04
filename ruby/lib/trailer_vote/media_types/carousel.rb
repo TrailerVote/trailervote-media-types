@@ -4,6 +4,7 @@ require_relative './base_text'
 
 module TrailerVote
   module MediaTypes
+
     class Carousel < BaseText
       media_type 'carousel'
 

@@ -4,6 +4,14 @@ require_relative './base_text'
 
 module TrailerVote
   module MediaTypes
+
+    ##
+    # Media Types for places
+    #
+    # Each set of credentials has a Place associated to it. A place might be the HQ of an enterprise, or a physical
+    # location on the map. You can always access all the data of your place and all the children, as the places in our
+    # system are configured to be a tree.
+    #
     class Place < BaseText
       media_type 'place', defaults: { suffix: :json, version: 2 }
 

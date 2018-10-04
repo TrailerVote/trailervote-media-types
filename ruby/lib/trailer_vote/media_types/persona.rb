@@ -4,6 +4,14 @@ require_relative './base_text'
 
 module TrailerVote
   module MediaTypes
+
+    ##
+    # Media Types for Persona
+    #
+    # A Persona is a uniquely identified person / a unique device. When someone uses the SDK, the client MUST generate a
+    # UUID v4 and use that as Persona. This allows the API to link Feedback on Audio Fragments to a Persona, and MAY act
+    # as likes/dislikes (interests/disinterests).
+    #
     class Persona < BaseText
       media_type 'persona', defaults: { suffix: :json, version: 1 }
 

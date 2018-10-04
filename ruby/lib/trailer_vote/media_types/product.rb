@@ -4,6 +4,16 @@ require_relative './base_text'
 
 module TrailerVote
   module MediaTypes
+
+    ##
+    # Media Types for Products
+    #
+    # Products are all things that are the subject of Audio Fragments (advertisements, trailers, sound bites). This can
+    # be a book; a movie; a car; a drink; anything that would be a product in the real world. Recognition is done on the
+    # audio fragments, not on products directly.
+    #
+    # A product has attachments, such as data, {ProductImage}, and recognizable {AudioFragment}.
+    #
     class Product < BaseText
       media_type 'product', defaults: { suffix: :json, version: 2 }
 
