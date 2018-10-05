@@ -24,7 +24,7 @@ module TrailerVote
         version 1 do
           collection 'product_identifiers', expected_type: nil do
             attribute :authority, String
-            attribute :identifier
+            attribute :identifier, String
           end
         end
       end
