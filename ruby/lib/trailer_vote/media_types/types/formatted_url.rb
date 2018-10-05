@@ -32,7 +32,7 @@ module TrailerVote
           sections_first = "(?>#{variable_options.push('[^\s\/$.?#\{\}]').join('|')})"
           sections_not_first = "(?>#{variable_options.push('[^\\s\\{\\}]').join('|')})"
 
-          @test = %r{^https:\/\/#{sections_first}#{sections_not_first}*$}
+          @test = %r{^https?:\/\/#{sections_first}#{sections_not_first}*$}
         end
 
         def ===(other)

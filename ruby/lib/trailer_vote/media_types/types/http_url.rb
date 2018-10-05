@@ -17,7 +17,7 @@ module TrailerVote
       #
       # The one used here actually passes all valid urls, but just doesn't reject ALL invalid ones
       #
-      HttpsUrl = %r{^https:\/\/[^\s\/$.?#].[^\s]*$} # rubocop:disable Naming/ConstantName
+      HttpUrl = %r{^https?:\/\/[^\s\/$.?#].[^\s]*$} # rubocop:disable Naming/ConstantName
     end
   end
 end

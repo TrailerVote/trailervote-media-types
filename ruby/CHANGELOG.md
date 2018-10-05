@@ -1,3 +1,7 @@
+# 0.6.1
+
+- Allow for http urls because not all services in all environments may operate with TLS enabled.
+
 # 0.6.0
 
 - Update `media_types` to `0.6.0` so that the integrations become available downstream.

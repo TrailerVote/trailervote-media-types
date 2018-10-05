@@ -6,7 +6,7 @@ require_relative 'base_text'
 require_relative 'types/product_image_type'
 require_relative 'types/boolean'
 require_relative 'types/iso8601'
-require_relative 'types/https_url'
+require_relative 'types/http_url'
 
 module TrailerVote
   module MediaTypes
@@ -17,7 +17,7 @@ module TrailerVote
         version 1 do
           version_1_creation = ::MediaTypes::Scheme.new do
             attribute :identifier, String
-            attribute :source_url, Types::HttpsUrl
+            attribute :source_url, Types::HttpUrl
             attribute :expires_at, AllowNil(Types::Iso8601), optional: true
           end
 
@@ -92,7 +92,7 @@ module TrailerVote
           view :index do
             attribute :product_images do
               collection :_index do
-                attribute :href, Types::HttpsUrl
+                attribute :href, Types::HttpUrl
                 not_strict
               end
 

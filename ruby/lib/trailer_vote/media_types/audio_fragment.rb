@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'base_text'
-require_relative 'types/https_url'
+require_relative 'types/http_url'
 require_relative 'types/iso8601'
 
 module TrailerVote
@@ -70,7 +70,7 @@ module TrailerVote
           view 'index' do
             attribute :audio_fragments do
               collection :_index, allow_empty: true do
-                attribute :href, Types::HttpsUrl
+                attribute :href, Types::HttpUrl
                 not_strict
               end
 

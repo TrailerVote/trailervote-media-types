@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'base_text'
-require_relative 'types/https_url'
+require_relative 'types/http_url'
 
 module TrailerVote
   module MediaTypes
@@ -20,8 +20,8 @@ module TrailerVote
       validations do
         version 1 do
           attribute :configuration do
-            attribute :place, Types::HttpsUrl
-            attribute :persona, Types::HttpsUrl
+            attribute :place, Types::HttpUrl
+            attribute :persona, Types::HttpUrl
           end
         end
       end
