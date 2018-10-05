@@ -15,6 +15,16 @@ And then execute:
 Or install it yourself as:
 
     $ gem install trailer_vote-media_types
+    
+## Notes
+
+### `updated_at` vs `Last-Modified` headers
+
+When this is used in conjunction with a TrailerVote service, the `updated_at` attributes inside the body of a response will take precedence over any `Last-Modified` header. The `updated_at` value **SHOULD** reflect the last time the resource was updated, whereas the `Last-Modified` value may change when the representation is updated.
+
+### Are ids missing?
+
+No, the `id` or `uuid` attributes are not missing. As per the [TrailerVote API considerations](https://docs.trailervote.com/reference) clients **SHOULD** not need to construct URLs. Both internally and externally, where possible, we refer to resources by their fully qualified URL which _is_ their identifier, instead of something like a UUID.
 
 ## Usage
 
