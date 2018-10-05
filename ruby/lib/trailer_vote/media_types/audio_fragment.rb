@@ -54,7 +54,7 @@ module TrailerVote
         version 1 do
           version_1_base = ::MediaTypes::Scheme.new do
             attribute :content_addressable, String
-            attribute :deleted_at, AllowNil(Types::Iso8601)
+            attribute :expires_at, AllowNil(Types::Iso8601)
 
             link :self
             link :product

@@ -33,7 +33,7 @@ module TrailerVote
           version_2_base = ::MediaTypes::Scheme.new do
             attribute :name, String
             attribute :parent_place, AllowNil(Types::UuidV4)
-            attribute :deleted_at, AllowNil(String)
+            attribute :expires_at, AllowNil(String)
             attribute :updated_at, Types::Iso8601
 
             link :self
@@ -49,7 +49,7 @@ module TrailerVote
             attribute :place do
               attribute :name, String
               attribute :parent_place, String
-              attribute :deleted_at, AllowNil(Types::Iso8601)
+              attribute :expires_at, AllowNil(Types::Iso8601)
             end
           end
 
@@ -69,7 +69,7 @@ module TrailerVote
           version_1_base = ::MediaTypes::Scheme.new do
             attribute :name, String
             attribute :parent_place, AllowNil(String)
-            attribute :deleted_at, AllowNil(String)
+            attribute :expires_at, AllowNil(String)
             attribute :updated_at, Types::Iso8601
 
             link :self

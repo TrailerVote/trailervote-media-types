@@ -2,7 +2,7 @@
   "place": {
     "name": "AMC Theatres",
     "parent_place": "120660be-f9a8-49f7-9a4e-b140ea0a16d5",
-    "deleted_at": null,
+    "expires_at": null,
     "updated_at": "2018-05-23T02:59:45.903Z",
     "_links": {
       "self": {

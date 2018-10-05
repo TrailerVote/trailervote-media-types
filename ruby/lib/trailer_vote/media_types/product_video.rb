@@ -19,7 +19,7 @@ module TrailerVote
           version_1_creation = ::MediaTypes::Scheme.new do
             attribute :identifier, String
             attribute :source_url, Types::HttpsUrl
-            attribute :deleted_at, AllowNil(Types::Iso8601), optional: true
+            attribute :expires_at, AllowNil(Types::Iso8601), optional: true
           end
 
           version_1_base = ::MediaTypes::Scheme.new do
