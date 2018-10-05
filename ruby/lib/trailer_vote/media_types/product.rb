@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-require_relative './base_text'
-require_relative './types/product_data_type'
+require_relative 'base_text'
+require_relative 'types/product_data_type'
+require_relative 'types/iso8601'
 
 module TrailerVote
   module MediaTypes
@@ -63,7 +64,7 @@ module TrailerVote
           end
 
           version_2_base = ::MediaTypes::Scheme.new do
-            attribute :updated_at, String
+            attribute :updated_at, Types::Iso8601
             attribute :lock_version, Numeric
 
             merge version_2_creation
@@ -126,7 +127,7 @@ module TrailerVote
           end
 
           version_1_base = ::MediaTypes::Scheme.new do
-            attribute :updated_at, String
+            attribute :updated_at, Types::Iso8601
             attribute :lock_version, Numeric
 
             merge version_1_creation

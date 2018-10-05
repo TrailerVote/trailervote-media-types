@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-require_relative './base_text'
+require_relative 'base_text'
+require_relative 'types/https_url'
+require_relative 'types/iso8601'
 
 module TrailerVote
   module MediaTypes
@@ -52,7 +54,7 @@ module TrailerVote
         version 1 do
           version_1_base = ::MediaTypes::Scheme.new do
             attribute :content_addressable, String
-            attribute :deleted_at, AllowNil(String)
+            attribute :deleted_at, AllowNil(Types::Iso8601)
 
             link :self
             link :product
@@ -68,7 +70,7 @@ module TrailerVote
           view 'index' do
             attribute :audio_fragments do
               collection :_index, allow_empty: true do
-                attribute :href, String
+                attribute :href, Types::HttpsUrl
                 not_strict
               end
 

@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-require_relative './base_text'
-require_relative './partials/image_links'
+require_relative 'base_text'
+require_relative 'partials/image_links'
+require_relative 'types/iso8601'
 
 module TrailerVote
   module MediaTypes
@@ -18,7 +19,7 @@ module TrailerVote
           attribute :products_listing do
             collection :items, allow_empty: true do
               attribute :title, AllowNil(String)
-              attribute :publish_date, AllowNil(String)
+              attribute :publish_date, AllowNil(Types::Iso8601)
 
               link :product
 

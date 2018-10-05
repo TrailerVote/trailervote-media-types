@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-require_relative './base_text'
+require_relative 'base_text'
+require_relative 'types/influx_db_connection_url'
+require_relative 'types/formatted_url'
 
 module TrailerVote
   module MediaTypes
@@ -19,13 +21,14 @@ module TrailerVote
             link :products
             link :product_lookup
             link :persona do
+              attribute :href, Types.makeFormattedUrl(:uuid)
               attribute :templated, TrueClass
             end
             link :analytics do
-              attribute :href, AllowNil(String)
+              attribute :href, Types::InfluxDbConnectionUrl
             end
             link :telemetrics do
-              attribute :href, AllowNil(String)
+              attribute :href, Types::InfluxDbConnectionUrl
             end
           end
         end
@@ -34,13 +37,15 @@ module TrailerVote
           attribute :configuration do
             link :place
             link :feedback do
+              attribute :href, Types.makeFormattedUrl(:uuid)
               attribute :templated, TrueClass
             end
             link :persona do
+              attribute :href, Types.makeFormattedUrl(:uuid)
               attribute :templated, TrueClass
             end
             link :analytics do
-              attribute :href, AllowNil(String)
+              attribute :href, AllowNil(Types::InfluxDbConnectionUrl)
             end
           end
         end

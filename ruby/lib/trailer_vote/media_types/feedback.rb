@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
-require_relative './base_text'
-require_relative './types/uuid_v4'
-require_relative './types/vote_value'
+require_relative 'base_text'
+require_relative 'types/uuid_v4'
+require_relative 'types/vote_value'
+require_relative 'types/iso8601'
 
 module TrailerVote
   module MediaTypes
@@ -13,7 +14,7 @@ module TrailerVote
         version 1 do
           version_1_base = ::MediaTypes::Scheme.new do
             attribute :value, Types::VoteValue
-            attribute :updated_at, String
+            attribute :updated_at, Types::Iso8601
 
             link :audio_fragment
             link :product

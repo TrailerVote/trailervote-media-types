@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative './base_text'
-require_relative './types/uuid_v4'
+require_relative 'base_text'
+require_relative 'types/uuid_v4'
 
 module TrailerVote
   module MediaTypes

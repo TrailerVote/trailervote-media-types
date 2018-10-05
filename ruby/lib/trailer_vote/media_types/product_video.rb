@@ -2,11 +2,12 @@
 
 require 'media_types'
 
-require_relative './base_text'
-require_relative './types/boolean'
-require_relative './types/product_movie_type'
-require_relative './types/product_movie_handler'
-
+require_relative 'base_text'
+require_relative 'types/boolean'
+require_relative 'types/product_movie_type'
+require_relative 'types/product_movie_handler'
+require_relative 'types/iso8601'
+require_relative 'types/https_url'
 
 module TrailerVote
   module MediaTypes
@@ -17,12 +18,12 @@ module TrailerVote
         version 1 do
           version_1_creation = ::MediaTypes::Scheme.new do
             attribute :identifier, String
-            attribute :source_url, String
-            attribute :deleted_at, AllowNil(String), optional: true
+            attribute :source_url, Types::HttpsUrl
+            attribute :deleted_at, AllowNil(Types::Iso8601), optional: true
           end
 
           version_1_base = ::MediaTypes::Scheme.new do
-            attribute :updated_at, String
+            attribute :updated_at, Types::Iso8601
 
             merge version_1_creation
 
@@ -69,7 +70,7 @@ module TrailerVote
           view :index do
             attribute :product_videos do
               collection :_index do
-                attribute :href, String
+                attribute :href, Types::HttpsUrl
                 not_strict
               end
 

@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
-require_relative './base_text'
-require_relative './types/uuid_v4'
+require_relative 'base_text'
+require_relative 'types/uuid_v4'
+require_relative 'types/iso8601'
 
 module TrailerVote
   module MediaTypes
@@ -33,7 +34,7 @@ module TrailerVote
             attribute :name, String
             attribute :parent_place, AllowNil(Types::UuidV4)
             attribute :deleted_at, AllowNil(String)
-            attribute :updated_at, String
+            attribute :updated_at, Types::Iso8601
 
             link :self
             link :products_archive
@@ -48,7 +49,7 @@ module TrailerVote
             attribute :place do
               attribute :name, String
               attribute :parent_place, String
-              attribute :deleted_at, AllowNil(String)
+              attribute :deleted_at, AllowNil(Types::Iso8601)
             end
           end
 
@@ -69,7 +70,7 @@ module TrailerVote
             attribute :name, String
             attribute :parent_place, AllowNil(String)
             attribute :deleted_at, AllowNil(String)
-            attribute :updated_at, String
+            attribute :updated_at, Types::Iso8601
 
             link :self
             link :products

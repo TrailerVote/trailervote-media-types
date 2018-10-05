@@ -1,8 +1,9 @@
 # frozen_string_literal: true
 
-require_relative './base_text'
-require_relative './types/product_image_type'
-require_relative './partials/image_links'
+require_relative 'base_text'
+require_relative 'partials/image_links'
+require_relative 'types/product_image_type'
+require_relative 'types/iso8601'
 
 module TrailerVote
   module MediaTypes
@@ -19,7 +20,7 @@ module TrailerVote
             attribute :image, expected_type: AllowNil(::Hash), allow_empty: true, optional: true do
               attribute :_embedded do
                 attribute :identifier, String
-                attribute :updated_at, String
+                attribute :updated_at, Types::Iso8601
                 attribute :asset_type, Types::ProductImageType
 
                 merge Partials::IMAGE_LINKS
@@ -39,7 +40,7 @@ module TrailerVote
             attribute :images do
               collection :_embedded, allow_empty: true do
                 attribute :identifier, String
-                attribute :updated_at, String
+                attribute :updated_at, Types::Iso8601
                 attribute :asset_type, Types::ProductImageTypeV1
 
                 link :self

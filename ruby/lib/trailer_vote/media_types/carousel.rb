@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-require_relative './base_text'
-require_relative './partials/image_links'
+require_relative 'base_text'
+require_relative 'partials/image_links'
 
 module TrailerVote
   module MediaTypes
