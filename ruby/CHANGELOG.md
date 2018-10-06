@@ -1,3 +1,8 @@
+# 0.6.2
+
+- Loosen Gem dependency versions to allow any minor update, except for dogfooded gems, which are allowed major updates, until they hit 1.0.0
+- Add metadata urls for gemspec
+
 # 0.6.1
 
 - Allow for http urls because not all services in all environments may operate with TLS enabled.

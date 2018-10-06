@@ -9,8 +9,16 @@ Gem::Specification.new do |spec|
   spec.version       = TrailerVote::MediaTypes::VERSION
   spec.authors       = ['Derk-Jan Karrenbeld']
   spec.email         = ['dj@trailervote.com']
-
   spec.summary       = 'Holds the defined media types for the TrailerVote ecosystem'
+
+  # noinspection RubyStringKeysInHashInspection
+  spec.metadata = {
+    'bug_tracker_uri'   => 'https://github.com/TrailerVote/trailervote-media-types/issues',
+    'changelog_uri'     => 'https://github.com/TrailerVote/trailervote-media-types/blob/master/ruby/CHANGELOG.md',
+    'documentation_uri' => 'https://www.rubydoc.info/gems/trailer_vote-media_types',
+    'homepage_uri'      => 'https://github.com/TrailerVote/trailervote-media-types',
+    'source_code_uri'   => 'https://github.com/TrailerVote/trailervote-media-types/blob/master/ruby',
+  }
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
@@ -19,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'media_types', '~> 0.6.0'
+  spec.add_runtime_dependency 'media_types', '>= 0.6.0', '< 1'
 
   spec.add_development_dependency 'awesome_print'
   spec.add_development_dependency 'bundler', '~> 1.16'
