@@ -18,7 +18,7 @@ module TrailerVote
         version 1 do
           version_1_creation = ::MediaTypes::Scheme.new do
             attribute :identifier, String
-            attribute :source_url, Types::HttpUrl
+            attribute :source_url, AnyOf(Types::HttpUrl, String)
             attribute :expires_at, AllowNil(Types::Iso8601), optional: true
           end
 
