@@ -54,14 +54,14 @@ module TrailerVote
           end
 
           view 'create' do
-            attribute :video do
+            attribute :product_video do
               merge version_1_creation
               not_strict
             end
           end
 
           view 'collection' do
-            attribute :videos do
+            attribute :product_videos do
               collection :_embedded, version_1_base
               not_strict
             end
