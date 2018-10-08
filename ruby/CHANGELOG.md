@@ -1,3 +1,7 @@
+# 0.6.3
+
+- Fix `product_video` create root key
+
 # 0.6.2
 
 - Loosen Gem dependency versions to allow any minor update, except for dogfooded gems, which are allowed major updates, until they hit 1.0.0
