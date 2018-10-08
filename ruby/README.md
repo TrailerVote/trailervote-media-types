@@ -1,4 +1,7 @@
 # TrailerVote::MediaTypes
+[![Build Status](https://travis-ci.com/TrailerVote/trailervote-media-types.svg?branch=master)](https://travis-ci.com/TrailerVote/trailervote-media-types)
+[![Gem Version](https://badge.fury.io/rb/trailer_vote-media_types.svg)](https://badge.fury.io/rb/trailer_vote-media_types)
+[![Maintainability](https://api.codeclimate.com/v1/badges/f5ea339bc868a4e3c362/maintainability)](https://codeclimate.com/github/TrailerVote/trailervote-media-types/maintainability)
 
 ## Installation
 
