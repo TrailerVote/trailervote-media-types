@@ -1,3 +1,8 @@
+# 0.7.0
+
+- Add `products` link to configuration v1
+- Add scheme validation for `data` property of products
+
 # 0.6.3
 
 - Fix `product_video` create root key
