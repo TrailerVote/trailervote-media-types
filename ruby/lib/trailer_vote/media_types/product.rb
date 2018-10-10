@@ -3,6 +3,7 @@
 require_relative 'base_text'
 require_relative 'types/product_data_type'
 require_relative 'types/iso8601'
+require_relative 'types/http_url'
 
 module TrailerVote
   module MediaTypes
@@ -23,7 +24,7 @@ module TrailerVote
         index_scheme = ::MediaTypes::Scheme.new do
           attribute :products do
             collection :_index, allow_empty: true do
-              attribute :href, String
+              attribute :href, Types::HttpUrl
               not_strict
             end
 
@@ -48,10 +49,17 @@ module TrailerVote
 
                 attribute :translations do
                   any do
-                    attribute :name, AllowNil(String)
-                    attribute :description, AllowNil(String)
+                    attribute :name, AllowNil(String), optional: true
+                    attribute :description, AllowNil(String), optional: true
                   end
                 end
+
+                # Movie type properties
+                collection :genres, String, optional: true, allow_empty: true
+                attribute :mpaa_rating, AnyOf('G', 'PG', 'PG-13', 'R', 'NC-17', 'NR', NilClass), optional: true
+                attribute :run_time, AllowNil(Numeric), optional: true
+                attribute :release_date, AllowNil(Types::Iso8601), optional: true
+                attribute :default_image_url, AllowNil(String), optional: true
 
                 not_strict
               end
@@ -115,6 +123,13 @@ module TrailerVote
                 attribute :type_version, Numeric
                 attribute :name, AllowNil(String)
                 attribute :description, AllowNil(String)
+
+                # Movie type properties
+                collection :genres, String, optional: true, allow_empty: true
+                attribute :mpaa_rating, AnyOf('G', 'PG', 'PG-13', 'R', 'NC-17', 'NR', NilClass), optional: true
+                attribute :run_time, AllowNil(Numeric), optional: true
+                attribute :release_date, AllowNil(Types::Iso8601), optional: true
+                attribute :default_image_url, AllowNil(String), optional: true
 
                 not_strict
               end
