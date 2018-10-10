@@ -15,33 +15,14 @@
         "iso_3166_1": "US"
       },
       "type": "Trailer",
-      "original": {
-        "id": "122033fca604e26e1098deede7342b1b2e759ad94f2597ad39e0a1c9b56bd714b85d",
-        "url": "https://s3.amazonaws.com/fake.trailervote.com/122033fca604e26e1098deede7342b1b2e759ad94f2597ad39e0a1c9b56bd714b85d",
-        "storage": "store",
-        "metadata": {
-          "size": 20411904,
-          "bitrate": null,
-          "duration": null,
-          "filename": null,
-          "uploader": "VideoUploader",
-          "mime_type": null,
-          "frame_rate": null,
-          "resolution": null,
-          "signatures": {
-            "md5": "50a2b8f97325b4d3e21e69449f7cb807",
-            "sha256": "33fca604e26e1098deede7342b1b2e759ad94f2597ad39e0a1c9b56bd714b85d"
-          },
-          "content_addressable": true
-        }
-      },
       "processed": true,
       "transcoded": false
     },
     "identifier": "122033fca604e26e1098deede7342b1b2e759ad94f2597ad39e0a1c9b56bd714b85d",
     "_links": {
       "self": {
-        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/199ed210-2aa7-4fdc-aad7-031c9521fdcb"
+        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/199ed210-2aa7-4fdc-aad7-031c9521fdcb",
+        "type": "Trailer"
       },
       "audio_fragment": {
         "content_digest": "122033fca604e26e1098deede7342b1b2e759ad94f2597ad39e0a1c9b56bd714b85d",

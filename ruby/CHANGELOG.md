@@ -1,4 +1,11 @@
-# 0.7.2.
+# 0.7.3
+
+- Add `type` to image self link
+- Add `type` to image index links
+- Add `type` to video self link
+- Add `type` to video index links
+
+# 0.7.2
 
 - Allow for `content_digest` and dimensions on image links (output)
 

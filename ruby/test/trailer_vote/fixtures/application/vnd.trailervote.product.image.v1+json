@@ -13,110 +13,13 @@
         "vote_average": 5.458
       },
       "type": "backdrop",
-      "large": {
-        "id": "1220dfec7077810eb20b51545240880418124daabb694af2e6e7f075101c9724b38f",
-        "url": "https://s3.amazonaws.com/fake.trailervote.com/1220dfec7077810eb20b51545240880418124daabb694af2e6e7f075101c9724b38f",
-        "storage": "store",
-        "metadata": {
-          "size": 137786,
-          "width": 1024,
-          "height": 576,
-          "filename": "image_processing20180712-4250-1ekfzgj.jpg",
-          "uploader": "ImageUploader",
-          "mime_type": "image/jpeg",
-          "content_addressable": true
-        }
-      },
-      "small": {
-        "id": "1220ed693d66ff7caa5f96b6ac633f8d475721cbfb15b5fa7b95d5c558017df71bb9",
-        "url": "https://s3.amazonaws.com/fake.trailervote.com/1220ed693d66ff7caa5f96b6ac633f8d475721cbfb15b5fa7b95d5c558017df71bb9",
-        "storage": "store",
-        "metadata": {
-          "size": 60561,
-          "width": 640,
-          "height": 360,
-          "filename": "image_processing20180712-4250-dm8fki.jpg",
-          "uploader": "ImageUploader",
-          "mime_type": "image/jpeg",
-          "content_addressable": true
-        }
-      },
-      "medium": {
-        "id": "12206b6cd43ffb8209579f6d25556ac470deec9a354fcdfe29e2d8781619cf5308d4",
-        "url": "https://s3.amazonaws.com/fake.trailervote.com/12206b6cd43ffb8209579f6d25556ac470deec9a354fcdfe29e2d8781619cf5308d4",
-        "storage": "store",
-        "metadata": {
-          "size": 124069,
-          "width": 960,
-          "height": 540,
-          "filename": "image_processing20180712-4250-1guftxu.jpg",
-          "uploader": "ImageUploader",
-          "mime_type": "image/jpeg",
-          "content_addressable": true
-        }
-      },
-      "xlarge": {
-        "id": "12204cd63cec9c9f4baf234963a64eb5606e7214f395b338ed60ea6bba4244c90beb",
-        "url": "https://s3.amazonaws.com/fake.trailervote.com/12204cd63cec9c9f4baf234963a64eb5606e7214f395b338ed60ea6bba4244c90beb",
-        "storage": "store",
-        "metadata": {
-          "size": 315842,
-          "width": 1600,
-          "height": 900,
-          "filename": "image_processing20180712-4250-lfs6s9.jpg",
-          "uploader": "ImageUploader",
-          "mime_type": "image/jpeg",
-          "content_addressable": true
-        }
-      },
-      "xsmall": {
-        "id": "1220d526c82cc435a00682fb712fa43150f2555f3ac875e848f1a705708f81219712",
-        "url": "https://s3.amazonaws.com/fake.trailervote.com/1220d526c82cc435a00682fb712fa43150f2555f3ac875e848f1a705708f81219712",
-        "storage": "store",
-        "metadata": {
-          "size": 18905,
-          "width": 320,
-          "height": 180,
-          "filename": "image_processing20180712-4250-cw7a14.jpg",
-          "uploader": "ImageUploader",
-          "mime_type": "image/jpeg",
-          "content_addressable": true
-        }
-      },
-      "original": {
-        "id": "12207f39faf876001ae9eb95e38a6b90cd01838753fd501d094a770419ca403c681e",
-        "url": "https://s3.amazonaws.com/fake.trailervote.com/12207f39faf876001ae9eb95e38a6b90cd01838753fd501d094a770419ca403c681e",
-        "storage": "store",
-        "metadata": {
-          "size": 1207677,
-          "width": 3840,
-          "height": 2160,
-          "filename": "image_processing20180712-4250-1wuw8vk.jpg",
-          "uploader": "ImageUploader",
-          "mime_type": "image/jpeg",
-          "content_addressable": true
-        }
-      },
-      "processed": true,
-      "thumbnail": {
-        "id": "1220559187153b45e8f8c7656ae1d7e13910aa70a59c056f17fb02be5664175d2304",
-        "url": "https://s3.amazonaws.com/fake.trailervote.com/1220559187153b45e8f8c7656ae1d7e13910aa70a59c056f17fb02be5664175d2304",
-        "storage": "store",
-        "metadata": {
-          "size": 7932,
-          "width": 150,
-          "height": 150,
-          "filename": "image_processing20180712-4250-14rmcc2.jpg",
-          "uploader": "ImageUploader",
-          "mime_type": "image/jpeg",
-          "content_addressable": true
-        }
-      }
+      "processed": true
     },
     "identifier": "1220be5d093b9455e054c2afaa8c597b9e7daaf629777309d6541c0f51e567512d01",
     "_links": {
       "self": {
-        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/images/ed236e4b-f457-49d5-978f-ed84953eb004"
+        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/images/ed236e4b-f457-49d5-978f-ed84953eb004",
+        "type": "backdrop"
       },
       "original": {
         "href": "https://s3.amazonaws.com/fake.trailervote.com/12207f39faf876001ae9eb95e38a6b90cd01838753fd501d094a770419ca403c681e",

@@ -36,7 +36,10 @@ module TrailerVote
               not_strict
             end
 
-            link :self
+            link :self do
+              attribute :type, Types::ProductMovieType
+            end
+
             link :audio_fragment do
               attribute :content_digest, String
             end
@@ -71,6 +74,7 @@ module TrailerVote
             attribute :product_videos do
               collection :_index do
                 attribute :href, Types::HttpUrl
+                attribute :type, Types::ProductMovieType
                 not_strict
               end
 

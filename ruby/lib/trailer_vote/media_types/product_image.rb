@@ -33,41 +33,16 @@ module TrailerVote
               not_strict
             end
 
-            link :self
-            link :original, allow_nil: true, optional: true do
-              attribute :content_digest, String
-              attribute :width, Numeric
-              attribute :height, Numeric
+            link :self do
+              attribute :type, Types::ProductImageType
             end
-            link :thumbnail, allow_nil: true, optional: true do
-              attribute :content_digest, String
-              attribute :width, Numeric
-              attribute :height, Numeric
-            end
-            link :xlarge, allow_nil: true, optional: true do
-              attribute :content_digest, String
-              attribute :width, Numeric
-              attribute :height, Numeric
-            end
-            link :large, allow_nil: true, optional: true do
-              attribute :content_digest, String
-              attribute :width, Numeric
-              attribute :height, Numeric
-            end
-            link :medium, allow_nil: true, optional: true do
-              attribute :content_digest, String
-              attribute :width, Numeric
-              attribute :height, Numeric
-            end
-            link :small, allow_nil: true, optional: true do
-              attribute :content_digest, String
-              attribute :width, Numeric
-              attribute :height, Numeric
-            end
-            link :xsmall, allow_nil: true, optional: true do
-              attribute :content_digest, String
-              attribute :width, Numeric
-              attribute :height, Numeric
+
+            %i[original thumbnail xlarge large medium small xsmall].each do |size|
+              link size, allow_nil: true, optional: true do
+                attribute :content_digest, String
+                attribute :width, Numeric
+                attribute :height, Numeric
+              end
             end
           end
 
@@ -93,6 +68,7 @@ module TrailerVote
             attribute :product_images do
               collection :_index do
                 attribute :href, Types::HttpUrl
+                attribute :type, Types::ProductImageType
                 not_strict
               end
 

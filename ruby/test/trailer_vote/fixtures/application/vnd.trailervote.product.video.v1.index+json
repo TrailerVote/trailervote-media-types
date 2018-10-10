@@ -2,28 +2,36 @@
   "product_videos": {
     "_index": [
       {
-        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/199ed210-2aa7-4fdc-aad7-031c9521fdcb"
+        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/199ed210-2aa7-4fdc-aad7-031c9521fdcb",
+        "type": "Trailer"
       },
       {
-        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/a51792ea-f8b4-4f50-a45e-ea76d980345d"
+        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/a51792ea-f8b4-4f50-a45e-ea76d980345d",
+        "type": "Trailer"
       },
       {
-        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/b2828f89-1cd7-4ac9-b501-30afda3ccaf9"
+        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/b2828f89-1cd7-4ac9-b501-30afda3ccaf9",
+        "type": "Teaser"
       },
       {
-        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/9adc57af-7136-4140-8b9b-65c7dd1c0b0d"
+        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/9adc57af-7136-4140-8b9b-65c7dd1c0b0d",
+        "type": "Trailer"
       },
       {
-        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/3095239e-5afa-41b8-9b11-d1e1cf872d76"
+        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/3095239e-5afa-41b8-9b11-d1e1cf872d76",
+        "type": "Teaser"
       },
       {
-        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/afef839a-d395-4501-9b9f-3a3572141f07"
+        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/afef839a-d395-4501-9b9f-3a3572141f07",
+        "type": "Trailer"
       },
       {
-        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/fa501729-c9c8-4913-8aec-fe1dae7a066b"
+        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/fa501729-c9c8-4913-8aec-fe1dae7a066b",
+        "type": "Trailer"
       },
       {
-        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/2748bd7b-67b8-426f-8233-e5914a6c68e6"
+        "href": "https://fake.trailervote.com:/api/products/a3f29b79-7f09-4d99-b5d8-aae91a563eb8/videos/2748bd7b-67b8-426f-8233-e5914a6c68e6",
+        "type": "Teaser"
       }
     ],
     "_links": {}
