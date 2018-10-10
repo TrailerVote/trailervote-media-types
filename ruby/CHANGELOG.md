@@ -1,3 +1,7 @@
+# 0.7.2.
+
+- Allow for `content_digest` and dimensions on image links (output)
+
 # 0.7.1
 
 - Fix version 2 of sentiment feedback not registering

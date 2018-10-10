@@ -7,13 +7,20 @@ module TrailerVote
     module Partials
       IMAGE_LINKS = ::MediaTypes::Scheme.new do
         link :self
-        link :original
-        link :thumbnail, optional: true
-        link :xlarge, optional: true
-        link :large, optional: true
-        link :medium, optional: true
-        link :small, optional: true
-        link :xsmall, optional: true
+
+        link :original do
+          attribute :content_digest, String, optional: true
+          attribute :width, Numeric, optional: true
+          attribute :height, Numeric, optional: true
+        end
+
+        %i[thumbnail xlarge large medium small xsmall].each do |size|
+          link size, optional: true do
+            attribute :content_digest, String, optional: true
+            attribute :width, Numeric, optional: true
+            attribute :height, Numeric, optional: true
+          end
+        end
       end
     end
   end
