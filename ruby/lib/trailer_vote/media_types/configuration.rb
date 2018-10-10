@@ -36,6 +36,7 @@ module TrailerVote
         version 1 do
           attribute :configuration do
             link :place
+            link :products
             link :feedback do
               attribute :href, Types.makeFormattedUrl(:uuid)
               attribute :templated, TrueClass

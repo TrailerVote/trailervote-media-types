@@ -4,6 +4,9 @@
       "place": {
         "href": "https://fake.trailervote.com:/api/places/2cecb0e5-d3cb-4171-abd0-78c80d2bd650"
       },
+      "products": {
+        "href": "https://fake.trailervote.com/api/products"
+      },
       "persona": {
         "href": "https://fake.trailervote.com:/api/personas/{uuid}",
         "templated": true
