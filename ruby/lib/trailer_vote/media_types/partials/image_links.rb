@@ -1,12 +1,15 @@
 # frozen_string_literal: true
 
 require 'media_types'
+require_relative '../types/product_image_type'
 
 module TrailerVote
   module MediaTypes
     module Partials
       IMAGE_LINKS = ::MediaTypes::Scheme.new do
-        link :self
+        link :self do
+          attribute :type, Types::ProductImageType, optional: true
+        end
 
         link :original do
           attribute :content_digest, String, optional: true

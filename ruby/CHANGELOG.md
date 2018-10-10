@@ -1,3 +1,7 @@
+# 0.7.4
+
+- Allow `type` on partial `image_links` (such as sentiment_feedback)
+
 # 0.7.3
 
 - Add `type` to image self link
