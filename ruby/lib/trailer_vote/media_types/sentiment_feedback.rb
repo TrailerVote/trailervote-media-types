@@ -8,7 +8,7 @@ require_relative 'types/iso8601'
 module TrailerVote
   module MediaTypes
     class SentimentFeedback < BaseText
-      media_type 'sentiment_feedback', defaults: { suffix: :json, version: 1 }
+      media_type 'sentiment_feedback', defaults: { suffix: :json, version: 2 }
 
       validations do
 
@@ -21,7 +21,7 @@ module TrailerVote
               attribute :_embedded do
                 attribute :identifier, String
                 attribute :updated_at, Types::Iso8601
-                attribute :asset_type, Types::ProductImageType
+                attribute :type, Types::ProductImageType
 
                 merge Partials::IMAGE_LINKS
               end
@@ -92,6 +92,8 @@ module TrailerVote
 
       registrations :sentiment_feedback do
         type_alias 'feedback.sentiment'
+
+        versions 1,2
       end
     end
   end

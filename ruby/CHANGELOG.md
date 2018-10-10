@@ -1,3 +1,8 @@
+# 0.7.1
+
+- Fix version 2 of sentiment feedback not registering
+- Change default version of sentiment feedback to v2
+
 # 0.7.0
 
 - Add `products` link to configuration v1
