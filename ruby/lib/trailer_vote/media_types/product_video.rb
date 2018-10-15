@@ -21,8 +21,8 @@ module TrailerVote
             attribute :source_url, AnyOf(Types::HttpUrl, String)
             attribute :expires_at, AllowNil(Types::Iso8601), optional: true
 
-            attribute :content_language, String, optional: true
-            attribute :content_region, String, optional: true
+            attribute :content_language, AllowNil(String), optional: true
+            attribute :content_region, AllowNil(String), optional: true
           end
 
           version_1_base = ::MediaTypes::Scheme.new do

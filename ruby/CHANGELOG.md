@@ -1,3 +1,7 @@
+# 0.7.6
+
+- Allow `content_*` to be `nil`
+
 # 0.7.5
 
 - Add `content_language` and `content_region` to assets
