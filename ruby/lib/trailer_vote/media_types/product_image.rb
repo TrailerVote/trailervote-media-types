@@ -14,38 +14,41 @@ module TrailerVote
       media_type 'product.image', defaults: { suffix: :json, version: 1 }
 
       validations do
+        version_1_creation = ::MediaTypes::Scheme.new do
+          attribute :identifier, String
+          attribute :source_url, AnyOf(Types::HttpUrl, String)
+          attribute :expires_at, AllowNil(Types::Iso8601), optional: true
+
+          attribute :content_language, String, optional: true
+          attribute :content_region, String, optional: true
+        end
+
+        version_1_base = ::MediaTypes::Scheme.new do
+          attribute :updated_at, Types::Iso8601
+
+          merge version_1_creation
+
+          attribute :data do
+            attribute :processed, Types::Boolean
+            attribute :type, Types::ProductImageType
+
+            not_strict
+          end
+
+          link :self do
+            attribute :type, Types::ProductImageType
+          end
+
+          %i[original thumbnail xlarge large medium small xsmall].each do |size|
+            link size, allow_nil: true, optional: true do
+              attribute :content_digest, String
+              attribute :width, Numeric
+              attribute :height, Numeric
+            end
+          end
+        end
+
         version 1 do
-          version_1_creation = ::MediaTypes::Scheme.new do
-            attribute :identifier, String
-            attribute :source_url, AnyOf(Types::HttpUrl, String)
-            attribute :expires_at, AllowNil(Types::Iso8601), optional: true
-          end
-
-          version_1_base = ::MediaTypes::Scheme.new do
-            attribute :updated_at, Types::Iso8601
-
-            merge version_1_creation
-
-            attribute :data do
-              attribute :processed, Types::Boolean
-              attribute :type, Types::ProductImageType
-
-              not_strict
-            end
-
-            link :self do
-              attribute :type, Types::ProductImageType
-            end
-
-            %i[original thumbnail xlarge large medium small xsmall].each do |size|
-              link size, allow_nil: true, optional: true do
-                attribute :content_digest, String
-                attribute :width, Numeric
-                attribute :height, Numeric
-              end
-            end
-          end
-
           attribute :product_image do
             merge version_1_base
           end
@@ -82,6 +85,8 @@ module TrailerVote
         view 'create', :create_product_image
         view 'index', :product_image_urls
         view 'collection', :product_images
+
+        versions 1
 
         type_alias 'product-image'
         type_alias 'image'

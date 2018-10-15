@@ -1,3 +1,7 @@
+# 0.7.5
+
+- Add `content_language` and `content_region` to assets
+
 # 0.7.4
 
 - Allow `type` on partial `image_links` (such as sentiment_feedback)
