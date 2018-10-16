@@ -26,6 +26,8 @@ module TrailerVote
           attribute :issue do
             merge version_1_base
             attribute :updated_at, Types::Iso8601
+
+            link :self
           end
 
           view 'create' do
