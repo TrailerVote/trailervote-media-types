@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'base_text'
+require_relative 'types/iso8601'
 
 module TrailerVote
   module MediaTypes
@@ -24,6 +25,7 @@ module TrailerVote
 
           attribute :issue do
             merge version_1_base
+            attribute :updated_at, Types::Iso8601
           end
 
           view 'create' do

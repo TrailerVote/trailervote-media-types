@@ -1,0 +1,16 @@
+{
+  "issue": {
+    "error_name": "ConflictingIdentifiers",
+    "error_message": "Command failed when ingesting movie because of Conflicting Identifiers",
+    "rescue_context": {
+      "caller": "TMDb::Ingestion::IngestMovieJob",
+      "args": {
+        "movie": {
+          "id": "12345",
+          "title": "The Testing Movie"
+        }
+      }
+    },
+    "updated_at": "2018-10-03T20:34:43.092Z"
+  }
+}
