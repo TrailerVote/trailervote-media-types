@@ -1,3 +1,8 @@
+# 0.8.0
+
+- Add `Issue` media type
+- Add `issues` link to configuration media type
+
 # 0.7.6
 
 - Allow `content_*` to be `nil`
