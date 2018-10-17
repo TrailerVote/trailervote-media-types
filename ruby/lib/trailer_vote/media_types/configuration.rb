@@ -30,6 +30,7 @@ module TrailerVote
             link :telemetrics do
               attribute :href, Types::InfluxDbConnectionUrl
             end
+            link :issues
           end
         end
 

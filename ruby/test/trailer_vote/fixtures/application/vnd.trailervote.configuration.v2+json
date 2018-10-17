@@ -22,6 +22,9 @@
       "persona": {
         "href": "https://fake.trailervote.com/api/personas/{uuid}",
         "templated": true
+      },
+      "issues": {
+        "href": "https://fake.trailervote.com/api/issues"
       }
     }
   }
