@@ -26,8 +26,9 @@ if ENV['COVERAGE']
   end
 end
 
-# Autoload fingerprinter, as if someone was using this gem from the outside
+# Autoload media types, as if someone was using this gem from the outside
 require 'trailer_vote/media_types'
+require 'trailer_vote/fixtures'
 
 # Reports
 require 'minitest/reporters'
@@ -43,15 +44,23 @@ FIXTURE_DIRECTORY = File.expand_path(File.join(__dir__, 'trailer_vote', 'fixture
 class Minitest::Test < Minitest::Runnable
   include MediaTypes::Assertions
 
+  def load_fixture(media_type)
+    path = File.join(FIXTURE_DIRECTORY, *media_type.split('/'))
+    if File.exist?(path)
+      return Oj.load_file(path, Oj.default_options)
+    end
+
+    TrailerVote::Fixtures.load(media_type).tap do |result|
+      warn "no fixture for #{media_type}" unless result
+    end
+  end
+
   def assert_fixture_passes_validation(media_type)
     ::MediaTypes.stub(:register, nil) do
       media_type.register.flatten.each do |registerable|
-        path = File.join(FIXTURE_DIRECTORY, *registerable.media_type.split('/'))
-        if File.exist?(path)
-          assert registerable.media_type.validate!(Oj.load_file(path, Oj.default_options))
-        else
-          warn "no fixture for #{registerable.media_type}"
-        end
+        fixture = load_fixture(registerable.media_type)
+        return unless fixture
+        assert registerable.media_type.validate!(fixture)
       end
     end
   end

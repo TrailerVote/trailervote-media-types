@@ -1,3 +1,7 @@
+# 0.8.1
+
+- Use external `trailer_vote-fixtures`.
+
 # 0.8.0
 
 - Add `Issue` media type
