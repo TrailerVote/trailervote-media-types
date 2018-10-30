@@ -21,7 +21,7 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    oj (3.6.12)
+    oj (3.6.13)
     rake (10.5.0)
     ruby-progressbar (1.10.0)
     simplecov (0.16.1)
@@ -32,6 +32,7 @@ GEM
     trailer_vote-fixtures (0.1.0)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
