@@ -19,9 +19,9 @@ module TrailerVote
           end
 
           formatted_mime_type 'application/vnd.trailervote.issue.v%<version>s.%<view>s+json' do
-
             version 1 do
               view 'create', symbol: :create_issue_v1_json, synonyms: []
+              view 'index', symbol: :issue_urls_v1_json, synonyms: []
             end
           end
         end

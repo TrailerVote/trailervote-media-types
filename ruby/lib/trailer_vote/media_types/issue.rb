@@ -9,6 +9,16 @@ module TrailerVote
       media_type 'issue', defaults: { suffix: :json, version: 1 }
 
       validations do
+        index_scheme = ::MediaTypes::Scheme.new do
+          attribute :issues do
+            collection :_index, allow_empty: true do
+              attribute :href, Types::HttpUrl
+              not_strict
+            end
+
+            not_strict
+          end
+        end
 
         version 1 do
           version_1_base = ::MediaTypes::Scheme.new do
@@ -35,11 +45,16 @@ module TrailerVote
               merge version_1_base
             end
           end
+
+          view 'index' do
+            merge index_scheme
+          end
         end
       end
 
       registrations :issue do
         view 'create', :create_issue
+        view 'index', :issue_urls
 
         versions 1
       end
