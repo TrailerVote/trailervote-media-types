@@ -44,8 +44,8 @@ DEPENDENCIES
   oj (~> 3.6)
   rake (~> 10.0)
   simplecov (~> 0.16)
-  trailer_vote-fixtures
+  trailer_vote-fixtures (~> 1.2)
   trailer_vote-media_types!
 
 BUNDLED WITH
-   1.16.5
+   1.17.3
