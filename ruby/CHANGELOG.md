@@ -1,3 +1,8 @@
+# 0.9.0
+
+- Add `issue` media type
+- Update `trailer_vote-fixtures` to 1.2.0
+
 # 0.8.1
 
 - Use external `trailer_vote-fixtures`.
