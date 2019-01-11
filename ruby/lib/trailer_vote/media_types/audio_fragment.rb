@@ -80,7 +80,7 @@ module TrailerVote
 
           view 'collection' do
             attribute :audio_fragments do
-              collection :_embedded, version_1_base
+              collection :_embedded, version_1_base, allow_empty: true
               not_strict
             end
           end
