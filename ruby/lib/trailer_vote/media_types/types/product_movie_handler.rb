@@ -8,6 +8,7 @@ module TrailerVote
       # noinspection RubyConstantNamingConvention
       ProductMovieHandler = ::MediaTypes::Scheme.AnyOf(
         'youtube',
+        'vimeo',
         'url'
       )
     end
