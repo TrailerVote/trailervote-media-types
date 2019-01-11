@@ -68,14 +68,14 @@ module TrailerVote
 
           view 'collection' do
             attribute :product_videos do
-              collection :_embedded, version_1_base
+              collection :_embedded, version_1_base, allow_empty: true
               not_strict
             end
           end
 
           view :index do
             attribute :product_videos do
-              collection :_index do
+              collection :_index, allow_empty: true do
                 attribute :href, Types::HttpUrl
                 attribute :type, Types::ProductMovieType
                 not_strict
