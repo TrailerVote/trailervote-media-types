@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "es2015",
+    "outDir": "dist",
+    "noEmit": true
+  },
+  "baseUrl": ".",
+  "include": ["application/**/*.ts", "package.json"],
+  "exclude": ["node_modules"]
+}

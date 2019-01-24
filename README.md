@@ -6,5 +6,6 @@ The TrailerVote services communicate via HTTP using media types for content nego
 | language | package | latest | install |
 |----------|---------|--------|---------|
 | ruby | [trailer_vote-media_types](./ruby) | [![Gem Version](https://badge.fury.io/rb/trailer_vote-media_types.svg)](https://badge.fury.io/rb/trailer_vote-media_types) | `gem install trailer_vote-media_types` |
-| javascript | [@trailervote/media-types](./javascript) | [![NPM Package Version](https://badge.fury.io/js/@trailervote%2Fmedia-types.svg)](https://npmjs.org/package/@trailervote/media-types) | `yarn add @trailervote/media-types` |
+| typescript | [@trailervote/media-types](./typescript) | [![NPM Package Version](https://badge.fury.io/js/@trailervote%2Fmedia-types.svg)](https://npmjs.org/package/@trailervote/media-types) | `yarn add @trailervote/media-types` |
+| javascript | there is currently no explicit JS validation in the typescript package |
 

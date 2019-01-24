@@ -1,0 +1,23 @@
+{
+  "name": "@trailervote/media-types",
+  "version": "0.1.0",
+  "description": "TrailerVote Media Types",
+  "main": "index.js",
+  "repository": "https://github.com/TrailerVote/trailervote-media-types/",
+  "author": "Derk-Jan Karrenbeld <dj@trailervote.com>",
+  "license": "MIT",
+  "files": [
+    "application"
+  ],
+  "scripts": {
+    "lint": "tslint --project tsconfig.json",
+    "build": "tsc --build tsconfig.json",
+    "test": "yarn lint && yarn build"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.0",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.17.0",
+    "typescript": "^3.2.4"
+  }
+}
