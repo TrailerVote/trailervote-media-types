@@ -55,19 +55,19 @@ matrix:
       cache: yarn
       node_js: node
       before_install:
-        - cd javascript
+        - cd typescript
 
     - language: node_js
       cache: yarn
       node_js: iojs
       before_install:
-        - cd javascript
+        - cd typescript
 
     - language: node_js
       cache: yarn
       node_js: lts/*
       before_install:
-        - cd javascript
+        - cd typescript
 
   allow_failures:
     - language: ruby
