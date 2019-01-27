@@ -1,5 +1,5 @@
 export interface PersonaV1 {
-  psersona: {
+  persona: {
     id: string
     _links: {
       self: { href: string }
