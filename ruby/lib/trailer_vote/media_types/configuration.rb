@@ -11,7 +11,7 @@ module TrailerVote
     # Media Types for Configuration
     #
     class Configuration < BaseText
-      media_type 'configuration', defaults: { suffix: :json, version: 2 }
+      media_type 'configuration', defaults: { suffix: :json, version: 3 }
 
       validations do
         version 2 do
