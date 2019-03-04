@@ -18,6 +18,27 @@ module TrailerVote
           attribute :configuration do
             link :self
             link :place
+            link :push_manifest
+            link :products
+            link :product_lookup
+            link :persona do
+              attribute :href, Types.makeFormattedUrl(:uuid)
+              attribute :templated, TrueClass
+            end
+            link :analytics do
+              attribute :href, Types::InfluxDbConnectionUrl
+            end
+            link :telemetrics do
+              attribute :href, Types::InfluxDbConnectionUrl
+            end
+            link :issues
+          end
+        end
+
+        version 2 do
+          attribute :configuration do
+            link :self
+            link :place
             link :products
             link :product_lookup
             link :persona do
@@ -54,7 +75,7 @@ module TrailerVote
       end
 
       registrations :configuration do
-        versions 1, 2
+        versions 1, 2, 3
       end
     end
   end
