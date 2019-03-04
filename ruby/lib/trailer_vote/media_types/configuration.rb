@@ -14,7 +14,7 @@ module TrailerVote
       media_type 'configuration', defaults: { suffix: :json, version: 3 }
 
       validations do
-        version 2 do
+        version 3 do
           attribute :configuration do
             link :self
             link :place
