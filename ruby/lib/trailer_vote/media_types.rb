@@ -22,6 +22,8 @@ require_relative './media_types/product'
 require_relative './media_types/product_image'
 require_relative './media_types/product_place_link'
 require_relative './media_types/product_video'
+require_relative './media_types/push_trivial_campaign'
+require_relative './media_types/push_manifest'
 require_relative './media_types/issue'
 
 module TrailerVote

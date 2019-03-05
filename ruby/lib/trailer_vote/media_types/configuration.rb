@@ -11,9 +11,30 @@ module TrailerVote
     # Media Types for Configuration
     #
     class Configuration < BaseText
-      media_type 'configuration', defaults: { suffix: :json, version: 2 }
+      media_type 'configuration', defaults: { suffix: :json, version: 3 }
 
       validations do
+        version 3 do
+          attribute :configuration do
+            link :self
+            link :place
+            link :push_manifest
+            link :products
+            link :product_lookup
+            link :persona do
+              attribute :href, Types.makeFormattedUrl(:uuid)
+              attribute :templated, TrueClass
+            end
+            link :analytics do
+              attribute :href, Types::InfluxDbConnectionUrl
+            end
+            link :telemetrics do
+              attribute :href, Types::InfluxDbConnectionUrl
+            end
+            link :issues
+          end
+        end
+
         version 2 do
           attribute :configuration do
             link :self
@@ -54,7 +75,7 @@ module TrailerVote
       end
 
       registrations :configuration do
-        versions 1, 2
+        versions 1, 2, 3
       end
     end
   end
