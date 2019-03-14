@@ -22,7 +22,7 @@ module TrailerVote
         end
       end
 
-      registrations do
+      registrations :product_place_link do
         view 'collection', :product_place_links
         view 'create', :create_product_place_link
         view 'index', :product_place_link_urls
