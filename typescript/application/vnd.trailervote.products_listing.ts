@@ -2,7 +2,7 @@ import { ImageLinks } from './partials/image_links'
 
 export interface ProductListingV1 {
   product_listing: {
-    items: [] | [ProductListingItemV1, ...ProductListingItemV1[]],
+    items: ProductListingItemV1[],
     _links: {
       self: { href: string }
     }
