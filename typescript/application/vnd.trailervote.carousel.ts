@@ -2,7 +2,7 @@ import { ImageLinks } from './partials/image_links'
 
 export interface CarouselV1 {
   carousel: {
-    items: [] | CarouselItemV1[]
+    items: CarouselItemV1[]
 
     _links: {
       self: { href: string }

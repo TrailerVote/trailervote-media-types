@@ -42,12 +42,12 @@ export interface ProductImageCreateV1 {
 
 export interface ProductImageCollectionV1 {
   product_images: {
-    _embedded: [] | ProductImageBaseV1[]
+    _embedded: ProductImageBaseV1[]
   }
 }
 
 export interface ProductImageIndexV1 {
   product_images: {
-    _index: [] | Array<{ href: string, type: ProductImageTypeV1 }>
+    _index: Array<{ href: string, type: ProductImageTypeV1 }>
   }
 }

@@ -2,7 +2,7 @@ import { ProductDataTypeV1 } from './types/product_data_type'
 
 interface ProductIndexBase {
   products: {
-    _index: [] | Array<{ href: string }>
+    _index: Array<{ href: string }>
   }
 }
 
@@ -64,7 +64,7 @@ export interface ProductCreateV2 {
 
 export interface ProductCollectionV2 {
   products: {
-    _embedded: [] | ProductBaseV2[]
+    _embedded: ProductBaseV2[]
   }
 }
 
