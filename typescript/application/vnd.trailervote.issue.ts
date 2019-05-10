@@ -24,6 +24,6 @@ export interface IssueCreateV1 {
 
 export interface IssueIndexV1 {
   issues: {
-    _index: [] | Array<{ href: string }>
+    _index: Array<{ href: string }>
   }
 }

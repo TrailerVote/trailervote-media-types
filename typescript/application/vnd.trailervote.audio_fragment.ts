@@ -17,12 +17,12 @@ export interface AudioFragmentV1 {
 
 export interface AudioFragmentIndexV1 {
   audio_fragments: {
-    _index?: [] | Array<{ href: string }>
+    _index?: Array<{ href: string }>
   }
 }
 
 export interface AudioFragmentCollectionV1 {
   audio_fragments: {
-    _embedded?: [] | AudioFragmentBaseV1[]
+    _embedded?: AudioFragmentBaseV1[]
   }
 }

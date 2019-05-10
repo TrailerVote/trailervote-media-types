@@ -17,7 +17,7 @@ export interface FeedbackV1 {
 
 export interface FeedbackCollectionV1 {
   feedback: {
-    _embedded: [] | FeedbackBaseV1[]
+    _embedded: FeedbackBaseV1[]
   }
 }
 

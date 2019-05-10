@@ -49,6 +49,6 @@ export interface ProductVideoCollectionV1 {
 
 export interface ProductVideoIndexV1 {
   product_videos: {
-    _index: [] | Array<{ href: string, type: ProductMovieTypeV1 }>
+    _index: Array<{ href: string, type: ProductMovieTypeV1 }>
   }
 }

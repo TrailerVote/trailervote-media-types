@@ -25,7 +25,7 @@ export interface SentimentFeedbackV1 {
     title: string
     description: string | null
     images?: null | {} | {
-      _embedded?: null | [] | Array<ImageLinks & {
+      _embedded?: null | Array<ImageLinks & {
         identifier: string
         updated_at: string
         type: ProductImageTypeV1

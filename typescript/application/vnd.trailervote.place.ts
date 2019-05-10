@@ -56,6 +56,6 @@ export interface PlaceCollectionV1 {
 
 export interface PlaceIndexV1 {
   places: {
-    _index: [] | Array<{ href: string }>
+    _index: Array<{ href: string }>
   }
 }
