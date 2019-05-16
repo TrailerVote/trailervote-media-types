@@ -1,6 +1,6 @@
 {
   "name": "@trailervote/media-types",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "TrailerVote Media Types",
   "main": "index.js",
   "repository": "https://github.com/TrailerVote/trailervote-media-types/",
@@ -15,7 +15,7 @@
     "test": "yarn lint && yarn build"
   },
   "devDependencies": {
-    "prettier": "^1.17.0",
+    "prettier": "^1.17.1",
     "tslint": "^5.16.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.4.5"
