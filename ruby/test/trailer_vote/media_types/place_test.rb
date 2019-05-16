@@ -22,8 +22,9 @@ module TrailerVote
 
           formatted_mime_type 'application/vnd.trailervote.place.v%<version>s.%<view>s+json' do
             version 3 do
-              view 'index', symbol: :place_urls_v2_json, synonyms: []
-              view 'collection', symbol: :places_v2_json, synonyms: []
+              view 'create', symbol: :create_place_v3_json, synonyms: []
+              view 'index', symbol: :place_urls_v3_json, synonyms: []
+              view 'collection', symbol: :places_v3_json, synonyms: []
             end
 
             version 2 do
