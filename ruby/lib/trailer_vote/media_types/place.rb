@@ -39,7 +39,7 @@ module TrailerVote
             link :self
             link :products_archive
             link :parent, allow_nil: true
-            link :children, allow_nil: true
+            link :children
           end
         end
 
