@@ -9,17 +9,23 @@ module TrailerVote
       def test_the_default_media_type
         # When this changes, the default version has changes and you should make downstream changes / have this gems
         # version change as well. If you pin a certain media type gem version, you get consistent media types.
-        assert_equal 'application/vnd.trailervote.place.v2+json', Place.to_constructable.to_s
+        assert_equal 'application/vnd.trailervote.place.v3+json', Place.to_constructable.to_s
       end
 
       def test_it_registers
         assert_media_types_registered(Place) do
           formatted_mime_type 'application/vnd.trailervote.place.v%<version>s+json' do
+            version 3, symbol: :place_v3_json, synonyms: []
             version 2, symbol: :place_v2_json, synonyms: []
             version 1, symbol: :place_v1_json, synonyms: []
           end
 
           formatted_mime_type 'application/vnd.trailervote.place.v%<version>s.%<view>s+json' do
+            version 3 do
+              view 'index', symbol: :place_urls_v2_json, synonyms: []
+              view 'collection', symbol: :places_v2_json, synonyms: []
+            end
+
             version 2 do
               view 'create', symbol: :create_place_v2_json, synonyms: []
               view 'index', symbol: :place_urls_v2_json, synonyms: []
