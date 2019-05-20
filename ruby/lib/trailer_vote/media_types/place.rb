@@ -41,6 +41,10 @@ module TrailerVote
             link :parent, allow_nil: true
             link :children
           end
+
+          view 'index' do
+            merge index_scheme
+          end
         end
 
         version 2 do
