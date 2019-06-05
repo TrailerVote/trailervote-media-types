@@ -17,7 +17,7 @@ module TrailerVote
       validations do
         version 1 do
           attribute :push_manifest do
-            collection :campaigns do
+            collection :campaigns, allow_empty: true do
               link :audio_fragment
               link :campaign
             end
