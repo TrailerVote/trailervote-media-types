@@ -27,6 +27,16 @@ module TrailerVote
       registrations :push_campaign_trivial do
         versions 1
       end
+
+
+      view 'create' do
+      	attribute :product_asset_id, Types::UuidV4
+      	attribute :url,String
+      	attribute :schedule_at, Types::Iso8601
+      	attribute :place_id, Types::UuidV4
+      	attribute :translations, expected_type: AllowNil(::Hash), allow_empty: true
+      end
+
     end
   end
 end
