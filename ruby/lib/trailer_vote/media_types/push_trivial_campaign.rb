@@ -35,8 +35,6 @@ module TrailerVote
       registrations :push_campaign_trivial do
         versions 1
       end
-
-
     end
   end
 end
