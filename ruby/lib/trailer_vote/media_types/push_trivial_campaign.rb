@@ -25,10 +25,10 @@ module TrailerVote
 
         view 'create' do
           attribute :product_asset_id, Types::UuidV4
-          attribute :url,String
+          attribute :url, String
           attribute :schedule_at, Types::Iso8601
           attribute :place_id, Types::UuidV4
-          attribute :translations, expected_type: AllowNil(::Hash)
+          attribute :translations, Hash
         end
       end
 
