@@ -5,7 +5,6 @@ require_relative '../../test_helper'
 module TrailerVote
   module MediaTypes
     class PushTrivialCampaignTest < Minitest::Test
-
       def test_the_default_media_type
         # When this changes, the default version has changes and you should make downstream changes / have this gems
         # version change as well. If you pin a certain media type gem version, you get consistent media types.
@@ -13,7 +12,7 @@ module TrailerVote
       end
 
       def test_it_registers
-        assert_media_types_registered(PushTrivialCampaign) do
+        assert_media_types_registered(PushTrivialCampaignx) do
           formatted_mime_type 'application/vnd.trailervote.push_campaign_trivial.v%<version>s+json' do
             version 1, symbol: :push_campaign_trivial_v1_json, synonyms: []
           end
