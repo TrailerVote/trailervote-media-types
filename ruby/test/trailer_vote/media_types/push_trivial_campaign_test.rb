@@ -25,20 +25,9 @@ module TrailerVote
           end
         end
       end
-      
+
       def test_fixtures
         assert_fixture_passes_validation PushTrivialCampaign
-      end
-    end
-  end
-end
-
-
-def test_it_registers
-  assert_media_types_registered(PushTrivialCampaign) do
-    formatted_mime_type 'application/vnd.trailervote.issue.v%<version>s.%<view>s+json' do
-      version 1 do
-        view 'create', symbol: :create_push_campaign_trivial_v1_json, synonyms: []
       end
     end
   end
