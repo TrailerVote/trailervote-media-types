@@ -13,7 +13,7 @@ module TrailerVote
       end
 
       def test_it_registers
-        assert_media_types_registered(Issue) do
+        assert_media_types_registered(PushTrivialCampaign) do
           formatted_mime_type 'application/vnd.trailervote.push_campaign_trivial.v%<version>s+json' do
             version 1, symbol: :push_campaign_trivial_v1_json, synonyms: []
           end
