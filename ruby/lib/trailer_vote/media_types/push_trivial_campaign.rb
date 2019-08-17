@@ -28,7 +28,7 @@ module TrailerVote
           attribute :url, String
           attribute :schedule_at, Types::Iso8601
           attribute :place_id, Types::UuidV4
-          attribute :translations, Hash
+          attribute :translations, ::Hash
         end
       end
 
