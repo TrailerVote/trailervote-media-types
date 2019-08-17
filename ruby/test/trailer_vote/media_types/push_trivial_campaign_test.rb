@@ -17,6 +17,12 @@ module TrailerVote
           formatted_mime_type 'application/vnd.trailervote.push_campaign_trivial.v%<version>s+json' do
             version 1, symbol: :push_campaign_trivial_v1_json, synonyms: []
           end
+
+          formatted_mime_type 'application/vnd.trailervote.push_campaign_trivial.v%<version>s.%<view>s+json' do
+            version 1 do
+              view 'create', symbol: :create_push_campaign_trivial_v1_json, synonyms: []
+            end
+          end
         end
       end
 
