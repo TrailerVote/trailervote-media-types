@@ -22,6 +22,14 @@ module TrailerVote
             attribute :schedule_at, Types::Iso8601
           end
         end
+
+        view 'create' do
+          attribute :product_asset_id, Types::UuidV4
+          attribute :url, String
+          attribute :schedule_at, Types::Iso8601
+          attribute :place_id, Types::UuidV4
+          attribute :translations, ::Hash
+        end
       end
 
       registrations :push_campaign_trivial do
