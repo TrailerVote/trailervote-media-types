@@ -9,13 +9,14 @@ module TrailerVote
       def test_the_default_media_type
         # When this changes, the default version has changes and you should make downstream changes / have this gems
         # version change as well. If you pin a certain media type gem version, you get consistent media types.
-        assert_equal 'application/vnd.trailervote.push_campaign_trivial.v1+json', PushTrivialCampaign.to_constructable.to_s
+        assert_equal 'application/vnd.trailervote.push_campaign_trivial.v2+json', PushTrivialCampaign.to_constructable.to_s
       end
 
       def test_it_registers
         assert_media_types_registered(PushTrivialCampaign) do
           formatted_mime_type 'application/vnd.trailervote.push_campaign_trivial.v%<version>s+json' do
             version 1, symbol: :push_campaign_trivial_v1_json, synonyms: []
+            version 2, symbol: :push_campaign_trivial_v2_json, synonyms: []
           end
 
           formatted_mime_type 'application/vnd.trailervote.push_campaign_trivial.v%<version>s.%<view>s+json' do
