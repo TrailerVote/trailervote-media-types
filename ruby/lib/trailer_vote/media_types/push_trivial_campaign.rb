@@ -27,7 +27,7 @@ module TrailerVote
 					attribute :language, AllowNil(String)
 					attribute :timezone, AllowNil(String)
 					attribute :vote_source, AllowNil(String)
-					attribute :purchased, AllowNil(Bool)
+					attribute :purchased, AllowNil(Boolean)
 					attribute :vote_value, AllowNil(Types::VoteValue)
 					attribute :vote_from, AllowNil(Types::Iso8601)
 					attribute :vote_until, AllowNil(Types::Iso8601)
