@@ -33,6 +33,8 @@ module TrailerVote
       end
 
       registrations :push_campaign_trivial do
+        view 'create', :create_push_trivial_campaign
+
         versions 1
       end
     end
