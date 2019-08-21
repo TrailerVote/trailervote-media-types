@@ -2,6 +2,9 @@
 
 require_relative 'base_text'
 require_relative 'types/http_url'
+require_relative 'types/iso8601'
+require_relative 'types/boolean'
+require_relative 'types/vote_value'
 
 module TrailerVote
   module MediaTypes
