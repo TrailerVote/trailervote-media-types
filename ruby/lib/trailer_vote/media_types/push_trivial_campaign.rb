@@ -46,16 +46,20 @@ module TrailerVote
           end
 
           view 'create' do
-            attribute :product_asset_id, Types::UuidV4
-            attribute :url, String
-            attribute :schedule_at, Types::Iso8601
-            attribute :place_id, Types::UuidV4
-            attribute :translations, ::Hash
+            attribute :push_campaign_trivial do
+              attribute :product_asset_id, Types::UuidV4
+              attribute :url, String
+              attribute :schedule_at, Types::Iso8601
+              attribute :place_id, Types::UuidV4
+              attribute :translations, ::Hash
+            end
           end
         end
       end
 
       registrations :push_campaign_trivial do
+        view 'create', :create_push_trivial_campaign
+
         versions 1, 2
       end
     end
