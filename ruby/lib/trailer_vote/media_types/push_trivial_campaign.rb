@@ -20,7 +20,6 @@ module TrailerVote
             link :action
             attribute :message, String
             attribute :schedule_at, Types::Iso8601
-            not_strict
           end
 
           view 'create' do
@@ -30,7 +29,6 @@ module TrailerVote
               attribute :schedule_at, Types::Iso8601
               attribute :place_id, Types::UuidV4
               attribute :translations, ::Hash
-              not_strict
             end
           end
         end
