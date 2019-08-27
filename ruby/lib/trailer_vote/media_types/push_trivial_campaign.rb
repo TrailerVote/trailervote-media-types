@@ -51,7 +51,6 @@ module TrailerVote
               link :place
               attribute :url, String
               attribute :schedule_at, Types::Iso8601
-
               attribute :translations, ::Hash
             end
           end
