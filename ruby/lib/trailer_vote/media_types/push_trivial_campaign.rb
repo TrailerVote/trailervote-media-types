@@ -47,10 +47,10 @@ module TrailerVote
 
           view 'create' do
             attribute :push_campaign_trivial do
-              attribute :product_asset_id, Types::UuidV4
+              link :product_asset
+              link :place
               attribute :url, String
               attribute :schedule_at, Types::Iso8601
-              attribute :place_id, Types::UuidV4
               attribute :translations, ::Hash
             end
           end
