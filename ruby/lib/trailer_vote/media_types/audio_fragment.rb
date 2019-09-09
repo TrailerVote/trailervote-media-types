@@ -87,7 +87,7 @@ module TrailerVote
 
           view 'ordered' do
             attribute :ordered_fragments do
-              collection :_ordered, allow_empty: true do
+              collection :_index, allow_empty: true do
                 attribute :href, Types::HttpUrl
                 attribute :q, Float
               end
