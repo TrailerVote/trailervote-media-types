@@ -8,7 +8,6 @@ require_relative 'types/vote_value'
 
 module TrailerVote
   module MediaTypes
-
     ##
     # Media Types for Trivial Push Campaign
     #
@@ -18,25 +17,24 @@ module TrailerVote
       media_type 'push_campaign_trivial', defaults: { suffix: :json, version: 2 }
 
       validations do
-
-		version 2 do
-			attribute :push_campaign_trivial do
-				link :action
-				attribute :message, String
-				attribute :schedule_at, Types::Iso8601
-				attribute :filter do
-					attribute :platform, AllowNil(String)
-					attribute :region, AllowNil(String)
-					attribute :language, AllowNil(String)
-					attribute :timezone, AllowNil(String)
-					attribute :vote_source, AllowNil(String)
-					attribute :purchased, AllowNil(Types::Boolean)
-					attribute :vote_value, AllowNil(Types::VoteValue)
-					attribute :vote_from, AllowNil(Types::Iso8601)
-					attribute :vote_until, AllowNil(Types::Iso8601)
-				end
-			end
-		end
+        version 2 do
+          attribute :push_campaign_trivial do
+            link :action
+            attribute :message, String
+            attribute :schedule_at, Types::Iso8601
+            attribute :filter do
+              attribute :platform, AllowNil(String)
+              attribute :region, AllowNil(String)
+              attribute :language, AllowNil(String)
+              attribute :timezone, AllowNil(String)
+              attribute :vote_source, AllowNil(String)
+              attribute :purchased, AllowNil(Types::Boolean)
+              attribute :vote_value, AllowNil(Types::VoteValue)
+              attribute :vote_from, AllowNil(Types::Iso8601)
+              attribute :vote_until, AllowNil(Types::Iso8601)
+            end
+          end
+        end
 
         version 1 do
           attribute :push_campaign_trivial do
