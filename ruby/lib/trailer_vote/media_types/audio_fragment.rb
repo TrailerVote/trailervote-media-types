@@ -91,6 +91,7 @@ module TrailerVote
                 attribute :href, Types::HttpUrl
                 attribute :q, Float
               end
+              not_strict
             end
           end
         end
