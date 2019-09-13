@@ -26,6 +26,9 @@ module TrailerVote
               view 'collection',
                    symbol: :audio_fragments_v1_json,
                    synonyms: ['application/vnd.trailervote.audio-fragment.v1.collection+json']
+              view 'ordered',
+                   symbol: :ordered_audio_fragment_urls_v1_json,
+                   synonyms: ['application/vnd.trailervote.audio-fragment.v1.ordered+json']
             end
           end
         end

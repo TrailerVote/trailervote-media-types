@@ -31,5 +31,6 @@ module TrailerVote
     INDEX_VIEW = ::MediaTypes::INDEX_VIEW
     COLLECTION_VIEW = ::MediaTypes::COLLECTION_VIEW
     CREATE_VIEW = ::MediaTypes::CREATE_VIEW
+    ORDERED_VIEW = 'ordered'
   end
 end
