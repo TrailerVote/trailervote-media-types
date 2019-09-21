@@ -7,7 +7,7 @@ export interface PlaceBaseV3 {
   _links: {
     self: { href: string }
     products_archive: { href: string }
-    parent: null | { href: string }
+    parent: { href: string | null }
     children: { href: string }
   }
 }
@@ -35,7 +35,7 @@ export interface PlaceBaseV2 {
   _links: {
     self: { href: string }
     products_archive: { href: string }
-    parent: null | { href: string }
+    parent: { href: string | null }
   }
 }
 
@@ -68,7 +68,7 @@ export interface PlaceBaseV1 {
   _links: {
     self: { href: string }
     products: { href: string }
-    parent: null | { href: string }
+    parent: { href: string | null }
   }
 }
 
