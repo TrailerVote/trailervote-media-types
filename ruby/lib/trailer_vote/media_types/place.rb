@@ -15,7 +15,7 @@ module TrailerVote
     # system are configured to be a tree.
     #
     class Place < BaseText
-      media_type 'place', defaults: { suffix: :json, version: 3 }
+      media_type 'place', defaults: { suffix: :json, version: 4 }
 
       validations do
         index_scheme = ::MediaTypes::Scheme.new do
@@ -26,6 +26,25 @@ module TrailerVote
             end
 
             not_strict
+          end
+        end
+
+        version 4 do
+          attribute :place do
+            attribute :name, String
+            attribute :parent_place, AllowNil(Types::UuidV4)
+            attribute :expires_at, AllowNil(String)
+            attribute :updated_at, Types::Iso8601
+
+            link :self
+            link :products_archive
+            link :fragments_archive
+            link :parent, allow_nil: true
+            link :children
+          end
+
+          view 'index' do
+            merge index_scheme
           end
         end
 
@@ -117,7 +136,7 @@ module TrailerVote
         view 'index', :place_urls
         view 'collection', :places
 
-        versions 1, 2, 3
+        versions 1, 2, 3, 4
       end
     end
   end
