@@ -1,11 +1,18 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "es2015",
     "module": "es2015",
+    "allowJs": true,
+    "declaration": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
     "outDir": "dist",
+    "sourceMap": false,
+    "resolveJsonModule": true,
     "noEmit": true
   },
   "baseUrl": ".",
-  "include": ["application/**/*.ts", "package.json"],
+  "include": ["application/**/*.ts", "tests/**/*.ts", "package.json"],
   "exclude": ["node_modules"]
 }

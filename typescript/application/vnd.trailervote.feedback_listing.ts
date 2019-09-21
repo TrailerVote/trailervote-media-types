@@ -6,7 +6,7 @@ export interface FeedbackListingV1 {
     items: FeedbackListingItemV1[]
 
     _links: {
-      self: { href: true }
+      self: { href: string }
     }
   }
 }

@@ -4,5 +4,5 @@ export interface ErrorsV1 {
 
 export interface SingleErrorV1 {
   message: string,
-  code?: string | null
+  code: string | null
 }
