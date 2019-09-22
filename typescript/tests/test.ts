@@ -13,6 +13,11 @@ import { ProductImageV1, ProductImageIndexV1 } from '../application/vnd.trailerv
 import { ProductLookupV1 } from '../application/vnd.trailervote.product.lookup'
 import { ProductV1, ProductV2, ProductIndexV1, ProductIndexV2 } from '../application/vnd.trailervote.product'
 import { ProductVideoV1, ProductVideoIndexV1 } from '../application/vnd.trailervote.product.video'
+import { ProductListingV1 } from '../application/vnd.trailervote.products_listing'
+import { PushTrivialCampaignV1, PushTrivialCampaignV2 } from '../application/vnd.trailervote.push_trivial_campaign'
+import { PushManifestV1 } from '../application/vnd.trailervote.push_manifest'
+import { SentimentFeedbackV1 } from '../application/vnd.trailervote.sentiment_feedback'
+
 
 
 
@@ -45,16 +50,17 @@ import ProductV2Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/appli
 import ProductV2IndexJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.product.v2.index.json'
 import ProductVideoJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.product.video.v1.json'
 import ProductVideoIndexJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.product.video.v1.index.json'
-
-
-
+import ProductsListingJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.products_listing.v1.json'
+import PushTrivialCampaignV1Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v1.json'
+import PushTrivialCampaignV2Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v2.json'
+import PushManifestJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_manifest.v1.json'
+import SentimentFeedbackJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.sentiment_feedback.v1.json'
 
 // Fixtures can not be imported with their original names.
 // Run yarn fix-fixtures to fix their names
 
 const audio = audioJson as AudioFragmentV1
 const audioIndex = audioIndexJson as AudioFragmentIndexV1
-const audioOrdered = audioOrderedJson // TODO: missing in Typescript
 
 const carousel = carouselJson as CarouselV1
 
@@ -87,10 +93,19 @@ const productImageIndex = ProductImageIndexJson as ProductImageIndexV1
 
 const productLookup = ProductLookupJson as ProductLookupV1
 
-const ProductV1 = ProductV1Json as ProductV1
-const ProductV1Index = ProductV1IndexJson as ProductIndexV1
-const ProductV2 = ProductV2Json as ProductV2
-const ProductV2Index = ProductV2IndexJson as ProductIndexV2
+const productV1 = ProductV1Json as ProductV1
+const productV1Index = ProductV1IndexJson as ProductIndexV1
+const productV2 = ProductV2Json as ProductV2
+const productV2Index = ProductV2IndexJson as ProductIndexV2
 
-const ProductVideo = ProductVideoJson as ProductVideoV1
-const ProductVideoIndex = ProductVideoIndexJson as ProductVideoIndexV1
+const productVideo = ProductVideoJson as ProductVideoV1
+const productVideoIndex = ProductVideoIndexJson as ProductVideoIndexV1
+
+const productListing = ProductsListingJson as ProductListingV1
+
+const pushCampaignTrivialV1 = PushTrivialCampaignV1Json as PushTrivialCampaignV1
+const pushCampaignTrivialV2 = PushTrivialCampaignV2Json as PushTrivialCampaignV2
+
+const pushManifestV1 = PushManifestJson as PushManifestV1
+
+const sentimentFeedback = SentimentFeedbackJson as SentimentFeedbackV1
