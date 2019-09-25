@@ -14,24 +14,79 @@ module TrailerVote
     # The trivial push campaign is used to schedule a local push notification at a specified time.
     #
     class PushTrivialCampaign < BaseText
-      media_type 'push_campaign_trivial', defaults: { suffix: :json, version: 2 }
+      media_type 'push_campaign_trivial', defaults: { suffix: :json, version: 3 }
+
+      filters = ::MediaTypes::Scheme.new do
+        attribute :filter do
+          attribute :platform, AllowNil(String)
+          attribute :region, AllowNil(String)
+          attribute :language, AllowNil(String)
+          attribute :timezone, AllowNil(String)
+          attribute :vote_source, AllowNil(String)
+          attribute :purchased, AllowNil(Types::Boolean)
+          attribute :vote_value, AllowNil(Types::VoteValue)
+          attribute :vote_from, AllowNil(Types::Iso8601)
+          attribute :vote_until, AllowNil(Types::Iso8601)
+        end
+      end
+
+      filters_creation = ::MediaTypes::Scheme.new do
+        attribute :filter do
+          attribute :platform, AllowNil(String), optional: true
+          attribute :region, AllowNil(String), optional: true
+          attribute :language, AllowNil(String), optional: true
+          attribute :timezone, AllowNil(String), optional: true
+          attribute :vote_source, AllowNil(String), optional: true
+          attribute :purchased, AllowNil(Types::Boolean), optional: true
+          attribute :vote_value, AllowNil(Types::VoteValue), optional: true
+          attribute :vote_from, AllowNil(Types::Iso8601), optional: true
+          attribute :vote_until, AllowNil(Types::Iso8601), optional: true
+        end
+      end
+
+      push_creation_base = ::MediaTypes::Scheme.new do
+        attribute :_links do
+          attribute :product_asset do
+            attribute :href, Types::HttpUrl
+          end
+          attribute :action do
+            attribute :href, Types::HttpUrl
+          end
+        end
+        attribute :schedule_at, Types::Iso8601
+        attribute :translations, ::Hash
+      end
 
       validations do
+        version 3 do
+          attribute :push_campaign_trivial do
+            link :action
+            link :self
+            attribute :message, String
+            attribute :schedule_at, Types::Iso8601
+            merge filters
+          end
+
+          view 'create' do
+            attribute :push_campaign_trivial do
+              merge push_creation_base
+              merge filters_creation
+            end
+          end
+        end
+
         version 2 do
           attribute :push_campaign_trivial do
             link :action
             attribute :message, String
             attribute :schedule_at, Types::Iso8601
-            attribute :filter do
-              attribute :platform, AllowNil(String)
-              attribute :region, AllowNil(String)
-              attribute :language, AllowNil(String)
-              attribute :timezone, AllowNil(String)
-              attribute :vote_source, AllowNil(String)
-              attribute :purchased, AllowNil(Types::Boolean)
-              attribute :vote_value, AllowNil(Types::VoteValue)
-              attribute :vote_from, AllowNil(Types::Iso8601)
-              attribute :vote_until, AllowNil(Types::Iso8601)
+            merge filters
+          end
+
+          view 'create' do
+            attribute :push_campaign_trivial do
+              merge push_creation_base
+              merge filters_creation
             end
           end
         end
@@ -45,11 +100,7 @@ module TrailerVote
 
           view 'create' do
             attribute :push_campaign_trivial do
-              link :product_asset
-              link :place
-              attribute :url, String
-              attribute :schedule_at, Types::Iso8601
-              attribute :translations, ::Hash
+              merge push_creation_base
             end
           end
         end
@@ -58,7 +109,7 @@ module TrailerVote
       registrations :push_campaign_trivial do
         view 'create', :create_push_trivial_campaign
 
-        versions 1, 2
+        versions 1, 2, 3
       end
     end
   end
