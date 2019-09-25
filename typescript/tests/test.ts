@@ -8,13 +8,13 @@ import { FeedbackListingV1 } from '../application/vnd.trailervote.feedback_listi
 import { InteractivePlayerV1 } from '../application/vnd.trailervote.interactive_player'
 import { IssueCreateV1, IssueIndexV1, IssueV1 } from '../application/vnd.trailervote.issue'
 import { PersonaV1 } from '../application/vnd.trailervote.persona'
-import { PlaceV1, PlaceV2, PlaceV3 } from '../application/vnd.trailervote.place'
+import { PlaceV1, PlaceV2, PlaceV3, PlaceV4 } from '../application/vnd.trailervote.place'
 import { ProductImageV1, ProductImageIndexV1 } from '../application/vnd.trailervote.product.image'
 import { ProductLookupV1 } from '../application/vnd.trailervote.product.lookup'
 import { ProductV1, ProductV2, ProductIndexV1, ProductIndexV2 } from '../application/vnd.trailervote.product'
 import { ProductVideoV1, ProductVideoIndexV1 } from '../application/vnd.trailervote.product.video'
 import { ProductListingV1 } from '../application/vnd.trailervote.products_listing'
-import { PushTrivialCampaignV1, PushTrivialCampaignV2 } from '../application/vnd.trailervote.push_trivial_campaign'
+import { PushTrivialCampaignV1, PushTrivialCampaignV2, PushTrivialCampaignV3, PushTrivialCampaignCreateV1, PushTrivialCampaignCreateV2, PushTrivialCampaignCreateV3 } from '../application/vnd.trailervote.push_trivial_campaign'
 import { PushManifestV1 } from '../application/vnd.trailervote.push_manifest'
 import { SentimentFeedbackV1 } from '../application/vnd.trailervote.sentiment_feedback'
 
@@ -41,6 +41,7 @@ import PersonaJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/applica
 import PlaceV1Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.place.v1.json'
 import PlaceV2Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.place.v2.json'
 import PlaceV3Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.place.v3.json'
+import PlaceV4Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.place.v4.json'
 import ProductImageJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.product.image.v1.json'
 import ProductImageIndexJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.product.image.v1.index.json'
 import ProductLookupJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.product.lookup.v1.json'
@@ -53,6 +54,10 @@ import ProductVideoIndexJson from '@trailervote/fixtures/lib/trailer_vote/fixtur
 import ProductsListingJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.products_listing.v1.json'
 import PushTrivialCampaignV1Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v1.json'
 import PushTrivialCampaignV2Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v2.json'
+import PushTrivialCampaignV3Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v3.json'
+import PushTrivialCampaignV1CreateJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v1.create.json'
+import PushTrivialCampaignV2CreateJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v2.create.json'
+import PushTrivialCampaignV3CreateJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v3.create.json'
 import PushManifestJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_manifest.v1.json'
 import SentimentFeedbackJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.sentiment_feedback.v1.json'
 
@@ -87,6 +92,7 @@ const person = PersonaJson as PersonaV1
 const placeV1 = PlaceV1Json as PlaceV1
 const placeV2 = PlaceV2Json as PlaceV2
 const placeV3 = PlaceV3Json as PlaceV3
+const placeV4 = PlaceV4Json as PlaceV4
 
 const productImage = ProductImageJson as ProductImageV1
 const productImageIndex = ProductImageIndexJson as ProductImageIndexV1
@@ -105,6 +111,10 @@ const productListing = ProductsListingJson as ProductListingV1
 
 const pushCampaignTrivialV1 = PushTrivialCampaignV1Json as PushTrivialCampaignV1
 const pushCampaignTrivialV2 = PushTrivialCampaignV2Json as PushTrivialCampaignV2
+const pushCampaignTrivialV3 = PushTrivialCampaignV3Json as PushTrivialCampaignV3
+const pushCampaignTrivialV1Create = PushTrivialCampaignV1CreateJson as PushTrivialCampaignCreateV1
+const pushCampaignTrivialV2Create = PushTrivialCampaignV2CreateJson as PushTrivialCampaignCreateV2
+const pushCampaignTrivialV3Create = PushTrivialCampaignV3CreateJson as PushTrivialCampaignCreateV3
 
 const pushManifestV1 = PushManifestJson as PushManifestV1
 

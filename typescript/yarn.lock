@@ -18,10 +18,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@trailervote/fixtures@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@trailervote/fixtures/-/fixtures-1.5.1.tgz#89838e9a8c7a30a8e2d376f94ffeaf09ae385dc1"
-  integrity sha512-xYD9acrBWWk6HPjFm+APBdB+38UooZXiese3DVGjTOLXzOwCaj2ZsnaNRBhk7VD5yWm7+r0FDqN+Ymnqsrds0Q==
+"@trailervote/fixtures@^1.6.1":
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/@trailervote/fixtures/-/fixtures-1.6.1.tgz#93a22762f8708aadbd42009d61f72a983868bd13"
+  integrity sha512-8UdCwo+S3SrFJrROM00JDo1/gV4lKALFtCWmKStXL3rYnZ+csaJUrPToIcY5g11rARmu7poqebDkhQdQXtDLGA==
   dependencies:
     esm "^3.2.25"
     path "^0.12.7"
