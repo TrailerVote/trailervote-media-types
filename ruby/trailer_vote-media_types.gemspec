@@ -10,6 +10,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Derk-Jan Karrenbeld']
   spec.email         = ['dj@trailervote.com']
   spec.summary       = 'Holds the defined media types for the TrailerVote ecosystem'
+  spec.homepage      = 'https://github.com/TrailerVote/trailervote-media-types'
 
   # noinspection RubyStringKeysInHashInspection
   spec.metadata = {
@@ -30,7 +31,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'media_types', '>= 0.6.0', '< 1'
 
-  spec.add_development_dependency 'awesome_print'
+  spec.add_development_dependency 'awesome_print', '~> 1.8'
   spec.add_development_dependency 'bundler', '~> 1.16'
   spec.add_development_dependency 'minitest', '~> 5.0'
   spec.add_development_dependency 'minitest-ci', '~> 3.4'
