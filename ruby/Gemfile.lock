@@ -36,7 +36,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  awesome_print
+  awesome_print (~> 1.8)
   bundler (~> 1.16)
   minitest (~> 5.0)
   minitest-ci (~> 3.4)
