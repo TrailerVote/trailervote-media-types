@@ -26,6 +26,7 @@ Gem::Specification.new do |spec|
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+  spec.required_ruby_version = '>= 2.5.1'
 
   spec.add_runtime_dependency 'media_types', '>= 0.6.0', '< 1'
 
@@ -37,5 +38,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'oj', '~> 3.6'
   spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'simplecov', '~> 0.16'
-  spec.add_development_dependency 'trailer_vote-fixtures', '~> 1.3'
+  spec.add_development_dependency 'trailer_vote-fixtures', '~> 1.6.0'
 end
