@@ -15,7 +15,7 @@ module TrailerVote
       def test_it_registers
         assert_media_types_registered(Place) do
           formatted_mime_type 'application/vnd.trailervote.place.v%<version>s+json' do
-            version 4, symbol: :place_v3_json, synonyms: []
+            version 4, symbol: :place_v4_json, synonyms: []
             version 3, symbol: :place_v3_json, synonyms: []
             version 2, symbol: :place_v2_json, synonyms: []
             version 1, symbol: :place_v1_json, synonyms: []
