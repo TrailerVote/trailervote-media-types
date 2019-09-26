@@ -45,14 +45,8 @@ module TrailerVote
       end
 
       push_creation_base = ::MediaTypes::Scheme.new do
-        attribute :_links do
-          attribute :product_asset do
-            attribute :href, Types::HttpUrl
-          end
-          attribute :action do
-            attribute :href, Types::HttpUrl
-          end
-        end
+        link :product_asset
+        link :action
         attribute :schedule_at, Types::Iso8601
         attribute :translations, ::Hash
       end
