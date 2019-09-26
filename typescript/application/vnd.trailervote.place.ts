@@ -1,3 +1,30 @@
+export interface PlaceBaseV4 {
+  name: string
+  parent_place: string | null
+  expires_at: string | null
+  updated_at: string
+
+  _links: {
+    self: { href: string }
+    products_archive: { href: string }
+    fragments_archive: { href: string }
+    parent: { href: string | null }
+    children: { href: string }
+  }
+}
+
+export interface PlaceV4 {
+  place: PlaceBaseV4
+}
+
+export type PlaceCreateV4 = PlaceCreateV3
+
+export interface PlaceCollectionV4 {
+  places: {
+    _embedded: PlaceBaseV4[]
+  }
+}
+
 export interface PlaceBaseV3 {
   name: string
   parent_place: string | null
@@ -7,7 +34,7 @@ export interface PlaceBaseV3 {
   _links: {
     self: { href: string }
     products_archive: { href: string }
-    parent: null | { href: string }
+    parent: { href: string | null }
     children: { href: string }
   }
 }
@@ -35,7 +62,7 @@ export interface PlaceBaseV2 {
   _links: {
     self: { href: string }
     products_archive: { href: string }
-    parent: null | { href: string }
+    parent: { href: string | null }
   }
 }
 
@@ -68,7 +95,7 @@ export interface PlaceBaseV1 {
   _links: {
     self: { href: string }
     products: { href: string }
-    parent: null | { href: string }
+    parent: { href: string | null }
   }
 }
 

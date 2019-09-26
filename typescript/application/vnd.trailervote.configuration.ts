@@ -4,8 +4,8 @@ export interface ConfigurationV2 {
       self: { href: string }
       place: { href: string }
       products: { href: string }
-      products_lookup: { href: string }
-      persona: { href: string, termplated: true }
+      product_lookup: { href: string }
+      persona: { href: string, templated: true }
       analytics: { href: string }
       telemetrics: { href: string }
       issues: { href: string }
@@ -19,7 +19,7 @@ export interface ConfigurationV1 {
       place: { href: string }
       products: { href: string }
       feedback: { href: string, templated: true }
-      persona: { href: string, termplated: true }
+      persona: { href: string, templated: true }
       analytics: { href: string }
     }
   }
