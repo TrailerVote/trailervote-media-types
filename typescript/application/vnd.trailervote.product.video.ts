@@ -29,7 +29,7 @@ export interface ProductVideoBaseV1 extends ProductVideoBaseCreationV1 {
       content_digest: string
     }
 
-    direct?: null | { href: string }
+    direct?: { href: string | null }
   }
 }
 
