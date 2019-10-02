@@ -1,6 +1,6 @@
 {
   "name": "@trailervote/media-types",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "TrailerVote Media Types",
   "main": "index.js",
   "repository": "https://github.com/TrailerVote/trailervote-media-types/",
