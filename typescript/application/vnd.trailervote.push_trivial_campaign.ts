@@ -1,5 +1,64 @@
 import { VoteValue } from './types/vote_value'
 
+export interface PushTrivialCampaignV4 {
+  push_campaign_trivial: PushTrivialCampaignBaseV4
+}
+
+export interface PushTrivialCampaignBaseV4 {
+  message: string
+  schedule_at: string
+  filter: {
+    platform: string | null,
+    region: string | null,
+    language: string | null,
+    timezone: string | null,
+    vote_source: string | null,
+    purchased: boolean | null,
+    vote_value: VoteValue | null,
+    vote_from: string | null,
+    vote_until: string | null
+  }
+  _links: {
+    action: { href: string }
+    self: { href: string }
+    rich_media?: { href: string }
+  }
+}
+
+export interface PushTrivialCampaignCreateV4 {
+  push_campaign_trivial: {
+    schedule_at: string
+    translations: {
+      [k: string]: string
+    }
+    _links: {
+      product_asset?: {
+        href: string
+      },
+      product?: {
+        href: string
+      },
+      action: {
+        href: string
+      },
+      rich_media?: {
+        href: string
+      }
+    },
+    filter: {
+      platform?: string | null,
+      region?: string | null,
+      language?: string | null,
+      timezone?: string | null,
+      vote_source?: string | null,
+      purchased?: boolean | null,
+      vote_value?: VoteValue | null,
+      vote_from?: string | null,
+      vote_until?: string | null
+    }
+  }
+}
+
 export interface PushTrivialCampaignV3 {
   push_campaign_trivial: PushTrivialCampaignBaseV3
 }
@@ -49,7 +108,33 @@ export interface PushTrivialCampaignBaseV2 {
   }
 }
 
-export type PushTrivialCampaignCreateV2 = PushTrivialCampaignCreateV1
+export interface PushTrivialCampaignCreateV2 {
+  push_campaign_trivial: {
+    schedule_at: string
+    translations: {
+      [k: string]: string
+    }
+    _links: {
+      product_asset: {
+        href: string
+      },
+      action: {
+        href: string
+      }
+    },
+    filter: {
+      platform?: string | null,
+      region?: string | null,
+      language?: string | null,
+      timezone?: string | null,
+      vote_source?: string | null,
+      purchased?: boolean | null,
+      vote_value?: VoteValue | null,
+      vote_from?: string | null,
+      vote_until?: string | null
+    }
+  }
+}
 
 export interface PushTrivialCampaignV1 {
   push_campaign_trivial: PushTrivialCampaignBaseV1
@@ -67,7 +152,7 @@ export interface PushTrivialCampaignCreateV1 {
   push_campaign_trivial: {
     schedule_at: string
     translations: {
-      [k:string]: string
+      [k: string]: string
     }
     _links: {
       product_asset: {

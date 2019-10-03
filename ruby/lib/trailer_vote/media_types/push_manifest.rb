@@ -12,9 +12,20 @@ module TrailerVote
     # The push manifest is a list of active push campaigns
     #
     class PushManifest < BaseText
-      media_type 'push_manifest', defaults: { suffix: :json, version: 1 }
+      media_type 'push_manifest', defaults: { suffix: :json, version: 2 }
 
       validations do
+
+        version 2 do
+          attribute :push_manifest do
+            collection :campaigns, allow_empty: true do
+              link :audio_fragment, optional: true
+              link :product, optional: true
+              link :campaign
+            end
+          end
+        end
+
         version 1 do
           attribute :push_manifest do
             collection :campaigns, allow_empty: true do
