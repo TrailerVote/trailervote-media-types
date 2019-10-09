@@ -37,7 +37,7 @@ module TrailerVote
               attribute :href, Types.makeFormattedUrl(:persona)
               attribute :templated, TrueClass
             end
-            attribute :customer_config, optional: true
+            attribute :customer_config
           end
         end
 
