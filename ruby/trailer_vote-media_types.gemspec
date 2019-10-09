@@ -39,5 +39,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'oj', '~> 3.6'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'simplecov', '~> 0.16'
-  spec.add_development_dependency 'trailer_vote-fixtures', '~> 1.6.2'
+  spec.add_development_dependency 'trailer_vote-fixtures', '~> 1.6.4'
 end
