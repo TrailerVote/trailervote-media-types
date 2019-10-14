@@ -1,11 +1,13 @@
 import { ImageLinks } from './partials/image_links'
 
 export interface ProductListingV1 {
-  products_listing: {
-    items: ProductListingItemV1[],
-    _links: {
-      self: { href: string }
-    }
+  products_listing: ProductListingBaseV1
+}
+
+export interface ProductListingBaseV1 {
+  items: ProductListingItemV1[],
+  _links: {
+    self: { href: string }
   }
 }
 
