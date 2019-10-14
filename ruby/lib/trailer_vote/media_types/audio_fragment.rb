@@ -60,7 +60,7 @@ module TrailerVote
             link :product
             link :feedback
             link :advert
-            link :direct, optional: true
+            link :direct
           end
 
           attribute :audio_fragment do
