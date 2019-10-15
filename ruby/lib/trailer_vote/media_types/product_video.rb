@@ -46,7 +46,7 @@ module TrailerVote
             link :audio_fragment do
               attribute :content_digest, String
             end
-            link :direct, allow_nil: true, optional: true
+            link :direct, allow_nil: true
 
             # link :original do
             #   attribute :content_digest, String

@@ -7,7 +7,7 @@ export interface AudioFragmentBaseV1 {
     product: { href: string }
     feedback: { href: string }
     advert: { href: string }
-    direct?: { href: string }
+    direct: { href: string }
   }
 }
 
