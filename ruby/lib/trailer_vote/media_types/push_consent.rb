@@ -26,6 +26,8 @@ module TrailerVote
 
           view 'create' do
             merge version_1_base
+
+            link :tos
           end
         end
       end
