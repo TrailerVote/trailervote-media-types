@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative 'base_text'
+require_relative 'types/boolean'
 require_relative 'types/iso8601'
 
 module TrailerVote
@@ -12,7 +13,7 @@ module TrailerVote
         version 1 do
           version_1_base = ::MediaTypes::Scheme.new do
             attribute :region, String
-            attribute :opt_in, Boolean
+            attribute :opt_in, Types::Boolean
             attribute :signed_at, Types::Iso8601
           end
 
