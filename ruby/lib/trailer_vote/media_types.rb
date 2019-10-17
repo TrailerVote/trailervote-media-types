@@ -25,6 +25,10 @@ require_relative './media_types/product_video'
 require_relative './media_types/push_trivial_campaign'
 require_relative './media_types/push_manifest'
 require_relative './media_types/issue'
+require_relative './media_types/push_consent'
+require_relative './media_types/push_token_index'
+require_relative './media_types/push_token_android'
+require_relative './media_types/push_token_ios'
 
 module TrailerVote
   module MediaTypes
