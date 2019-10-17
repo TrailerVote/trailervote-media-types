@@ -25,9 +25,11 @@ module TrailerVote
           end
 
           view 'create' do
-            merge version_1_base
+            attribute :push_consent do
+              merge version_1_base
 
-            link :tos
+              link :tos
+            end
           end
         end
       end
