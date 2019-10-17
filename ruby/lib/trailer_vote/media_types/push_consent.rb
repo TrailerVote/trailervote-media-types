@@ -10,18 +10,28 @@ module TrailerVote
 
       validations do
         version 1 do
-          attribute :push_consent do
+          version_1_base = ::MediaTypes::Scheme.new do
             attribute :region, String
             attribute :opt_in, Boolean
             attribute :signed_at, Types::Iso8601
+          end
+
+          attribute :push_consent do
+            merge version_1_base
 
             link :tos
             link :tokens
+          end
+
+          view 'create' do
+            merge version_1_base
           end
         end
       end
 
       registrations :push_consent do
+        view 'create', :create_push_consent
+
         versions 1
       end
     end
