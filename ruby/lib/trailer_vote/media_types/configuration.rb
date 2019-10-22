@@ -27,7 +27,7 @@ module TrailerVote
               attribute :templated, TrueClass
             end
             link :lookup do
-              attribute :href, Types.makeFormattedUrl(:query)
+              attribute :href, Types.makeFormattedUrl(:authority, :identifier)
               attribute :templated, TrueClass
             end
             link :analytics do
