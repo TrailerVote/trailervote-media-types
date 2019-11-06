@@ -1,13 +1,13 @@
 import {AudioFragmentIndexV1, AudioFragmentV1 } from '../application/vnd.trailervote.audio_fragment'
 import {CarouselV1} from '../application/vnd.trailervote.carousel'
 import {ClientConfigurationV1} from '../application/vnd.trailervote.client_configuration'
-import {ConfigurationV1, ConfigurationV2} from '../application/vnd.trailervote.configuration'
+import {ConfigurationV1, ConfigurationV2, ConfigurationV3, ConfigurationV4, ConfigurationV5} from '../application/vnd.trailervote.configuration'
 import { ErrorsV1 } from '../application/vnd.trailervote.errors'
 import { FeedbackV1, FeedbackCreateV1, FeedbackCollectionV1 } from '../application/vnd.trailervote.feedback'
 import { FeedbackListingV1 } from '../application/vnd.trailervote.feedback_listing'
 import { InteractivePlayerV1 } from '../application/vnd.trailervote.interactive_player'
 import { IssueCreateV1, IssueIndexV1, IssueV1 } from '../application/vnd.trailervote.issue'
-import { PersonaV1 } from '../application/vnd.trailervote.persona'
+import { PersonaV1, PersonaV2 } from '../application/vnd.trailervote.persona'
 import { PlaceV1, PlaceV2, PlaceV3, PlaceV4 } from '../application/vnd.trailervote.place'
 import { ProductImageV1, ProductImageIndexV1 } from '../application/vnd.trailervote.product.image'
 import { ProductLookupV1 } from '../application/vnd.trailervote.product.lookup'
@@ -28,6 +28,9 @@ import carouselJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/applic
 import clientConfigurationJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.client_configuration.v1.json'
 import configurationV1Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.configuration.v1.json'
 import configurationV2Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.configuration.v2.json'
+import configurationV3Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.configuration.v3.json'
+import configurationV4Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.configuration.v4.json'
+import configurationV5Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.configuration.v5.json'
 import ErrorsJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.errors.v1.json'
 import FeedbackJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.feedback.v1.json'
 import FeedbackCreateJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.feedback.v1.create.json'
@@ -37,7 +40,8 @@ import InteractivePLayerJson from '@trailervote/fixtures/lib/trailer_vote/fixtur
 import IssueJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.issue.v1.json'
 import IssueCreateJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.issue.v1.create.json'
 import IssueIndexJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.issue.v1.index.json'
-import PersonaJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.persona.v1.json'
+import Persona1Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.persona.v1.json'
+import Persona2Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.persona.v2.json'
 import PlaceV1Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.place.v1.json'
 import PlaceV2Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.place.v2.json'
 import PlaceV3Json from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.place.v3.json'
@@ -73,6 +77,9 @@ const clientConfiguration = clientConfigurationJson as ClientConfigurationV1
 
 const configurationV1 = configurationV1Json as ConfigurationV1
 const configurationV2 = configurationV2Json as ConfigurationV2
+const configurationV3 = configurationV3Json as ConfigurationV3
+const configurationV4 = configurationV4Json as ConfigurationV4
+const configurationV5 = configurationV5Json as ConfigurationV5
 
 const errors = ErrorsJson as ErrorsV1
 
@@ -87,7 +94,8 @@ const issue = IssueJson as IssueV1
 const issueCreate = IssueCreateJson as IssueCreateV1
 const issueIndex = IssueIndexJson as IssueIndexV1
 
-const person = PersonaJson as PersonaV1
+const persona1 = Persona1Json as PersonaV1
+const persona2 = Persona2Json as PersonaV2
 
 const placeV1 = PlaceV1Json as PlaceV1
 const placeV2 = PlaceV2Json as PlaceV2
