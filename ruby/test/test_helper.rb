@@ -59,7 +59,8 @@ class Minitest::Test < Minitest::Runnable
     ::MediaTypes.stub(:register, nil) do
       media_type.register.flatten.each do |registerable|
         fixture = load_fixture(registerable.media_type)
-        return unless fixture
+        next unless fixture
+
         assert registerable.media_type.validate!(fixture)
       end
     end
