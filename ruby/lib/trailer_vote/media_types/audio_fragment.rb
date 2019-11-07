@@ -84,16 +84,6 @@ module TrailerVote
               not_strict
             end
           end
-
-          view 'ordered' do
-            attribute :ordered_fragments do
-              collection :_index, allow_empty: true do
-                attribute :href, Types::HttpUrl
-                attribute :q, Float
-              end
-              not_strict
-            end
-          end
         end
       end
 
@@ -108,7 +98,6 @@ module TrailerVote
       registrations :audio_fragment do
         view 'index', :audio_fragment_urls
         view 'collection', :audio_fragments
-        view 'ordered', :ordered_audio_fragment_urls
 
         versions 1
 
