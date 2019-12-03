@@ -18,8 +18,8 @@ module TrailerVote
         version 1 do
           attribute :release_push_campaign do
             attribute :message, String
-            attribute :dnd_start, Types::Time
-            attribute :dnd_end, Types::Time
+            attribute :dnd_start, Types::LocalTime
+            attribute :dnd_end, Types::LocalTime
 
             link :action
             link :self
@@ -29,8 +29,8 @@ module TrailerVote
           view 'create' do
             attribute :release_push_campaign do
               attribute :translations, ::Hash
-              attribute :dnd_start, Types::Time
-              attribute :dnd_end, Types::Time
+              attribute :dnd_start, Types::LocalTime
+              attribute :dnd_end, Types::LocalTime
 
               link :product
               link :action
