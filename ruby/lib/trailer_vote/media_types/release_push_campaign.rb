@@ -2,6 +2,7 @@
 
 require_relative 'base_text'
 require_relative 'types/http_url'
+require_relative 'types/time'
 
 module TrailerVote
   module MediaTypes
@@ -17,6 +18,8 @@ module TrailerVote
         version 1 do
           attribute :release_push_campaign do
             attribute :message, String
+            attribute :dnd_start, Types::Time
+            attribute :dnd_end, Types::Time
 
             link :action
             link :self
@@ -26,6 +29,8 @@ module TrailerVote
           view 'create' do
             attribute :release_push_campaign do
               attribute :translations, ::Hash
+              attribute :dnd_start, Types::Time
+              attribute :dnd_end, Types::Time
 
               link :product
               link :action
