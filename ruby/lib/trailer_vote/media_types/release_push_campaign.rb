@@ -2,7 +2,7 @@
 
 require_relative 'base_text'
 require_relative 'types/http_url'
-require_relative 'types/time'
+require_relative 'types/local_time'
 
 module TrailerVote
   module MediaTypes
