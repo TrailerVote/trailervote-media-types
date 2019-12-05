@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require_relative 'base_text'
-require_relative 'types/iso8601'
 require_relative 'types/uuid_v4'
 
 module TrailerVote
@@ -19,6 +18,8 @@ module TrailerVote
 
           attribute :push_token_ios do
             merge version_1_base
+
+            link :self
           end
 
           view 'create' do
