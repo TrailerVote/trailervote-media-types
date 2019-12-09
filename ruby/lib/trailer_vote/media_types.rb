@@ -30,6 +30,7 @@ require_relative './media_types/push_token_index'
 require_relative './media_types/push_token_android'
 require_relative './media_types/push_token_ios'
 require_relative './media_types/ordered_fragment'
+require_relative './media_types/release_push_campaign'
 
 module TrailerVote
   module MediaTypes

@@ -15,6 +15,13 @@ module TrailerVote
           formatted_mime_type 'application/vnd.trailervote.push_token_index.v%<version>s+json' do
             version 1, symbol: :push_token_index_v1_json, synonyms: []
           end
+
+          formatted_mime_type 'application/vnd.trailervote.push_token_index.v%<version>s.%<view>s+json' do
+            version 1 do
+              index symbol: :product_urls_v1_json,
+                    synonyms: ['application/vnd.trailervote.push_token_index.v1.index+json']
+            end
+          end
         end
       end
 

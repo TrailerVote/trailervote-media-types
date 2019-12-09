@@ -21,15 +21,15 @@ GEM
       builder
       minitest (>= 5.0)
       ruby-progressbar
-    oj (3.9.2)
-    rake (13.0.0)
+    oj (3.10.0)
+    rake (13.0.1)
     ruby-progressbar (1.10.1)
     simplecov (0.17.1)
       docile (~> 1.1)
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.2)
-    trailer_vote-fixtures (1.10.0)
+    trailer_vote-fixtures (1.13.0)
 
 PLATFORMS
   ruby
@@ -44,7 +44,7 @@ DEPENDENCIES
   oj (~> 3.6)
   rake (~> 13.0)
   simplecov (~> 0.16)
-  trailer_vote-fixtures (~> 1.10.0)
+  trailer_vote-fixtures (~> 1.13.0)
   trailer_vote-media_types!
 
 BUNDLED WITH
