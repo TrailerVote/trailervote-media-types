@@ -29,7 +29,9 @@ export interface PushTrivialCampaignCreateV4 {
   push_campaign_trivial: {
     schedule_at: string
     translations: {
-      [k: string]: string
+      [k: string]: {
+        message: string
+      }
     }
     _links: {
       product_asset?: {
