@@ -1,4 +1,4 @@
-import { VoteValue } from './types/vote_value'
+import {VoteValue} from './types/vote_value'
 
 export interface PushTrivialCampaignV4 {
   push_campaign_trivial: PushTrivialCampaignBaseV4
@@ -29,7 +29,9 @@ export interface PushTrivialCampaignCreateV4 {
   push_campaign_trivial: {
     schedule_at: string
     translations: {
-      [k: string]: string
+      [k: string]: {
+        message: string
+      }
     }
     _links: {
       product_asset?: {
@@ -112,7 +114,9 @@ export interface PushTrivialCampaignCreateV2 {
   push_campaign_trivial: {
     schedule_at: string
     translations: {
-      [k: string]: string
+      [k: string]: {
+        message: string
+      }
     }
     _links: {
       product_asset: {
@@ -152,7 +156,9 @@ export interface PushTrivialCampaignCreateV1 {
   push_campaign_trivial: {
     schedule_at: string
     translations: {
-      [k: string]: string
+      [k: string]: {
+        message: string
+      }
     }
     _links: {
       product_asset: {
