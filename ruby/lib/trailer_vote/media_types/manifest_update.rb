@@ -7,9 +7,9 @@ module TrailerVote
   module MediaTypes
 
     ##
-    # Media Type for Push Manifest
+    # Media Type for the Manifest Update action
     #
-    # The push manifest is a list of active push campaigns
+    # The manifest update action is used to force clients to update the manifest
     #
     class ManifestUpdate < BaseText
       media_type 'manifest_update', defaults: { suffix: :json, version: 1 }
