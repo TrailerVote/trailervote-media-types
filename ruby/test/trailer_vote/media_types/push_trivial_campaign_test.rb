@@ -9,7 +9,7 @@ module TrailerVote
       def test_the_default_media_type
         # When this changes, the default version has changes and you should make downstream changes / have this gems
         # version change as well. If you pin a certain media type gem version, you get consistent media types.
-        assert_equal 'application/vnd.trailervote.push_campaign_trivial.v4+json', PushTrivialCampaign.to_constructable.to_s
+        assert_equal 'application/vnd.trailervote.push_campaign_trivial.v5+json', PushTrivialCampaign.to_constructable.to_s
       end
 
       def test_it_registers
@@ -19,6 +19,7 @@ module TrailerVote
             version 2, symbol: :push_campaign_trivial_v2_json, synonyms: []
             version 3, symbol: :push_campaign_trivial_v3_json, synonyms: []
             version 4, symbol: :push_campaign_trivial_v4_json, synonyms: []
+            version 5, symbol: :push_campaign_trivial_v5_json, synonyms: []
           end
 
           formatted_mime_type 'application/vnd.trailervote.push_campaign_trivial.v%<version>s.%<view>s+json' do
@@ -37,6 +38,10 @@ module TrailerVote
             version 4 do
               view 'create', symbol: :create_push_campaign_trivial_v4_json, synonyms: []
               view 'index', symbol: :push_campaign_trivial_urls_v4_json, synonyms: []
+            end
+            version 5 do
+              view 'create', symbol: :create_push_campaign_trivial_v5_json, synonyms: []
+              view 'index', symbol: :push_campaign_trivial_urls_v5_json, synonyms: []
             end
           end
         end

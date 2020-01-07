@@ -32,12 +32,12 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'media_types', '>= 0.6.0', '< 1'
 
   spec.add_development_dependency 'awesome_print', '~> 1.8'
-  spec.add_development_dependency 'bundler', '~> 1.16'
+  spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'minitest', '~> 5.0'
   spec.add_development_dependency 'minitest-ci', '~> 3.4'
   spec.add_development_dependency 'minitest-reporters', '~> 1.3'
   spec.add_development_dependency 'oj', '~> 3.6'
   spec.add_development_dependency 'rake', '~> 13.0'
   spec.add_development_dependency 'simplecov', '~> 0.16'
-  spec.add_development_dependency 'trailer_vote-fixtures', '~> 1.14.0'
+  spec.add_development_dependency 'trailer_vote-fixtures', '~> 1.15.0'
 end
