@@ -16,10 +16,10 @@
     "test": "yarn fix-fixtures && yarn lint && yarn build"
   },
   "devDependencies": {
-    "@trailervote/fixtures": "^1.14.0",
+    "@trailervote/fixtures": "^1.15.0",
     "prettier": "^1.19.1",
     "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.7.3"
+    "typescript": "^3.7.4"
   }
 }

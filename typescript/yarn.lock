@@ -18,10 +18,10 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@trailervote/fixtures@^1.14.0":
-  version "1.14.0"
-  resolved "https://registry.yarnpkg.com/@trailervote/fixtures/-/fixtures-1.14.0.tgz#adc5fd864158643c352e431150ada3927ed0ee21"
-  integrity sha512-ePdqUiqB7eDoYLfqMeIj+xHTooe+wDTS2lAiEeGXUbQKGBZNyoCaUQIeHDXJXH/IffxbMfOAffWdqkJtIEmxBQ==
+"@trailervote/fixtures@^1.15.0":
+  version "1.15.0"
+  resolved "https://registry.yarnpkg.com/@trailervote/fixtures/-/fixtures-1.15.0.tgz#ef787a9b390fb235fee867a1b86337b575516e77"
+  integrity sha512-wfzvFuoMZn2vYZWSTLKnQZ12/TB9mrKfwv8yqjxYmaeyiDbVHNgpzJN/AXiWLIOoaaVxYLyzyARXg1AJoMkwew==
   dependencies:
     esm "^3.2.25"
     path "^0.12.7"
@@ -222,9 +222,9 @@ process@^0.11.1:
   integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
 
 resolve@^1.3.2:
-  version "1.14.1"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.14.1.tgz#9e018c540fcf0c427d678b9931cbf45e984bcaff"
-  integrity sha512-fn5Wobh4cxbLzuHaE+nphztHy43/b++4M6SsGFC2gB8uYwf0C8LcarfCz1un7UTW8OFQg9iNjZ4xpcFVGebDPg==
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.14.2.tgz#dbf31d0fa98b1f29aa5169783b9c290cb865fea2"
+  integrity sha512-EjlOBLBO1kxsUxsKjLt7TAECyKW6fOh1VRkykQkKGzcBbjjPIxBqGh0jf7GJ3k/f5mxMqW3htMD3WdTUVtW8HQ==
   dependencies:
     path-parse "^1.0.6"
 
@@ -281,10 +281,10 @@ tsutils@^2.29.0:
   dependencies:
     tslib "^1.8.1"
 
-typescript@^3.7.3:
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.3.tgz#b36840668a16458a7025b9eabfad11b66ab85c69"
-  integrity sha512-Mcr/Qk7hXqFBXMN7p7Lusj1ktCBydylfQM/FZCk5glCNQJrCUKPkMHdo9R0MTFWsC/4kPFvDS0fDPvukfCkFsw==
+typescript@^3.7.4:
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.4.tgz#1743a5ec5fef6a1fa9f3e4708e33c81c73876c19"
+  integrity sha512-A25xv5XCtarLwXpcDNZzCGvW2D1S3/bACratYBx2sax8PefsFhlYmkQicKHvpYflFS8if4zne5zT5kpJ7pzuvw==
 
 util@^0.10.3:
   version "0.10.4"

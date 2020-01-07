@@ -1,5 +1,70 @@
 import {VoteValue} from './types/vote_value'
 
+export interface PushTrivialCampaignV5 {
+  push_campaign_trivial: PushTrivialCampaignBaseV5
+}
+
+export interface PushTrivialCampaignBaseV5 {
+  message: string
+  schedule_at: string
+  published_at: string
+  archived_at: string
+  filter: {
+    platform: string | null,
+    region: string | null,
+    language: string | null,
+    timezone: string | null,
+    vote_source: string | null,
+    purchased: boolean | null,
+    vote_value: VoteValue | null,
+    vote_from: string | null,
+    vote_until: string | null
+  }
+  _links: {
+    action: { href: string }
+    self: { href: string }
+    rich_media?: { href: string }
+  }
+}
+
+export interface PushTrivialCampaignCreateV5 {
+  push_campaign_trivial: {
+    schedule_at: string
+    published_at: string
+    archived_at: string
+    translations: {
+      [k: string]: {
+        message: string
+      }
+    }
+    _links: {
+      product_asset?: {
+        href: string
+      },
+      product?: {
+        href: string
+      },
+      action: {
+        href: string
+      },
+      rich_media?: {
+        href: string
+      }
+    },
+    filter: {
+      platform?: string | null,
+      region?: string | null,
+      language?: string | null,
+      timezone?: string | null,
+      vote_source?: string | null,
+      purchased?: boolean | null,
+      vote_value?: VoteValue | null,
+      vote_from?: string | null,
+      vote_until?: string | null
+    }
+  }
+}
+
 export interface PushTrivialCampaignV4 {
   push_campaign_trivial: PushTrivialCampaignBaseV4
 }
