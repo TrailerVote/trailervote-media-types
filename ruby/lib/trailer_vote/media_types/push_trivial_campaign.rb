@@ -69,16 +69,16 @@ module TrailerVote
             link :rich_media, optional: true
             attribute :message, String
             attribute :schedule_at, Types::Iso8601
-            attribute :published_at, Types::Iso8601
-            attribute :archived_at, Types::Iso8601
+            attribute :published_at, AllowNil(Types::Iso8601)
+            attribute :archived_at, AllowNil(Types::Iso8601)
             merge filters
           end
 
           view 'create' do
             attribute :push_campaign_trivial do
               merge push_creation_base_v4
-              attribute :published_at, Types::Iso8601
-              attribute :archived_at, Types::Iso8601
+              attribute :published_at, AllowNil(Types::Iso8601)
+              attribute :archived_at, AllowNil(Types::Iso8601)
               merge filters_creation
             end
           end
@@ -153,7 +153,7 @@ module TrailerVote
       registrations :push_campaign_trivial do
         view 'create', :create_push_trivial_campaign
 
-        versions 1, 2, 3
+        versions 1, 2, 3, 4
       end
     end
   end

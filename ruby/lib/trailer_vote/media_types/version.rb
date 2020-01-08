@@ -2,6 +2,6 @@
 
 module TrailerVote
   module MediaTypes
-    VERSION = '2.1.0'
+    VERSION = '2.2.1'
   end
 end
