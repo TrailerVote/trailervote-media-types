@@ -14,7 +14,7 @@ import { ProductLookupV1 } from '../application/vnd.trailervote.product.lookup'
 import { ProductV1, ProductV2, ProductIndexV1, ProductIndexV2 } from '../application/vnd.trailervote.product'
 import { ProductVideoV1, ProductVideoIndexV1 } from '../application/vnd.trailervote.product.video'
 import { ProductListingV1 } from '../application/vnd.trailervote.products_listing'
-import { PushTrivialCampaignV1, PushTrivialCampaignV2, PushTrivialCampaignV3, PushTrivialCampaignV4, PushTrivialCampaignV5, PushTrivialCampaignCreateV1, PushTrivialCampaignCreateV2, PushTrivialCampaignCreateV3, PushTrivialCampaignCreateV4, PushTrivialCampaignCreateV5 } from '../application/vnd.trailervote.push_trivial_campaign'
+import { PushTrivialCampaignV1, PushTrivialCampaignV2, PushTrivialCampaignV3, PushTrivialCampaignV4, PushTrivialCampaignV5, PushTrivialCampaignCreateV1, PushTrivialCampaignCreateV2, PushTrivialCampaignCreateV3, PushTrivialCampaignCreateV4, PushTrivialCampaignCreateV5, PushTrivialCampaignRawV1, PushTrivialCampaignRawV2, PushTrivialCampaignRawV3, PushTrivialCampaignRawV4, PushTrivialCampaignRawV5 } from '../application/vnd.trailervote.push_trivial_campaign'
 import { PushManifestV1 } from '../application/vnd.trailervote.push_manifest'
 import { SentimentFeedbackV1 } from '../application/vnd.trailervote.sentiment_feedback'
 
@@ -66,6 +66,11 @@ import PushTrivialCampaignV2CreateJson from '@trailervote/fixtures/lib/trailer_v
 import PushTrivialCampaignV3CreateJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v3.create.json'
 import PushTrivialCampaignV4CreateJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v4.create.json'
 import PushTrivialCampaignV5CreateJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v5.create.json'
+import PushTrivialCampaignV1RawJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v1.raw.json'
+import PushTrivialCampaignV2RawJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v2.raw.json'
+import PushTrivialCampaignV3RawJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v3.raw.json'
+import PushTrivialCampaignV4RawJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v4.raw.json'
+import PushTrivialCampaignV5RawJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_campaign_trivial.v5.raw.json'
 import PushManifestJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.push_manifest.v1.json'
 import SentimentFeedbackJson from '@trailervote/fixtures/lib/trailer_vote/fixtures/application/vnd.trailervote.sentiment_feedback.v1.json'
 
@@ -131,6 +136,11 @@ const pushCampaignTrivialV2Create = PushTrivialCampaignV2CreateJson as PushTrivi
 const pushCampaignTrivialV3Create = PushTrivialCampaignV3CreateJson as PushTrivialCampaignCreateV3
 const pushCampaignTrivialV4Create = PushTrivialCampaignV4CreateJson as PushTrivialCampaignCreateV4
 const pushCampaignTrivialV5Create = PushTrivialCampaignV5CreateJson as PushTrivialCampaignCreateV5
+const pushCampaignTrivialV1Raw = PushTrivialCampaignV1RawJson as PushTrivialCampaignRawV1
+const pushCampaignTrivialV2Raw = PushTrivialCampaignV2RawJson as PushTrivialCampaignRawV2
+const pushCampaignTrivialV3Raw = PushTrivialCampaignV3RawJson as PushTrivialCampaignRawV3
+const pushCampaignTrivialV4Raw = PushTrivialCampaignV4RawJson as PushTrivialCampaignRawV4
+const pushCampaignTrivialV5Raw = PushTrivialCampaignV5RawJson as PushTrivialCampaignRawV5
 
 const pushManifestV1 = PushManifestJson as PushManifestV1
 

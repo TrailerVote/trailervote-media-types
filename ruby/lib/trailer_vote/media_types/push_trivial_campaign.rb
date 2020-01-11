@@ -77,8 +77,8 @@ module TrailerVote
           view 'create' do
             attribute :push_campaign_trivial do
               merge push_creation_base_v4
-              attribute :published_at, AllowNil(Types::Iso8601)
-              attribute :archived_at, AllowNil(Types::Iso8601)
+              attribute :published_at, AllowNil(Types::Iso8601), optional: true
+              attribute :archived_at, AllowNil(Types::Iso8601), optional: true
               merge filters_creation
             end
           end

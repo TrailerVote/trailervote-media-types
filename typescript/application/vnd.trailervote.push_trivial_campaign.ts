@@ -7,8 +7,8 @@ export interface PushTrivialCampaignV5 {
 export interface PushTrivialCampaignBaseV5 {
   message: string
   schedule_at: string
-  published_at: string
-  archived_at: string
+  published_at: string | null
+  archived_at: string | null
   filter: {
     platform: string | null,
     region: string | null,
@@ -30,8 +30,8 @@ export interface PushTrivialCampaignBaseV5 {
 export interface PushTrivialCampaignCreateV5 {
   push_campaign_trivial: {
     schedule_at: string
-    published_at: string
-    archived_at: string
+    published_at?: string | null
+    archived_at?: string | null
     translations: {
       [k: string]: {
         message: string
@@ -61,6 +61,37 @@ export interface PushTrivialCampaignCreateV5 {
       vote_value?: VoteValue | null,
       vote_from?: string | null,
       vote_until?: string | null
+    }
+  }
+}
+
+export interface PushTrivialCampaignRawV5 {
+  push_campaign_trivial: {
+    translations: {
+      [k: string]: {
+        message: string
+      }
+    }
+    schedule_at: string
+    published_at: string | null
+    archived_at: string | null
+    filter: {
+      platform: string | null,
+      region: string | null,
+      language: string | null,
+      timezone: string | null,
+      vote_source: string | null,
+      purchased: boolean | null,
+      vote_value: VoteValue | null,
+      vote_from: string | null,
+      vote_until: string | null
+    }
+    _links: {
+      action: { href: string }
+      self: { href: string }
+      rich_media?: { href: string }
+      product_asset?: { href: string },
+      product?: { href: string },
     }
   }
 }
