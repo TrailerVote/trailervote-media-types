@@ -25,23 +25,23 @@ module TrailerVote
           formatted_mime_type 'application/vnd.trailervote.push_campaign_trivial.v%<version>s.%<view>s+json' do
             version 1 do
               view 'create', symbol: :create_push_campaign_trivial_v1_json, synonyms: []
-              view 'index', symbol: :push_campaign_trivial_urls_v1_json, synonyms: []
+              view 'raw', symbol: :raw_push_campaign_trivial_v1_json, synonyms: []
             end
             version 2 do
               view 'create', symbol: :create_push_campaign_trivial_v2_json, synonyms: []
-              view 'index', symbol: :push_campaign_trivial_urls_v2_json, synonyms: []
+              view 'raw', symbol: :raw_push_campaign_trivial_v2_json, synonyms: []
             end
             version 3 do
               view 'create', symbol: :create_push_campaign_trivial_v3_json, synonyms: []
-              view 'index', symbol: :push_campaign_trivial_urls_v3_json, synonyms: []
+              view 'raw', symbol: :raw_push_campaign_trivial_v3_json, synonyms: []
             end
             version 4 do
               view 'create', symbol: :create_push_campaign_trivial_v4_json, synonyms: []
-              view 'index', symbol: :push_campaign_trivial_urls_v4_json, synonyms: []
+              view 'raw', symbol: :raw_push_campaign_trivial_v4_json, synonyms: []
             end
             version 5 do
               view 'create', symbol: :create_push_campaign_trivial_v5_json, synonyms: []
-              view 'index', symbol: :push_campaign_trivial_urls_v5_json, synonyms: []
+              view 'raw', symbol: :raw_push_campaign_trivial_v5_json, synonyms: []
             end
           end
         end
