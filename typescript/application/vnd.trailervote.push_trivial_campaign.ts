@@ -30,8 +30,8 @@ export interface PushTrivialCampaignBaseV5 {
 export interface PushTrivialCampaignCreateV5 {
   push_campaign_trivial: {
     schedule_at: string
-    published_at?: string | null
-    archived_at?: string | null
+    published_at: string | null
+    archived_at: string | null
     translations: {
       [k: string]: {
         message: string
