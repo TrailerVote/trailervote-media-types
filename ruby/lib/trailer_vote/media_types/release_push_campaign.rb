@@ -21,8 +21,8 @@ module TrailerVote
             attribute :message, String
             attribute :dnd_start, Types::LocalTime
             attribute :dnd_end, Types::LocalTime
-            attribute :published_at, Types::Iso8601
-            attribute :archived_at, Types::Iso8601
+            attribute :published_at, AllowNil(Types::Iso8601)
+            attribute :archived_at, AllowNil(Types::Iso8601)
 
             link :action
             link :self
