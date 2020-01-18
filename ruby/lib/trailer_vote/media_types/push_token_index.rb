@@ -18,10 +18,23 @@ module TrailerVote
               link :push_token
             end
           end
+
+          view 'index' do
+            attribute :push_token_index do
+              collection :_index, allow_empty: true do
+                attribute :device_id, Types::UuidV4
+
+                link :push_token
+              end
+              not_strict
+            end
+          end
         end
       end
 
       registrations :push_token_index do
+        view 'index', :push_token_index
+
         versions 1
       end
     end
