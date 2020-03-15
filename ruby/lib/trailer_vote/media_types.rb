@@ -34,6 +34,7 @@ require_relative './media_types/push_recipe_ios'
 require_relative './media_types/ordered_fragment'
 require_relative './media_types/release_push_campaign'
 require_relative './media_types/manifest_update'
+require_relative './media_types/vista_config'
 
 module TrailerVote
   module MediaTypes
