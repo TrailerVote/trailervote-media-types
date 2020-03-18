@@ -12,7 +12,7 @@ require_relative 'types/http_url'
 module TrailerVote
   module MediaTypes
     class ProductVideo < BaseText
-      media_type 'product.video', defaults: { suffix: :json, version: 1 }
+      use_name 'product.video'
 
       validations do
         version 1 do
@@ -85,15 +85,6 @@ module TrailerVote
             end
           end
         end
-      end
-
-      registrations :product_video do
-        view 'create', :create_product_video
-        view 'index', :product_video_urls
-        view 'collection', :product_videos
-
-        type_alias 'product-video'
-        type_alias 'video'
       end
     end
   end

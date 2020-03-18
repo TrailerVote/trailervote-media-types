@@ -11,7 +11,7 @@ require_relative 'types/http_url'
 module TrailerVote
   module MediaTypes
     class ProductImage < BaseText
-      media_type 'product.image', defaults: { suffix: :json, version: 1 }
+      use_name 'product.image'
 
       validations do
         version_1_creation = ::MediaTypes::Scheme.new do
@@ -79,17 +79,6 @@ module TrailerVote
             end
           end
         end
-      end
-
-      registrations :product_image do
-        view 'create', :create_product_image
-        view 'index', :product_image_urls
-        view 'collection', :product_images
-
-        versions 1
-
-        type_alias 'product-image'
-        type_alias 'image'
       end
     end
   end

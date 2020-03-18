@@ -14,7 +14,7 @@ module TrailerVote
     # The trivial push campaign is used to schedule a local push notification at a specified time.
     #
     class PushTrivialCampaign < BaseText
-      media_type 'push_campaign_trivial', defaults: { suffix: :json, version: 5 }
+      use_name 'push_campaign_trivial'
 
       filters = ::MediaTypes::Scheme.new do
         attribute :filter do
@@ -206,13 +206,6 @@ module TrailerVote
             end
           end
         end
-      end
-
-      registrations :push_campaign_trivial do
-        view 'create', :create_push_trivial_campaign
-        view 'raw', :raw_push_trivial_campaign
-
-        versions 1, 2, 3, 4, 5
       end
     end
   end

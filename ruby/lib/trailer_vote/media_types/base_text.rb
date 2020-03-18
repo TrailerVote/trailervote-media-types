@@ -9,12 +9,8 @@ module TrailerVote
 
       class << self
 
-        protected
-
-        BASE_TEXT_FORMAT = 'application/vnd.trailervote.%<type>s.v%<version>s.%<view>s+%<suffix>s'
-
-        def base_format
-          BASE_TEXT_FORMAT
+        def organisation
+          'trailervote'
         end
       end
     end

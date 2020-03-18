@@ -7,7 +7,7 @@ require_relative 'types/iso8601'
 module TrailerVote
   module MediaTypes
     class PushConsent < BaseText
-      media_type 'push_consent', defaults: { suffix: :json, version: 1 }
+      use_name 'push_consent'
 
       validations do
         version 1 do
@@ -32,12 +32,6 @@ module TrailerVote
             end
           end
         end
-      end
-
-      registrations :push_consent do
-        view 'create', :create_push_consent
-
-        versions 1
       end
     end
   end

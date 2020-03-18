@@ -12,7 +12,7 @@ module TrailerVote
     # The push manifest is a list of active push campaigns
     #
     class PushManifest < BaseText
-      media_type 'push_manifest', defaults: { suffix: :json, version: 2 }
+      use_name 'push_manifest'
 
       validations do
 
@@ -34,10 +34,6 @@ module TrailerVote
             end
           end
         end
-      end
-
-      registrations :push_manifest do
-        versions 1
       end
     end
   end

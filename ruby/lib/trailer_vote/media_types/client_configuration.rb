@@ -15,7 +15,7 @@ module TrailerVote
     # the values.
     #
     class ClientConfiguration < BaseText
-      media_type 'client_configuration', defaults: { suffix: :json, version: 1 }
+      use_name 'client_configuration'
 
       validations do
         version 1 do
@@ -26,10 +26,6 @@ module TrailerVote
         end
       end
 
-      registrations :client_configuration do
-        versions 1
-        type_alias 'client-configuration'
-      end
     end
   end
 end

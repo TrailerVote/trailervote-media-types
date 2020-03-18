@@ -18,7 +18,7 @@ module TrailerVote
     # A product has attachments, such as data, {ProductImage}, and recognizable {AudioFragment}.
     #
     class Product < BaseText
-      media_type 'product', defaults: { suffix: :json, version: 2 }
+      use_name 'product'
 
       validations do
         index_scheme = ::MediaTypes::Scheme.new do
@@ -175,16 +175,6 @@ module TrailerVote
             merge index_scheme
           end
         end
-      end
-
-      registrations :product do
-        view 'index', :product_urls
-        view 'collection', :products
-        view 'create', :create_product
-
-        versions 1, 2
-
-        type_alias 'product.movie'
       end
     end
   end

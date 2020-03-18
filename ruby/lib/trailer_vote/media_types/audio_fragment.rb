@@ -22,7 +22,7 @@ module TrailerVote
       #   @see https://www.rubydoc.info/gems/media_types/MediaTypes/Constructable ::MediaTypes::Constructable
       #   @return [::MediaTypes::Constructable] a constructable
       #
-      media_type 'audio_fragment', defaults: { suffix: :json, version: 1 }
+      use_name 'audio_fragment'
 
       # @!method valid?(data, constructed_media_type, **opts)
       #   Validates the +data+ against the validation for +constructed_media_type+.
@@ -85,23 +85,6 @@ module TrailerVote
             end
           end
         end
-      end
-
-      # @!method register
-      #   Registers all the known permutations of versions, views, suffixes and aliases for this media type via
-      #   {::MediaTypes.register}
-      #
-      #   @see https://www.rubydoc.info/gems/media_types/MediaTypes#register-class-method ::Mediatypes.register
-      #   @see https://www.rubydoc.info/gems/media_types/MediaTypes/Registerable ::Mediatypes::Registerable
-      #
-      #   @return [Array<::MediaTypes::Registerable>]
-      registrations :audio_fragment do
-        view 'index', :audio_fragment_urls
-        view 'collection', :audio_fragments
-
-        versions 1
-
-        type_alias 'audio-fragment'
       end
     end
   end

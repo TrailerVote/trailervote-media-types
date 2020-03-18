@@ -6,7 +6,7 @@ require_relative 'types/uuid_v4'
 module TrailerVote
   module MediaTypes
     class PushTokenAndroid < BaseText
-      media_type 'push_token_android', defaults: { suffix: :json, version: 1 }
+      use_name 'push_token_android'
 
       validations do
         version 1 do
@@ -29,13 +29,6 @@ module TrailerVote
           end
         end
       end
-
-      registrations :push_token_android do
-        view 'create', :create_push_token_android
-
-        versions 1
-      end
-
     end
   end
 end

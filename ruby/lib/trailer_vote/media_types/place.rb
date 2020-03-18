@@ -15,7 +15,7 @@ module TrailerVote
     # system are configured to be a tree.
     #
     class Place < BaseText
-      media_type 'place', defaults: { suffix: :json, version: 4 }
+      use_name 'place'
 
       validations do
         index_scheme = ::MediaTypes::Scheme.new do
@@ -129,14 +129,6 @@ module TrailerVote
             merge index_scheme
           end
         end
-      end
-
-      registrations :place do
-        view 'create', :create_place
-        view 'index', :place_urls
-        view 'collection', :places
-
-        versions 1, 2, 3, 4
       end
     end
   end
