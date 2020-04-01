@@ -20,6 +20,9 @@ module TrailerVote
 
       use_name 'fingerprint'
 
+      validations do
+        any
+      end
     end
   end
 end
