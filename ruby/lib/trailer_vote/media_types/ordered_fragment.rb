@@ -15,7 +15,7 @@ module TrailerVote
             attribute :ordered_fragments do
               collection :_index, allow_empty: true do
                 attribute :href, Types::HttpUrl
-                attribute :q, Float
+                attribute :q, Numeric
               end
               not_strict
             end
