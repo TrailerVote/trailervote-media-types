@@ -32,7 +32,7 @@ module TrailerVote
         version 4 do
           attribute :place do
             attribute :name, String
-            attribute :parent_place, AllowNil(Types::UuidV4)
+            attribute :parent_place, AllowNil(String)
             attribute :expires_at, AllowNil(String)
             attribute :updated_at, Types::Iso8601
 
@@ -51,7 +51,7 @@ module TrailerVote
         version 3 do
           attribute :place do
             attribute :name, String
-            attribute :parent_place, AllowNil(Types::UuidV4)
+            attribute :parent_place, AllowNil(String)
             attribute :expires_at, AllowNil(String)
             attribute :updated_at, Types::Iso8601
 
@@ -69,7 +69,7 @@ module TrailerVote
         version 2 do
           version_2_base = ::MediaTypes::Scheme.new do
             attribute :name, String
-            attribute :parent_place, AllowNil(Types::UuidV4)
+            attribute :parent_place, AllowNil(String)
             attribute :expires_at, AllowNil(String)
             attribute :updated_at, Types::Iso8601
 

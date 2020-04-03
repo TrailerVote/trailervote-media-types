@@ -11,6 +11,8 @@ module TrailerVote
 
       validations do
         version 1 do
+          not_strict
+
           view 'index' do
             attribute :ordered_fragments do
               collection :_index, allow_empty: true do

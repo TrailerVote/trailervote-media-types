@@ -19,6 +19,14 @@ module TrailerVote
           view 'create' do
             attribute :place, Types::HttpUrl
           end
+
+          view 'collection' do
+            attribute :product_place_links do
+              attribute :_embedded, expected_type: Array do
+                any
+              end
+            end
+          end
         end
       end
     end

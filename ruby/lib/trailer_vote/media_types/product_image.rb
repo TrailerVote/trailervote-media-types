@@ -21,6 +21,11 @@ module TrailerVote
 
           attribute :content_language, AllowNil(String), optional: true
           attribute :content_region, AllowNil(String), optional: true
+          attribute :data do
+            attribute :processed, Types::Boolean
+            attribute :type, Types::ProductImageType
+            not_strict
+          end
         end
 
         version_1_base = ::MediaTypes::Scheme.new do
