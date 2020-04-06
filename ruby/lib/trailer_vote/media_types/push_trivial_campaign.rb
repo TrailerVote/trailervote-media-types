@@ -14,7 +14,7 @@ module TrailerVote
     # The trivial push campaign is used to schedule a local push notification at a specified time.
     #
     class PushTrivialCampaign < BaseText
-      media_type 'push_campaign_trivial', defaults: { suffix: :json, version: 4 }
+      media_type 'push_campaign_trivial', defaults: { suffix: :json, version: 5 }
 
       filters = ::MediaTypes::Scheme.new do
         attribute :filter do
@@ -62,6 +62,43 @@ module TrailerVote
 
       validations do
 
+        version 5 do
+          attribute :push_campaign_trivial do
+            link :action
+            link :self
+            link :rich_media, optional: true
+            attribute :message, String
+            attribute :schedule_at, Types::Iso8601
+            attribute :published_at, AllowNil(Types::Iso8601)
+            attribute :archived_at, AllowNil(Types::Iso8601)
+            merge filters
+          end
+
+          view 'create' do
+            attribute :push_campaign_trivial do
+              merge push_creation_base_v4
+              attribute :published_at, AllowNil(Types::Iso8601)
+              attribute :archived_at, AllowNil(Types::Iso8601)
+              merge filters_creation
+            end
+          end
+
+          view 'raw' do
+            attribute :push_campaign_trivial do
+              link :action
+              link :self
+              link :rich_media, optional: true
+              link :product, optional: true
+              link :product_asset, optional: true
+              attribute :translations, ::Hash
+              attribute :schedule_at, Types::Iso8601
+              attribute :published_at, AllowNil(Types::Iso8601)
+              attribute :archived_at, AllowNil(Types::Iso8601)
+              merge filters
+            end
+          end
+        end
+
         version 4 do
           attribute :push_campaign_trivial do
             link :action
@@ -76,6 +113,19 @@ module TrailerVote
             attribute :push_campaign_trivial do
               merge push_creation_base_v4
               merge filters_creation
+            end
+          end
+
+          view 'raw' do
+            attribute :push_campaign_trivial do
+              link :action
+              link :self
+              link :rich_media, optional: true
+              link :product, optional: true
+              link :product_asset, optional: true
+              attribute :translations, ::Hash
+              attribute :schedule_at, Types::Iso8601
+              merge filters
             end
           end
         end
@@ -95,6 +145,17 @@ module TrailerVote
               merge filters_creation
             end
           end
+
+          view 'raw' do
+            attribute :push_campaign_trivial do
+              link :action
+              link :self
+              link :product_asset, optional: true
+              attribute :translations, ::Hash
+              attribute :schedule_at, Types::Iso8601
+              merge filters
+            end
+          end
         end
 
         version 2 do
@@ -111,6 +172,16 @@ module TrailerVote
               merge filters_creation
             end
           end
+
+          view 'raw' do
+            attribute :push_campaign_trivial do
+              link :action
+              link :product_asset, optional: true
+              attribute :translations, ::Hash
+              attribute :schedule_at, Types::Iso8601
+              merge filters
+            end
+          end
         end
 
         version 1 do
@@ -125,13 +196,23 @@ module TrailerVote
               merge push_creation_base
             end
           end
+
+          view 'raw' do
+            attribute :push_campaign_trivial do
+              link :action
+              link :product_asset, optional: true
+              attribute :translations, ::Hash
+              attribute :schedule_at, Types::Iso8601
+            end
+          end
         end
       end
 
       registrations :push_campaign_trivial do
         view 'create', :create_push_trivial_campaign
+        view 'raw', :raw_push_trivial_campaign
 
-        versions 1, 2, 3
+        versions 1, 2, 3, 4, 5
       end
     end
   end

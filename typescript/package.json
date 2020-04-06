@@ -1,6 +1,6 @@
 {
   "name": "@trailervote/media-types",
-  "version": "1.2.4",
+  "version": "1.3.1",
   "description": "TrailerVote Media Types",
   "main": "index.js",
   "repository": "https://github.com/TrailerVote/trailervote-media-types/",
@@ -16,10 +16,10 @@
     "test": "yarn fix-fixtures && yarn lint && yarn build"
   },
   "devDependencies": {
-    "@trailervote/fixtures": "^1.6.4",
-    "prettier": "^1.18.2",
-    "tslint": "^5.20.0",
+    "@trailervote/fixtures": "^1.16.0",
+    "prettier": "^1.19.1",
+    "tslint": "^5.20.1",
     "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.6.4"
+    "typescript": "^3.7.4"
   }
 }
