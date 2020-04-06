@@ -1,21 +1,9 @@
 # frozen_string_literal: true
 
-require_relative 'base_text'
-require_relative 'types/uuid_v4'
-require_relative 'types/iso8601'
-
 module TrailerVote
   module MediaTypes
-
-    ##
-    # Media Types for places
-    #
-    # Each set of credentials has a Place associated to it. A place might be the HQ of an enterprise, or a physical
-    # location on the map. You can always access all the data of your place and all the children, as the places in our
-    # system are configured to be a tree.
-    #
     class Place < BaseText
-      media_type 'place', defaults: { suffix: :json, version: 4 }
+      media_type 'place', defaults: { suffix: :json, version: 5 }
 
       validations do
         index_scheme = ::MediaTypes::Scheme.new do
@@ -26,6 +14,22 @@ module TrailerVote
             end
 
             not_strict
+          end
+        end
+
+        version 5 do
+          attribute :place do
+            attribute :name, String
+            attribute :parent_place, AllowNil(Types::UuidV4)
+            attribute :expires_at, AllowNil(String)
+            attribute :updated_at, Types::Iso8601
+
+            link :self
+            link :product_place_links
+            link :products_archive
+            link :fragments_archive
+            link :parent, allow_nil: true
+            link :children
           end
         end
 
@@ -136,7 +140,7 @@ module TrailerVote
         view 'index', :place_urls
         view 'collection', :places
 
-        versions 1, 2, 3, 4
+        versions 1, 2, 3, 4, 5
       end
     end
   end

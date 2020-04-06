@@ -1,14 +1,35 @@
 # frozen_string_literal: true
 
-require_relative 'base_text'
-require_relative 'types/http_url'
-
 module TrailerVote
   module MediaTypes
     class ProductPlaceLink < BaseText
-      media_type 'product_place_link', defaults: { suffix: :json, version: 1 }
+      media_type 'product_place_link', defaults: { suffix: :json, version: 2 }
 
       validations do
+        version 2 do
+
+          attribute :product_place_link do
+            link :self
+            link :place
+            link :product
+            link :showings
+          end
+
+          view 'create' do
+            attribute :place, Types::HttpUrl
+          end
+        end
+        #
+        # view 'collection' do
+        #   attribute :product_place_links do
+        #     collection :_embedded do
+        #
+        #     end
+        #     # link :place
+        #     link :self
+        #   end
+        # end
+
         version 1 do
 
           attribute :product_place_link do
