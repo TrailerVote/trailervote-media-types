@@ -21,7 +21,11 @@ module TrailerVote
       use_name 'fingerprint'
 
       validations do
-        any
+        version 2 do
+          suffix nil
+
+          any
+        end
       end
     end
   end
