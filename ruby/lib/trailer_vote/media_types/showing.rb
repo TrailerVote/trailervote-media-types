@@ -1,21 +1,47 @@
-# frozen_string_literal: true
-
-require_relative 'base_text'
-require_relative 'partials/image_links'
-require_relative 'types/product_image_type'
-require_relative 'types/iso8601'
-
 module TrailerVote
   module MediaTypes
-    class SentimentFeedback < BaseText
+    class Showing < MediaTypes::BaseText
+      media_type 'showing', defaults:{suffix: :json, version: 1}
+
       validations do
 
-        version 1 do
-          link :action
-          link :self
-          attribute :showtime, Types::Iso8601
+        index_scheme = ::MediaTypes::Scheme.new do
+          attribute :showings do
+            collection :_index, allow_empty: true do
+              attribute :href, Types::HttpUrl
+              not_strict
+            end
+
+            not_strict
+          end
         end
 
+        view 'index' do
+          merge index_scheme
+        end
+
+        view 'create' do
+          attribute :showing do
+            attribute :showtime, Types::Iso8601
+          end
+        end
+
+
+        version 1 do
+          attribute :showing do
+            link :self
+            link :product_place_link
+            attribute :showtime, Types::Iso8601
+          end
+        end
+
+
+      end
+
+      registrations :Showing do
+        view 'create', :create_showing
+
+        versions 1
       end
     end
   end
