@@ -24,6 +24,7 @@ module TrailerVote
             attribute :product_place_links do
               attribute :_embedded, expected_type: Array do
                 any
+                not_strict
               end
             end
           end
