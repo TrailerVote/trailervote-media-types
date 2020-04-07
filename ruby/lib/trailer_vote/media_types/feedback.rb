@@ -8,7 +8,7 @@ require_relative 'types/iso8601'
 module TrailerVote
   module MediaTypes
     class Feedback < BaseText
-      media_type 'feedback', defaults: { suffix: :json, version: 1 }
+      use_name 'feedback'
 
       validations do
         version 1 do
@@ -39,11 +39,6 @@ module TrailerVote
             end
           end
         end
-      end
-
-      registrations :feedback do
-        view 'create', :create_feedback
-        view 'collection', :feedback_collection
       end
     end
   end

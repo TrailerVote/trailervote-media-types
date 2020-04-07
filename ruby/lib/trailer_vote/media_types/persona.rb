@@ -14,7 +14,7 @@ module TrailerVote
     # as likes/dislikes (interests/disinterests).
     #
     class Persona < BaseText
-      media_type 'persona', defaults: { suffix: :json, version: 2 }
+      use_name 'persona'
 
       validations do
         version 1 do
@@ -35,12 +35,6 @@ module TrailerVote
             link :push_consent
           end
         end
-      end
-
-      registrations :persona do
-        view 'create', :create_persona
-
-        versions 1, 2
       end
     end
   end

@@ -11,7 +11,7 @@ module TrailerVote
     # Media Types for Configuration
     #
     class Configuration < BaseText
-      media_type 'configuration', defaults: { suffix: :json, version: 5 }
+      use_name 'configuration'
 
       validations do
 
@@ -129,10 +129,6 @@ module TrailerVote
             end
           end
         end
-      end
-
-      registrations :configuration do
-        versions 1, 2, 3
       end
     end
   end

@@ -12,7 +12,7 @@ module TrailerVote
     # The push recipe is a blueprint for sending mass push notifications
     #
     class PushRecipeAndroid < BaseText
-      media_type 'push_recipe_android', defaults: { suffix: :json, version: 1 }
+      use_name 'push_recipe_android'
 
       validations do
 
@@ -26,10 +26,6 @@ module TrailerVote
             end
           end
         end
-      end
-
-      registrations :push_recipe_android do
-        versions 1
       end
     end
   end

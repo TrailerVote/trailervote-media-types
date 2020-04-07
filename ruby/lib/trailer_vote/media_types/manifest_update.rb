@@ -12,7 +12,7 @@ module TrailerVote
     # The manifest update action is used to force clients to update the manifest
     #
     class ManifestUpdate < BaseText
-      media_type 'manifest_update', defaults: { suffix: :json, version: 1 }
+      use_name 'manifest_update'
 
       validations do
 
@@ -20,10 +20,6 @@ module TrailerVote
           attribute :manifest_update do
           end
         end
-      end
-
-      registrations :manifest_update do
-        versions 1
       end
     end
   end

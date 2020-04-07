@@ -7,12 +7,7 @@ require_relative 'types/iso8601'
 module TrailerVote
   module MediaTypes
     class ProductsListing < BaseText
-      media_type 'products_listing'
-
-      defaults do
-        suffix :json
-        version 1
-      end
+      use_name 'products_listing'
 
       validations do
         version 1 do
@@ -33,10 +28,6 @@ module TrailerVote
             link :self
           end
         end
-      end
-
-      registrations :products_listing do
-        type_alias 'products-listing'
       end
     end
   end

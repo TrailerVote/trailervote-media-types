@@ -7,12 +7,7 @@ module TrailerVote
   module MediaTypes
 
     class Carousel < BaseText
-      media_type 'carousel'
-
-      defaults do
-        suffix :json
-        version 1
-      end
+      use_name 'carousel'
 
       validations do
         version 1 do
@@ -35,8 +30,6 @@ module TrailerVote
           end
         end
       end
-
-      registrations(:carousel) {}
     end
   end
 end

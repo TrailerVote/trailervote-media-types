@@ -56,12 +56,15 @@ class Minitest::Test < Minitest::Runnable
   end
 
   def assert_fixture_passes_validation(media_type)
-    ::MediaTypes.stub(:register, nil) do
-      media_type.register.flatten.each do |registerable|
-        fixture = load_fixture(registerable.media_type)
-        next unless fixture
+    media_type.available_validations.each do |v|
+      fixture = load_fixture(v.identifier)
+      next unless fixture
 
-        assert registerable.media_type.validate!(fixture)
+      begin
+        assert v.validate!(fixture)
+      rescue MediaTypes::Scheme::ValidationError
+        puts "#{v.identifier} did not validate!"
+        raise
       end
     end
   end

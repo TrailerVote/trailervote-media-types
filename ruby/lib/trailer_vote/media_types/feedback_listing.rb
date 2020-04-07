@@ -8,12 +8,7 @@ require_relative 'partials/image_links'
 module TrailerVote
   module MediaTypes
     class FeedbackListing < BaseText
-      media_type 'feedback_listing'
-
-      defaults do
-        suffix :json
-        version 1
-      end
+      use_name 'feedback_listing'
 
       validations do
         version 1 do
@@ -39,10 +34,6 @@ module TrailerVote
             link :self
           end
         end
-      end
-
-      registrations :feedback_listing do
-        type_alias 'feedback-listing'
       end
     end
   end

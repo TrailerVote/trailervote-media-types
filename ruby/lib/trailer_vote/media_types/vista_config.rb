@@ -6,7 +6,7 @@ require_relative 'types/http_url'
 module TrailerVote
   module MediaTypes
     class VistaConfig < BaseText
-      media_type 'vista_config', defaults: { suffix: :json, version: 1 }
+      use_name 'vista_config'
 
       validations do
         version 1 do
@@ -29,12 +29,6 @@ module TrailerVote
             end
           end
         end
-      end
-
-      registrations :vista_config do
-        view 'index', :vista_config_urls
-
-        versions 1
       end
     end
   end

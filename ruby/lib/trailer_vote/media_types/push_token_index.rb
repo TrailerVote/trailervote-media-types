@@ -7,7 +7,7 @@ require_relative 'types/uuid_v4'
 module TrailerVote
   module MediaTypes
     class PushTokenIndex < BaseText
-      media_type 'push_token_index', defaults: { suffix: :json, version: 1 }
+      use_name 'push_token_index'
 
       validations do
         version 1 do
@@ -30,12 +30,6 @@ module TrailerVote
             end
           end
         end
-      end
-
-      registrations :push_token_index do
-        view 'index', :push_token_index
-
-        versions 1
       end
     end
   end

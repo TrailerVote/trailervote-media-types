@@ -12,7 +12,7 @@ module TrailerVote
     # header of each request. The RECOMMENDED value for q is 0.1.
     #
     class Errors < BaseText
-      media_type 'errors', defaults: { suffix: :json, version: 1 }
+      use_name 'errors'
 
       validations do
         version 1 do
@@ -23,9 +23,6 @@ module TrailerVote
         end
       end
 
-      registrations :errors do
-        versions 1
-      end
     end
   end
 end

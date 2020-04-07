@@ -18,7 +18,7 @@ module TrailerVote
     # identifier.
     #
     class ProductLookup < BaseText
-      media_type 'product.lookup', defaults: { suffix: :json, version: 1 }
+      use_name 'product.lookup'
 
       validations do
         version 1 do
@@ -27,10 +27,6 @@ module TrailerVote
             attribute :identifier, String
           end
         end
-      end
-
-      registrations(:product_lookup) do
-        type_alias 'product-lookup'
       end
     end
   end

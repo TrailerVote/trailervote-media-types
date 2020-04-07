@@ -6,7 +6,7 @@ require_relative 'types/iso8601'
 module TrailerVote
   module MediaTypes
     class Issue < BaseText
-      media_type 'issue', defaults: { suffix: :json, version: 1 }
+      use_name 'issue'
 
       validations do
         index_scheme = ::MediaTypes::Scheme.new do
@@ -51,14 +51,6 @@ module TrailerVote
           end
         end
       end
-
-      registrations :issue do
-        view 'create', :create_issue
-        view 'index', :issue_urls
-
-        versions 1
-      end
-
     end
   end
 end
