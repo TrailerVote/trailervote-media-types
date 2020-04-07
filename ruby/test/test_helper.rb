@@ -60,7 +60,12 @@ class Minitest::Test < Minitest::Runnable
       fixture = load_fixture(v.identifier)
       next unless fixture
 
-      assert v.validate!(fixture)
+      begin
+        assert v.validate!(fixture)
+      rescue MediaTypes::Scheme::ValidationError
+        puts "#{v.identifier} did not validate!"
+        raise
+      end
     end
   end
 end
