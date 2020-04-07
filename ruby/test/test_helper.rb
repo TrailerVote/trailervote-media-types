@@ -57,7 +57,7 @@ class Minitest::Test < Minitest::Runnable
 
   def assert_fixture_passes_validation(media_type)
     media_type.available_validations.each do |v|
-      fixture = load_fixture(registerable.media_type)
+      fixture = load_fixture(v.identifier)
       next unless fixture
 
       assert v.validate!(fixture)
