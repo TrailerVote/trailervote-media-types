@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    trailer_vote-media_types (3.0.0)
+    trailer_vote-media_types (3.0.1)
       media_types (>= 2.0.0, < 3)
 
 GEM
@@ -42,7 +42,7 @@ DEPENDENCIES
   oj (~> 3.6)
   rake (~> 13.0)
   simplecov (~> 0.16)
-  trailer_vote-fixtures (~> 1.17.1)
+  trailer_vote-fixtures (~> 1.17.5)
   trailer_vote-media_types!
 
 BUNDLED WITH
