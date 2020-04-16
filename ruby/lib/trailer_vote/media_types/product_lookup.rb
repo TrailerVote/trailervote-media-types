@@ -22,7 +22,7 @@ module TrailerVote
 
       validations do
         version 1 do
-          collection 'product_identifiers', expected_type: nil do
+          collection :product_identifiers, expected_type: nil do
             attribute :authority, String
             attribute :identifier, String
           end
