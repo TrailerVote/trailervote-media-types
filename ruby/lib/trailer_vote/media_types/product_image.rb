@@ -33,13 +33,6 @@ module TrailerVote
 
           merge version_1_creation
 
-          attribute :data do
-            attribute :processed, Types::Boolean
-            attribute :type, Types::ProductImageType
-
-            not_strict
-          end
-
           link :self do
             attribute :type, Types::ProductImageType
           end
