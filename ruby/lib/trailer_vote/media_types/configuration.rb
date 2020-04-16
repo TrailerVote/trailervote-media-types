@@ -23,22 +23,15 @@ module TrailerVote
             link :products
             link :product_lookup
             link :persona do
-              attribute :href, Types.makeFormattedUrl(:uuid)
               attribute :templated, TrueClass
             end
             link :lookup do
-              attribute :href, Types.makeFormattedUrl(:authority, :identifier)
               attribute :templated, TrueClass
             end
-            link :analytics do
-              attribute :href, Types::InfluxDbConnectionUrl
-            end
-            link :telemetrics do
-              attribute :href, Types::InfluxDbConnectionUrl
-            end
+            link :analytics
+            link :telemetrics
             link :issues
             link :persona_config do
-              attribute :href, Types.makeFormattedUrl(:persona)
               attribute :templated, TrueClass
             end
             attribute :customer_config
@@ -53,18 +46,12 @@ module TrailerVote
             link :products
             link :product_lookup
             link :persona do
-              attribute :href, Types.makeFormattedUrl(:uuid)
               attribute :templated, TrueClass
             end
-            link :analytics do
-              attribute :href, Types::InfluxDbConnectionUrl
-            end
-            link :telemetrics do
-              attribute :href, Types::InfluxDbConnectionUrl
-            end
+            link :analytics
+            link :telemetrics
             link :issues
             link :persona_config do
-              attribute :href, Types.makeFormattedUrl(:persona)
               attribute :templated, TrueClass
             end
             attribute :customer_config
@@ -79,15 +66,10 @@ module TrailerVote
             link :products
             link :product_lookup
             link :persona do
-              attribute :href, Types.makeFormattedUrl(:uuid)
               attribute :templated, TrueClass
             end
-            link :analytics do
-              attribute :href, Types::InfluxDbConnectionUrl
-            end
-            link :telemetrics do
-              attribute :href, Types::InfluxDbConnectionUrl
-            end
+            link :analytics
+            link :telemetrics
             link :issues
           end
         end
@@ -99,15 +81,10 @@ module TrailerVote
             link :products
             link :product_lookup
             link :persona do
-              attribute :href, Types.makeFormattedUrl(:uuid)
               attribute :templated, TrueClass
             end
-            link :analytics do
-              attribute :href, Types::InfluxDbConnectionUrl
-            end
-            link :telemetrics do
-              attribute :href, Types::InfluxDbConnectionUrl
-            end
+            link :analytics
+            link :telemetrics
             link :issues
           end
         end
@@ -117,16 +94,12 @@ module TrailerVote
             link :place
             link :products
             link :feedback do
-              attribute :href, Types.makeFormattedUrl(:uuid)
               attribute :templated, TrueClass
             end
             link :persona do
-              attribute :href, Types.makeFormattedUrl(:uuid)
               attribute :templated, TrueClass
             end
-            link :analytics do
-              attribute :href, AllowNil(Types::InfluxDbConnectionUrl)
-            end
+            link :analytics
           end
         end
       end

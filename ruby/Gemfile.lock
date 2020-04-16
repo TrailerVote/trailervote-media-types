@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    trailer_vote-media_types (3.0.1)
+    trailer_vote-media_types (3.0.2)
       media_types (>= 2.0.0, < 3)
 
 GEM
